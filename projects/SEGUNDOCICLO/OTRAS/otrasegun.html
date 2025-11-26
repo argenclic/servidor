@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biblioteca Aulas Libres - Proyecto ArgenClic</title>
-  <link rel="SHORTCUT ICON" href="../../recursos/favicon.ico"> <!-- Asumiendo que tienes un favicon -->
-  <style>
+  <link rel="SHORTCUT ICON" href="../../recursos/favicon.ico"> <style>
     /* Estilos generales para mejorar la legibilidad y el diseño */
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -51,15 +50,19 @@
       border-radius: 5px;
       text-align: center;
       transition: background-color 0.3s ease;
+      /* Añadido para hacer el item más visible y consistente */
+      border: 1px solid #b3e5fc; 
     }
     .activity-item:nth-child(odd) {
       background-color: #ffffff; /* Alternar color de fondo */
+      border: 1px solid #eee;
     }
     .activity-item a {
       font-weight: bold;
       color: #006600; /* Color para los enlaces de actividad */
       display: block;
       padding: 10px 0;
+      font-size: 1.1em; /* Para que el texto resalte más */
     }
     .activity-item:hover {
       background-color: #cceeff;
@@ -136,7 +139,6 @@
 </head>
 <body>
 
-  <!-- ====== MENÚ DE NAVEGACIÓN GLOBAL ====== -->
   <nav class="nav-menu">
     <a href="../../index.html">Inicio</a>
     <a href="../../niveles.html">Jugar</a>
@@ -145,13 +147,10 @@
     <a href="../../descarga.html">Descarga</a>
     <a href="../../creditos.html">Créditos</a>
   </nav>
-  <!-- ====== FIN MENÚ ====== -->
-
   <div class="container">
     <header>
       <h1>SELECCIONE LA ACTIVIDAD</h1>
       <div class="logo-container">
-        <!-- Enlace y cambio de imagen actualizados -->
         <a target="_blank" href="http://proyecto.aulaslibres.ar/" onmouseout="cambia('primera',CI);" onmouseover="cambia('primera',CIOn);">
           <img name="primera" src="../../recursos/disco1.png" alt="Proyecto Aulas Libres Logo" style="width: 206px; height: 130px;">
         </a>
@@ -167,7 +166,11 @@
         <div class="activity-item">
           <a href="compete/index.html" target="_blank">ACTIVIDADES VARIADAS II</a>
         </div>
-      </div>
+        
+        <div class="activity-item">
+          <a href="AJEDREZ/index.html" target="_blank">AJEDREZ EN LA ESCUELA</a>
+        </div>
+        </div>
     </main>
 
     <footer>
@@ -187,4 +190,3 @@
 
 </body>
 </html>
-
