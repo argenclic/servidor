@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulaciones Interactivas - Primaria - Aulas Libres</title>
+  <link rel="icon" href="act/img/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; color:#000; }
+    header { background:#003366; color:#fff; padding:20px; text-align:center; }
+    nav { background:#0055aa; display:flex; flex-wrap:wrap; justify-content:center; }
+    nav a { color:white; text-decoration:none; padding:12px 20px; display:block; }
+    nav a:hover { background:#003366; }
+    main { padding:30px; }
+    footer { background:#f1f1f1; text-align:center; padding:15px; margin-top:20px; font-size:0.9em; }
+    h1, h2, h3 { color:#003366; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-top:30px; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:20px; background:#fafafa; box-shadow:2px 2px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card a { text-decoration:none; font-weight:bold; color:#003366; }
+    .card a:hover { text-decoration:underline; }
+    .card img { width:100%; height:150px; object-fit:cover; border-radius:8px; margin:10px 0; }
+    .description { font-size:0.9em; color:#555; line-height:1.5; margin:10px 0; }
+    .level-tag { display:inline-block; padding:3px 8px; color:white; border-radius:4px; font-size:0.8em; margin-top:10px; }
+    
+    /* Colores por materia */
+    .matematica { background:#1f77b4; }
+    .fisica { background:#d62728; }
+    .quimica { background:#ff7f0e; }
+    .biologia { background:#2ca02c; }
+    .ciencias-tierra { background:#9467bd; }
+    
+    .category-header { background:#eef4ff; padding:15px; border-radius:8px; margin:20px 0; }
+    .category-header h2 { margin:0; color:#003366; }
+    .category-header p { margin:8px 0 0 0; color:#555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Simulaciones Interactivas - Primaria</h1>
+  <p>Aulas Libres - Adaptación Offline de PHET</p>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="primaria.html">Primaria (6-11 años)</a>
+  <a href="secundaria_basica.html">Secundaria Básica (12-14 años)</a>
+  <a href="secundaria_orientada.html">Secundaria Orientada (15-17 años)</a>
+</nav>
+
+<main>
+  <div class="category-header">
+    <h2>Primaria (6-11 años)</h2>
+    <p>Actividades diseñadas para estudiantes de 6 a 11 años</p>
+  </div>
+
+  <h3>Matemática</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/make-a-ten-420.png" alt="Completa 10">
+      <h3><a href="act/make-a-ten_es.html" target="_blank">Completa 10</a></h3>
+      <p class="description">Juegos interactivos para practicar operaciones básicas. Ideal para desarrollar habilidades numéricas iniciales.</p>
+      <a href="act/make-a-ten_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/arithmetic-420.png" alt="Aritmética">
+      <h3><a href="act/arithmetic_es.html" target="_blank">Aritmética</a></h3>
+      <p class="description">Juegos interactivos para practicar operaciones básicas. Ideal para desarrollar habilidades numéricas iniciales.</p>
+      <a href="act/arithmetic_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/area-builder-420.png" alt="Constructor de Áreas">
+      <h3><a href="act/area-builder_es.html" target="_blank">Constructor de Áreas</a></h3>
+      <p class="description">Visualiza y calcula áreas de figuras geométricas. Introduce conceptos de perímetro y área.</p>
+      <a href="act/area-builder_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/fractions-intro-420.png" alt="Introducción a Fracciones">
+      <h3><a href="act/fractions-intro_es.html" target="_blank">Introducción a Fracciones</a></h3>
+      <p class="description">Conceptos básicos de fracciones, representación y comparación. Fundamental para matemáticas básicas.</p>
+      <a href="act/fractions-intro_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/fraction-matcher-420.png" alt="Pareja de Fracciones">
+      <h3><a href="act/fraction-matcher_es.html" target="_blank">Pareja de Fracciones</a></h3>
+      <p class="description">Juego para emparejar representaciones equivalentes de fracciones. Desarrolla intuición fraccionaria.</p>
+      <a href="act/fraction-matcher_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/build-a-fraction-420.png" alt="Construye Fracciones">
+      <h3><a href="act/build-a-fraction_es.html" target="_blank">Construye Fracciones</a></h3>
+      <p class="description">Representa fracciones de forma visual y comprende equivalencias. Ideal para primeros contactos con fracciones.</p>
+      <a href="act/build-a-fraction_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/number-compare-420.png" alt="Comparar Números">
+      <h3><a href="act/number-compare_es.html" target="_blank">Comparar Números</a></h3>
+      <p class="description">Juego interactivo para comparar números y desarrollar sentido numérico básico. Ideal para operaciones iniciales.</p>
+      <a href="act/number-compare_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/number-line-integers-420.png" alt="Línea Numérica: Enteros">
+      <h3><a href="act/number-line-integers_es.html" target="_blank">Línea Numérica: Enteros</a></h3>
+      <p class="description">Explora números enteros en una línea numérica, incluyendo sumas y restas. Desarrolla comprensión de números negativos.</p>
+      <a href="act/number-line-integers_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/number-pairs-420.png" alt="Pares de Números">
+      <h3><a href="act/number-pairs_es.html" target="_blank">Pares de Números</a></h3>
+      <p class="description">Juego para formar pares de números que sumen un valor específico. Ideal para aritmética inicial.</p>
+      <a href="act/number-pairs_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/number-play-420.png" alt="Juego de Números">
+      <h3><a href="act/number-play_es.html" target="_blank">Juego de Números</a></h3>
+      <p class="description">Practica conteo, subitizing y reconocimiento numérico mediante juegos interactivos. Fundamental para habilidades numéricas tempranas.</p>
+      <a href="act/number-play_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/quadrilateral-420.png" alt="Cuadrilátero">
+      <h3><a href="act/quadrilateral_es.html" target="_blank">Cuadrilátero</a></h3>
+      <p class="description">Explora propiedades y formas de cuadriláteros manipulando vértices. Descubre clasificaciones geométricas básicas.</p>
+      <a href="act/quadrilateral_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+  </div>
+
+  <h3>Física</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/balloons-and-static-electricity-420.png" alt="Estática y Globos">
+      <h3><a href="act/balloons-and-static-electricity_es.html" target="_blank">Estática y Globos</a></h3>
+      <p class="description">Observa cómo los globos cargados estáticamente pueden atraer y repeler objetos.</p>
+      <a href="act/balloons-and-static-electricity_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/forces-and-motion-basics-420.png" alt="Fuerzas y Movimiento">
+      <h3><a href="act/forces-and-motion-basics_es.html" target="_blank">Fuerzas y Movimiento</a></h3>
+      <p class="description">Explora cómo se mueven los objetos al aplicar distintas fuerzas.</p>
+      <a href="act/forces-and-motion-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/friction-420.png" alt="Fricción">
+      <h3><a href="act/friction_es.html" target="_blank">Fricción</a></h3>
+      <p class="description">Experimenta con superficies para ver cómo cambia la resistencia al movimiento.</p>
+      <a href="act/friction_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/energy-forms-and-changes-420.png" alt="Cambios y Formas de Energía">
+      <h3><a href="act/energy-forms-and-changes_es.html" target="_blank">Cambios y Formas de Energía</a></h3>
+      <p class="description">Aprende cómo se transforma la energía de una forma a otra.</p>
+      <a href="act/energy-forms-and-changes_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/balancing-act-420.png" alt="Equilibrio">
+      <h3><a href="act/balancing-act_es.html" target="_blank">Equilibrio</a></h3>
+      <p class="description">Juega con objetos en un balancín para aprender sobre equilibrio y torque. Prueba desafíos para verificar el aprendizaje.</p>
+      <a href="act/balancing-act_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/magnet-and-compass-420.png" alt="Imán y Brújula">
+      <h3><a href="act/magnet-and-compass_es.html" target="_blank">Imán y Brújula</a></h3>
+      <p class="description">Explora interacciones entre una brújula y un imán. Relaciona el campo magnético de la Tierra con un imán.</p>
+      <a href="act/magnet-and-compass_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+  </div>
+
+  <h3>Química</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/diffusion-420.png" alt="Difusión">
+      <h3><a href="act/diffusion_es.html" target="_blank">Difusión</a></h3>
+      <p class="description">Explora cómo las partículas se mueven espontáneamente de mayor a menor concentración.</p>
+      <a href="act/diffusion_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/states-of-matter-basics-420.png" alt="Estados de la Materia: Básicos">
+      <h3><a href="act/states-of-matter-basics_es.html" target="_blank">Estados de la Materia: Básicos</a></h3>
+      <p class="description">Calienta y enfría átomos para observar cambios entre sólido, líquido y gas. Compara propiedades de sustancias.</p>
+      <a href="act/states-of-matter-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+  </div>
+
+  <h3>Biología</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/natural-selection-420.png" alt="Selección Natural Básica">
+      <h3><a href="act/natural-selection-basics_es.html" target="_blank">Selección Natural Básica</a></h3>
+      <p class="description">Una introducción sencilla para comprender cómo cambian las poblaciones a lo largo del tiempo.</p>
+      <a href="act/natural-selection-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag biologia">Biología</span>
+    </div>
+  </div>
+
+</main>
+
+  
+  <div style="margin-top:40px; padding:15px; background:#eef4ff; border-radius:8px; font-size:0.95em; max-width:800px; margin-left:auto; margin-right:auto; text-align:center;">
+  <p style="margin-bottom:15px;">
+    Este sitio ha sido diseñado para su descarga en servidores educativos locales, 
+    pensado para escuelas o lugares sin acceso a internet, o para uso local en una PC. 
+    Forma parte del proyecto <strong><a href="https://servidor.aulaslibres.ar" target="_blank">servidor.aulaslibres.ar</a></strong>.
+  </p>
+  <a href="https://mega.nz/file/KNFU3YaQ#afBoLLZsO_os_ccZSFJBA0Mx6ESEZDsS7pvS6pl_ML0" 
+     style="display:inline-block; padding:12px 25px; background:#0055aa; color:white; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1em;">
+    📦 Descargar todo el contenido (ZIP)
+  </a>
+</div>
+
+<footer>
+  <p>© 2025 Aulas Libres | Basado en simulaciones de 
+    <a href="https://phet.colorado.edu/es/" target="_blank">PHET</a> | 
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/ar/" target="_blank">CC BY-NC-SA 2.5 Argentina</a>
+  </p>
+</footer>
+
+</body>
+</html>
+

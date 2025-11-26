@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sin_nombre" version="0.1.3" type="library">
+ <settings>
+  <title>Conectar Igualdad - Matemáticas</title>
+  <revision description="created" date="10/21/10" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="1287646116599" name="1287646116599">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Inicio</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>ACTIVIDADES LIBRES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0099FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0099FF" border="true" />
+   </settings>
+   <menuElement caption="Proyectos de Matemáticas" icon="@icofolder.png" sequence="1287646116599" />
+  </activity>
+  <activity class="@panels.Menu" name="1287646116599">
+   <description>
+    <p>Proyectos de Matemáticas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Proyectos de Matemáticas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0099FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0099FF" border="true" />
+   </settings>
+   <menuElement caption="Números binarios" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/binario/binario.jclic.zip" />
+   <menuElement caption="Ecuaciones 1º y 2º grado" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/ecuac12b/ecuac12b.jclic.zip" />
+   <menuElement caption="Ecuaciones de rectas" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/recafin/recafi.jclic.zip" />
+   <menuElement caption="Números enteros" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/enteros/enteros.jclic.zip" />
+   <menuElement caption="Funciones" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/funcione/funcione.jclic.zip" />
+   <menuElement caption="Funciones II" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/funcion2/funcion2.jclic.zip" />
+   <menuElement caption="Geometría" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/geoclic/geoclic.jclic.zip" />
+   <menuElement caption="Matemáticas en la realidad" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/matreal/matreal.jclic.zip" />
+   <menuElement caption="multiplicacion y división de monomios" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/mdm/mdm.jclic.zip" />
+   <menuElement caption="Potencias" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/poten/poten.jclic.zip" />
+   <menuElement caption="Proporcionalidad" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/proporci/proporci.jclic.zip" />
+   <menuElement caption="Gráficas y funciones" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/pungraes/pungraes.jclic.zip" />
+   <menuElement caption="Radicación" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/raices/raices.jclic.zip" />
+   <menuElement caption="Radicación II" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/raices2/raices2.jclic.zip" />
+   <menuElement caption="Sistema sexagesimal" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/sexagesi/sexagesi.jclic.zip" />
+   <menuElement caption="Ecuaciones lineales" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/sis2x2/sis2x2.jclic.zip" />
+   <menuElement caption="Números mayas y egipcios" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/sisnumpq/sisnumpq.jclic.zip" />
+   <menuElement caption="Trigonometría" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/cuadrant/cuadrant.jclic.zip" />
+   <menuElement caption="Trigonometría I" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/trigonom/trigonom.jclic.zip" />
+   <menuElement caption="Trigonometría II" icon="@ico03.png" path="SECUNDARIO/MATEMATICAS/trigo2/trigo2.jclic.zip" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="/home/usuario/Documentos/JClic/nuevos proyectos/nuevodisco/recursos/icon/secundario.ico" file="/home/usuario/Documentos/JClic/nuevos proyectos/nuevodisco/recursos/icon/secundario.ico" />
+  <media name="recursos/icon/secundario.ico" file="recursos/icon/secundario.ico" />
+ </mediaBag>
+</JClicProject>
+

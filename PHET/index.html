@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulaciones Interactivas - Aulas Libres</title>
+  <link rel="icon" href="act/img/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; color:#000; }
+    header { background:#003366; color:#fff; padding:20px; text-align:center; }
+    nav { background:#0055aa; display:flex; flex-wrap:wrap; justify-content:center; }
+    nav a { color:white; text-decoration:none; padding:12px 20px; display:block; }
+    nav a:hover { background:#003366; }
+    main { padding:30px; }
+    footer { background:#f1f1f1; text-align:center; padding:15px; margin-top:20px; font-size:0.9em; }
+    h1, h2, h3 { color:#003366; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-top:30px; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:20px; background:#fafafa; box-shadow:2px 2px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card a { text-decoration:none; font-weight:bold; color:#003366; }
+    .card a:hover { text-decoration:underline; }
+    .card img { width:100%; height:150px; object-fit:cover; border-radius:8px; margin:10px 0; }
+    .description { font-size:0.9em; color:#555; line-height:1.5; margin:10px 0; }
+    .level-tag { display:inline-block; padding:3px 8px; color:white; border-radius:4px; font-size:0.8em; margin-top:10px; }
+    
+    /* Colores por materia */
+    .matematica { background:#1f77b4; }
+    .fisica { background:#d62728; }
+    .quimica { background:#ff7f0e; }
+    .biologia { background:#2ca02c; }
+    .ciencias-tierra { background:#9467bd; }
+    
+    .category-header { background:#eef4ff; padding:15px; border-radius:8px; margin:20px 0; }
+    .category-header h2 { margin:0; color:#003366; }
+    .category-header p { margin:8px 0 0 0; color:#555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Simulaciones Interactivas</h1>
+  <p>Aulas Libres - Adaptación Offline de PHET</p>
+</header>
+
+<nav>
+  <a href="primaria.html">Primaria (6-11 años)</a>
+  <a href="secundaria_basica.html">Secundaria Básica (12-14 años)</a>
+  <a href="secundaria_orientada.html">Secundaria Orientada (15-17 años)</a>
+</nav>
+
+<main>
+  <h2>Bienvenido/a</h2>
+  <p>Explora simulaciones interactivas de distintas áreas del conocimiento, basadas en el proyecto 
+     <a href="https://phet.colorado.edu/es/" target="_blank">PhET</a> de la Universidad de Colorado. Este sitio ha sido diseñado para su descarga en servidores educativos locales, pensado para escuelas o lugares sin acceso a internet, o para uso local en una PC. Forma parte del proyecto <strong><a href="https://servidor.aulaslibres.ar" target="_blank">servidor.aulaslibres.ar</a></strong>.</p>
+
+  <div class="category-header">
+    <h2>Niveles Educativos</h2>
+    <p>Selecciona un nivel para explorar las actividades disponibles:</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3><a href="primaria.html">Primaria (6-11 años)</a></h3>
+      <p class="description">Actividades diseñadas para estudiantes de 6 a 11 años. Contiene 18 simulaciones.</p>
+      <a href="primaria.html">Explorar actividades de Primaria</a>
+    </div>
+
+    <div class="card">
+      <h3><a href="secundaria_basica.html">Secundaria Básica (12-14 años)</a></h3>
+      <p class="description">Actividades diseñadas para estudiantes de 12 a 14 años. Contiene 21 simulaciones.</p>
+      <a href="secundaria_basica.html">Explorar actividades de Secundaria Básica</a>
+    </div>
+
+    <div class="card">
+      <h3><a href="secundaria_orientada.html">Secundaria Orientada (15-17 años)</a></h3>
+      <p class="description">Actividades diseñadas para estudiantes de 15 a 17 años. Contiene 39 simulaciones.</p>
+      <a href="secundaria_orientada.html">Explorar actividades de Secundaria Orientada</a>
+    </div>
+
+   
+  </div>
+
+</main>
+
+  
+  <div style="margin-top:40px; padding:15px; background:#eef4ff; border-radius:8px; font-size:0.95em; max-width:800px; margin-left:auto; margin-right:auto; text-align:center;">
+  <p style="margin-bottom:15px;">
+    Este sitio ha sido diseñado para su descarga en servidores educativos locales, 
+    pensado para escuelas o lugares sin acceso a internet, o para uso local en una PC. 
+    Forma parte del proyecto <strong><a href="https://servidor.aulaslibres.ar" target="_blank">servidor.aulaslibres.ar</a></strong>.
+  </p>
+  <a href="https://mega.nz/file/KNFU3YaQ#afBoLLZsO_os_ccZSFJBA0Mx6ESEZDsS7pvS6pl_ML0" 
+     style="display:inline-block; padding:12px 25px; background:#0055aa; color:white; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1em;">
+    📦 Descargar todo el contenido (ZIP)
+  </a>
+</div>
+
+<footer>
+  <p>© 2025 Aulas Libres | Basado en simulaciones de 
+    <a href="https://phet.colorado.edu/es/" target="_blank">PHET</a> | 
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/ar/" target="_blank">CC BY-NC-SA 2.5 Argentina</a>
+  </p>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cómo funciona - Servidor Escolar</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; background: #f4f9ff; margin:0; padding:0; color:#333; }
+    header { text-align:center; background:white; padding:15px; border-bottom:4px solid #0077c8; }
+    header img { max-width:100%; height:auto; }
+    nav { background:#0077c8; display:flex; justify-content:center; flex-wrap:wrap; }
+    nav a { color:white; padding:12px 18px; text-decoration:none; font-weight:bold; }
+    nav a:hover { background:#005fa3; }
+    .container { max-width:1200px; margin:20px auto; padding:15px; }
+    h1 { color:#0077c8; text-align:center; margin-bottom:20px; }
+    ol { background:white; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.15); padding:20px; }
+    ol li { margin-bottom:10px; }
+    .cards-container { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px,1fr)); gap:20px; margin-top:30px; }
+    .card { background:white; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.15); padding:20px; }
+    .card h2 { color:#0077c8; margin-bottom:10px; }
+    .card h2 a { color:#0077c8; text-decoration:none; }
+    .card h2 a:hover { text-decoration:underline; }
+    .card p { font-size:15px; color:#444; }
+    footer { background:black; color:white; text-align:center; padding:20px; font-size:0.9rem; margin-top:30px; }
+    footer a { color:#fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="projects/recursos/menu3.png" alt="Cabecera Servidor Escolar">
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="fundamentos.html">Fundamentos</a>
+    <a href="funcionamiento.html">Cómo funciona</a>
+  </nav>
+
+  <div class="container">
+    <h1>Cómo montar el servidor en la escuela</h1>
+    <ol>
+      <li>Disponer de una PC, notebook o netbook en la institución que pueda destinarse como servidor.</li>
+      <li>Instalar un sistema operativo GNU/Linux estable (ej. Ubuntu Server o Debian).</li>
+      <li>Configurar un entorno <strong>LAMP</strong> (Linux, Apache, MySQL/MariaDB, PHP).</li>
+      <li>Colocar los recursos navegables en la carpeta <code>/var/www/html/recursos/</code>.</li>
+      <li>Conectar los equipos de la escuela a la misma red local para acceder al servidor desde cualquier dispositivo.</li>
+    </ol>
+
+    <h2 style="text-align:center; margin-top:30px; color:#0077c8;">Servicios disponibles</h2>
+    <div class="cards-container">
+      <div class="card"><h2><a href="https://moodle.org" target="_blank">Moodle</a></h2><p>Plataforma educativa local para cursos y seguimiento de estudiantes.</p></div>
+      <div class="card"><h2><a href="https://chamilo.org" target="_blank">Chamilo</a></h2><p>Espacio de red social escolar para compartir ideas y experiencias.</p></div>
+      <div class="card"><h2><a href="https://servidor.aulaslibres.ar/PHET/index.html" target="_blank">PhET</a></h2><p>Colección de simulaciones interactivas para ciencias y matemáticas.</p></div>
+      <div class="card"><h2><a href="https://servidor.aulaslibres.ar/projects/niveles.html" target="_blank">JClic</a></h2><p>Actividades educativas interactivas listas para su uso en el aula.</p></div>
+      <div class="card"><h2><a href="https://www.dokuwiki.org/es:dokuwiki" target="_blank">Dokuwiki</a></h2><p>Herramienta para documentar y archivar trabajos y proyectos de los estudiantes.</p></div>
+      <div class="card"><h2><a href="http://cdpedia.python.org.ar/" target="_blank">Wikipedia offline</a></h2><p>Acceso a CDPedia o Kiwix para consultas sin necesidad de Internet.</p></div>
+      <div class="card"><h2><a href="https://nextcloud.com/es/" target="_blank">OwnCloud</a></h2><p>Almacenamiento y compartición de archivos de manera local y segura.</p></div>
+      <div class="card"><h2><a href="https://wordpress.org" target="_blank">WordPress</a></h2><p>Plataforma para la creación de un periódico escolar en red local.</p></div>
+      <div class="card"><h2>Otros Servicios</h2><p>Dependiendo de la infraestructura, se pueden montar serrvicios para comunicarse o compartir</p></div>
+    </div>
+
+    <h2 style="margin-top:40px; color:#0077c8;">Recomendaciones</h2>
+    <p>Asignar un responsable técnico-docente para mantener actualizado el servidor, realizar copias de seguridad y capacitar al equipo en el uso de las plataformas. Promover el uso pedagógico y colaborativo, integrando a toda la comunidad educativa.</p>
+  </div>
+
+  <footer>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
+      <img src="projects/recursos/cc.png" alt="Licencia CC" style="width:88px;height:31px;border:0;">
+    </a><br>
+    Esta obra está licenciada bajo <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">Creative Commons BY-NC-SA 2.5 Argentina</a>.<br>
+    Comparta el conocimiento.
+  </footer>
+</body>
+</html>

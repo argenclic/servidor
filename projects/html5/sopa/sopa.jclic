@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="sopa" version="0.1.3">
+ <settings>
+  <title>sopa</title>
+  <revision description="created" date="3/23/22" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="sopa" />
+  <item name="muro" />
+ </sequence>
+ <activities>
+  <activity class="@textGrid.WordSearch" name="sopa" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Arial" size="24" bold="true" />
+      <color foreground="0xFF0000" background="0xFFFFFF" shadow="0xFFFF99" />
+     </style>
+     <p>ENCUENTREN 6 PALABRAS IMPORTANTES</p>
+    </cell>
+    <cell type="final">
+     <style shadow="true">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFF99" background="0xFF6600" shadow="0xFF0000" />
+     </style>
+     <p>MUY BIEN</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="MEMORIA.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style shadow="true" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="24" bold="true" />
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>DEMOCRACIA</row>
+     <row>IE********</row>
+     <row>C*RV******</row>
+     <row>T**E**M***</row>
+     <row>A**RC*E***</row>
+     <row>D**D*HM***</row>
+     <row>U**A**O***</row>
+     <row>R**D**RS**</row>
+     <row>A*JUSTICIA</row>
+     <row>******A***</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">DEMOCRACIA</clue>
+    <clue id="1">DICTADURA</clue>
+    <clue id="2">DERECHOS</clue>
+    <clue id="3">MEMORIA</clue>
+    <clue id="4">VERDAD</clue>
+    <clue id="5">JUSTICIA</clue>
+   </clues>
+   <cells rows="6" cols="1" cellWidth="120.0" cellHeight="30.0" border="false" id="secondary">
+    <style shadow="true">
+     <font family="Arial" size="24" bold="true" />
+     <color foreground="0xFFFFFF" background="0xFF0000" shadow="0xFF6600" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="6" />
+    <cell>
+     <p>DEMOCRACIA</p>
+    </cell>
+    <cell>
+     <p>DICTADURA</p>
+    </cell>
+    <cell>
+     <p>DERECHOS</p>
+    </cell>
+    <cell>
+     <p>MEMORIA</p>
+    </cell>
+    <cell>
+     <p>VERDAD</p>
+    </cell>
+    <cell>
+     <p>JUSTICIA</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="muro" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style shadow="true">
+      <font family="Arial" size="24" bold="true" />
+      <color foreground="0xFF6600" background="0xFFFFFF" shadow="0xFFFF99" />
+     </style>
+     <p>24 de marzo - DÍA DE LA MEMORIA, POR LA VERDAD Y LA JUSTICIA</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="MEMORIA.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="false" />
+   </settings>
+   <cells rows="1" cols="2" cellWidth="500.0" cellHeight="300.0" border="false">
+    <style shadow="true" transparent="true" borderStroke="0.7" markerStroke="5.0">
+     <font family="Arial" size="48" bold="true" />
+     <color foreground="0xFFFFFF" shadow="0xFF6600" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="1" />
+    <cell>
+     <p>Día de la MEMORIA</p>
+     <p>por la VERDAD </p>
+     <p>y la JUSTICIA</p>
+    </cell>
+    <cell image="600logo109.png" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="MEMORIA.jpg" file="pakapaka_dia_de_la_memoria_por_la_verdad_y_la_justicia.jpg" />
+  <media name="600logo109.png" file="600logo109.png" />
+ </mediaBag>
+</JClicProject>
+

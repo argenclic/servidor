@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulaciones Interactivas - Secundaria Básica - Aulas Libres</title>
+  <link rel="icon" href="act/img/favicon.ico" type="image/x-icon">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; color:#000; }
+    header { background:#003366; color:#fff; padding:20px; text-align:center; }
+    nav { background:#0055aa; display:flex; flex-wrap:wrap; justify-content:center; }
+    nav a { color:white; text-decoration:none; padding:12px 20px; display:block; }
+    nav a:hover { background:#003366; }
+    main { padding:30px; }
+    footer { background:#f1f1f1; text-align:center; padding:15px; margin-top:20px; font-size:0.9em; }
+    h1, h2, h3 { color:#003366; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; margin-top:30px; }
+    .card { border:1px solid #ddd; border-radius:10px; padding:20px; background:#fafafa; box-shadow:2px 2px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
+    .card:hover { transform: translateY(-5px); }
+    .card a { text-decoration:none; font-weight:bold; color:#003366; }
+    .card a:hover { text-decoration:underline; }
+    .card img { width:100%; height:150px; object-fit:cover; border-radius:8px; margin:10px 0; }
+    .description { font-size:0.9em; color:#555; line-height:1.5; margin:10px 0; }
+    .level-tag { display:inline-block; padding:3px 8px; color:white; border-radius:4px; font-size:0.8em; margin-top:10px; }
+    
+    /* Colores por materia */
+    .matematica { background:#1f77b4; }
+    .fisica { background:#d62728; }
+    .quimica { background:#ff7f0e; }
+    .biologia { background:#2ca02c; }
+    .ciencias-tierra { background:#9467bd; }
+    
+    .category-header { background:#eef4ff; padding:15px; border-radius:8px; margin:20px 0; }
+    .category-header h2 { margin:0; color:#003366; }
+    .category-header p { margin:8px 0 0 0; color:#555; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Simulaciones Interactivas - Secundaria Básica</h1>
+  <p>Aulas Libres - Adaptación Offline de PHET</p>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="primaria.html">Primaria (6-11 años)</a>
+  <a href="secundaria_basica.html">Secundaria Básica (12-14 años)</a>
+  <a href="secundaria_orientada.html">Secundaria Orientada (15-17 años)</a>
+</nav>
+
+<main>
+  <div class="category-header">
+    <h2>Secundaria Básica (12-14 años)</h2>
+    <p>Actividades diseñadas para estudiantes de 12 a 14 años</p>
+  </div>
+
+  <h3>Matemática</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/area-model-introduction-420.png" alt="Modelo de Áreas: Introducción">
+      <h3><a href="act/area-model-introduction_es.html" target="_blank">Modelo de Áreas: Introducción</a></h3>
+      <p class="description">Introduce multiplicación mediante modelos visuales. Ideal para comprender algoritmos multiplicativos.</p>
+      <a href="act/area-model-introduction_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/area-model-multiplication-420.png" alt="Modelo de Áreas: Multiplicación">
+      <h3><a href="act/area-model-multiplication_es.html" target="_blank">Modelo de Áreas: Multiplicación</a></h3>
+      <p class="description">Visualiza la multiplicación de números grandes mediante descomposición. Desarrolla sentido numérico.</p>
+      <a href="act/area-model-multiplication_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/equality-explorer-basics-420.png" alt="Explorador de Igualdades I">
+      <h3><a href="act/equality-explorer-basics_es.html" target="_blank">Explorador de Igualdades I</a></h3>
+      <p class="description">Introduce conceptos básicos de ecuaciones mediante balanzas. Ideal para pre-álgebra.</p>
+      <a href="act/equality-explorer-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/proportion-playground-420.png" alt="Proporciones">
+      <h3><a href="act/proportion-playground_es.html" target="_blank">Proporciones</a></h3>
+      <p class="description">Experimenta con razones y proporciones mediante modelos visuales. Fundamental para matemáticas aplicadas.</p>
+      <a href="act/proportion-playground_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/unit-rates-420.png" alt="Razón Unitaria">
+      <h3><a href="act/unit-rates_es.html" target="_blank">Razón Unitaria</a></h3>
+      <p class="description">Calcula y comprende conceptos de tasa unitaria. Importante para problemas de proporcionalidad.</p>
+      <a href="act/unit-rates_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/ratio-and-proportion-420.png" alt="Razón y Proporción">
+      <h3><a href="act/ratio-and-proportion_es.html" target="_blank">Razón y Proporción</a></h3>
+      <p class="description">Construye proporciones equivalentes con modelos visuales. Explora en escenarios reales como recetas o velocidades.</p>
+      <a href="act/ratio-and-proportion_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag matematica">Matemática</span>
+    </div>
+  </div>
+
+  <h3>Física</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/energy-skate-park-basics-420.png" alt="Energía y Patinaje">
+      <h3><a href="act/energy-skate-park-basics_es.html" target="_blank">Energía y Patinaje</a></h3>
+      <p class="description">Juega con un patinador para descubrir cómo se conserva la energía.</p>
+      <a href="act/energy-skate-park-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/masses-and-springs-basics-420.png" alt="Masas y Resortes I">
+      <h3><a href="act/masses-and-springs-basics_es.html" target="_blank">Masas y Resortes I</a></h3>
+      <p class="description">Explora la relación entre peso y estiramiento de un resorte.</p>
+      <a href="act/masses-and-springs-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/pendulum-lab-420.png" alt="Laboratorio de Péndulo">
+      <h3><a href="act/pendulum-lab_es.html" target="_blank">Laboratorio de Péndulo</a></h3>
+      <p class="description">Estudia cómo varía el movimiento de un péndulo al modificar su longitud o masa.</p>
+      <a href="act/pendulum-lab_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/waves-intro-420.png" alt="Introducción a Ondas">
+      <h3><a href="act/waves-intro_es.html" target="_blank">Introducción a Ondas</a></h3>
+      <p class="description">Descubre las características básicas de las ondas.</p>
+      <a href="act/waves-intro_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/gravity-and-orbits-420.png" alt="Gravedad y órbitas">
+      <h3><a href="act/gravity-and-orbits_es.html" target="_blank">Gravedad y órbitas</a></h3>
+      <p class="description">Comprende cómo se mueven astros y satélites.</p>
+      <a href="act/gravity-and-orbits_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/geometric-optics-basics-420.png" alt="Óptica Geométrica Básica">
+      <h3><a href="act/geometric-optics-basics_es.html" target="_blank">Óptica Geométrica Básica</a></h3>
+      <p class="description">Explora cómo se dobla la luz al pasar por lentes para formar imágenes. Observa cómo la forma de la lente afecta la imagen.</p>
+      <a href="act/geometric-optics-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/gravity-force-lab-basics-420.png" alt="Laboratorio de Fuerza de Gravedad Básico">
+      <h3><a href="act/gravity-force-lab-basics_es.html" target="_blank">Laboratorio de Fuerza de Gravedad Básico</a></h3>
+      <p class="description">Visualiza la fuerza gravitacional entre dos objetos. Ajusta masas y distancias para ver cambios en la fuerza.</p>
+      <a href="act/gravity-force-lab-basics_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/magnets-and-electromagnets-420.png" alt="Imanes y Electromagnéticos">
+      <h3><a href="act/magnets-and-electromagnets_es.html" target="_blank">Imanes y Electromagnéticos</a></h3>
+      <p class="description">Crea un electromagnético y observa cómo la corriente afecta el campo magnético. Explora interacciones con imanes.</p>
+      <a href="act/magnets-and-electromagnets_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag fisica">Física</span>
+    </div>
+  </div>
+
+  <h3>Química</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/build-an-atom-420.png" alt="Construye un Átomo">
+      <h3><a href="act/build-an-atom_es.html" target="_blank">Construye un Átomo</a></h3>
+      <p class="description">Arma modelos de átomos con protones, neutrones y electrones.</p>
+      <a href="act/build-an-atom_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/acid-base-solutions-420.png" alt="Soluciones ácido-base">
+      <h3><a href="act/acid-base-solutions_es.html" target="_blank">Soluciones ácido-base</a></h3>
+      <p class="description">Explora cómo se comportan los ácidos y bases en distintas concentraciones y su efecto en el pH.</p>
+      <a href="act/acid-base-solutions_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/concentration-420.png" alt="Concentración">
+      <h3><a href="act/concentration_es.html" target="_blank">Concentración</a></h3>
+      <p class="description">Visualiza cómo cambia la concentración de soluciones al variar cantidad de soluto o solvente.</p>
+      <a href="act/concentration_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/balancing-chemical-equations-420.png" alt="Balanceo de ecuaciones">
+      <h3><a href="act/balancing-chemical-equations_es.html" target="_blank">Balanceo de ecuaciones</a></h3>
+      <p class="description">Practica el balanceo de ecuaciones químicas ajustando reactivos y productos.</p>
+      <a href="act/balancing-chemical-equations_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/charges-and-fields-420.png" alt="Cargas y campos">
+      <h3><a href="act/charges-and-fields_es.html" target="_blank">Cargas y campos</a></h3>
+      <p class="description">Visualiza campos eléctricos y su interacción.</p>
+      <a href="act/charges-and-fields_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/gases-intro-420.png" alt="Introducción a gases">
+      <h3><a href="act/gases-intro_es.html" target="_blank">Introducción a gases</a></h3>
+      <p class="description">Aprende conceptos básicos de gases y cómo se comportan.</p>
+      <a href="act/gases-intro_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/density-420.png" alt="Densidad">
+      <h3><a href="act/density_es.html" target="_blank">Densidad</a></h3>
+      <p class="description">Descubre por qué algunos objetos se hunden y otros flotan al comparar su densidad con la del agua. Experimenta con diferentes materiales.</p>
+      <a href="act/density_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/gases-properties-420.png" alt="Propiedades de los Gases">
+      <h3><a href="act/gases-properties_es.html" target="_blank">Propiedades de los Gases</a></h3>
+      <p class="description">Experimenta con un contenedor de gas para explorar la relación entre temperatura, volumen, cantidad y presión. Descubre la ley de los gases ideales.</p>
+      <a href="act/gases-properties_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag quimica">Química</span>
+    </div>
+  </div>
+
+  <h3>Biología</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/natural-selection-420.png" alt="Selección Natural">
+      <h3><a href="act/natural-selection_es.html" target="_blank">Selección Natural</a></h3>
+      <p class="description">Explora cómo ciertos rasgos se vuelven más comunes en poblaciones a través de generaciones.</p>
+      <a href="act/natural-selection_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag biologia">Biología</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/neuron-420.png" alt="Neurona">
+      <h3><a href="act/neuron_es.html" target="_blank">Neurona</a></h3>
+      <p class="description">Simulación interactiva para observar cómo viaja la información a través de una neurona.</p>
+      <a href="act/neuron_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag biologia">Biología</span>
+    </div>
+  </div>
+
+  <h3>Ciencias de la Tierra</h3>
+  <div class="grid">
+    <div class="card">
+      <img src="act/img/greenhouse-effect-420.png" alt="Efecto Invernadero">
+      <h3><a href="act/greenhouse-effect_es.html" target="_blank">Efecto Invernadero</a></h3>
+      <p class="description">Explora cómo los gases de efecto invernadero afectan la temperatura de la Tierra y descubre cómo el efecto invernadero mantiene el planeta cálido.</p>
+      <a href="act/greenhouse-effect_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag ciencias-tierra">Ciencias de la Tierra</span>
+    </div>
+
+    <div class="card">
+      <img src="act/img/my-solar-system-420.png" alt="Mi Sistema Solar">
+      <h3><a href="act/my-solar-system_es.html" target="_blank">Mi Sistema Solar</a></h3>
+      <p class="description">Construye tu propio sistema solar y observa cómo la gravedad afecta el movimiento de planetas y satélites.</p>
+      <a href="act/my-solar-system_es.html" target="_blank">Acceder a la actividad</a>
+      <span class="level-tag ciencias-tierra">Ciencias de la Tierra</span>
+    </div>
+  </div>
+
+</main>
+
+  
+  <div style="margin-top:40px; padding:15px; background:#eef4ff; border-radius:8px; font-size:0.95em; max-width:800px; margin-left:auto; margin-right:auto; text-align:center;">
+  <p style="margin-bottom:15px;">
+    Este sitio ha sido diseñado para su descarga en servidores educativos locales, 
+    pensado para escuelas o lugares sin acceso a internet, o para uso local en una PC. 
+    Forma parte del proyecto <strong><a href="https://servidor.aulaslibres.ar" target="_blank">servidor.aulaslibres.ar</a></strong>.
+  </p>
+  <a href="https://mega.nz/file/KNFU3YaQ#afBoLLZsO_os_ccZSFJBA0Mx6ESEZDsS7pvS6pl_ML0" 
+     style="display:inline-block; padding:12px 25px; background:#0055aa; color:white; text-decoration:none; border-radius:6px; font-weight:bold; font-size:1.1em;">
+    📦 Descargar todo el contenido (ZIP)
+  </a>
+</div>
+
+<footer>
+  <p>© 2025 Aulas Libres | Basado en simulaciones de 
+    <a href="https://phet.colorado.edu/es/" target="_blank">PHET</a> | 
+    <a href="https://creativecommons.org/licenses/by-nc-sa/2.5/ar/" target="_blank">CC BY-NC-SA 2.5 Argentina</a>
+  </p>
+</footer>
+
+</body>
+</html>
+

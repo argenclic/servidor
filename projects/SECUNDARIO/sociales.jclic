@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sin_nombre" version="0.1.3" type="library">
+ <settings>
+  <title>Conectar Igualdad - Ciencias Sociales</title>
+  <revision description="created" date="10/21/10" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+  <item id="1287646076123" name="1287646076123">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Inicio</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>ACTIVIDADES LIBRES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0099FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0099FF" border="true" />
+   </settings>
+   <menuElement caption="Proyectos de Ciencias Sociales" icon="@icofolder.png" sequence="1287646076123" />
+  </activity>
+  <activity class="@panels.Menu" name="1287646076123">
+   <description>
+    <p>Proyectos de Ciencias Sociales</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Proyectos de Ciencias Sociales</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0099FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x0099FF" border="true" />
+   </settings>
+   <menuElement caption="Breve historia del mundo" icon="@ico01.png" path="SECUNDARIO/SOCIALES/breveh/breveh.jclic.zip" />
+   <menuElement caption="Aborígenes chilenos" icon="@ico01.png" path="SECUNDARIO/SOCIALES/chile/chile.jclic.zip" />
+   <menuElement caption="Civilizaciones antiguas" icon="@ico01.png" path="SECUNDARIO/SOCIALES/civilant/civilant.jclic.zip" />
+   <menuElement caption="Derechos humanos en Argentina" icon="@ico01.png" path="SECUNDARIO/SOCIALES/dh/dh.jclic.zip" />
+   <menuElement caption="Manejo de documentos" icon="@ico01.png" path="SECUNDARIO/SOCIALES/docume/docume.jclic.zip" />
+   <menuElement caption="Solidaridad" icon="@ico01.png" path="SECUNDARIO/SOCIALES/edusoli1/edusoli1.jclic.zip" />
+   <menuElement caption="Etapas de la historia" icon="@ico01.png" path="SECUNDARIO/SOCIALES/ehistori/ehistori.jclic.zip" />
+   <menuElement caption="Guerra civil española" icon="@ico01.png" path="SECUNDARIO/SOCIALES/gcivil/gcivil.jclic.zip" />
+   <menuElement caption="Geografía latinoamericana" icon="@ico01.png" path="SECUNDARIO/SOCIALES/geo2-1/geo2-1.jclic.zip" />
+   <menuElement caption="Geomorfología" icon="@ico01.png" path="SECUNDARIO/SOCIALES/geomorfo/geomorfo.jclic.zip" />
+   <menuElement caption="Grecia antigua" icon="@ico01.png" path="SECUNDARIO/SOCIALES/grecia2/grecia2.jclic.zip" />
+   <menuElement caption="Grecia y Roma" icon="@ico01.png" path="SECUNDARIO/SOCIALES/grecroma/grecroma.jclic.zip" />
+   <menuElement caption="Grecia y Roma II" icon="@ico01.png" path="SECUNDARIO/SOCIALES/histo3es/histo3es.jclic.zip" />
+   <menuElement caption="El humanismo" icon="@ico01.png" path="SECUNDARIO/SOCIALES/humanism/humanism.jclic.zip" />
+   <menuElement caption="Prehistoria" icon="@ico01.png" path="SECUNDARIO/SOCIALES/laprehis/laprehis.jclic.zip" />
+   <menuElement caption="El mercosur" icon="@ico01.png" path="SECUNDARIO/SOCIALES/mercosur/mercosur.jclic.zip" />
+   <menuElement caption="Mutualismo" icon="@ico01.png" path="SECUNDARIO/SOCIALES/mutual/mutual.jclic.zip" />
+   <menuElement caption="Planisferios" icon="@ico01.png" path="SECUNDARIO/SOCIALES/peters/peters.jclic.zip" />
+   <menuElement caption="Redes sociales" icon="@ico01.png" path="SECUNDARIO/SOCIALES/redes/redes.jclic.zip" />
+   <menuElement caption="Roma antigua" icon="@ico01.png" path="SECUNDARIO/SOCIALES/roma2/roma2.jclic.zip" />
+   <menuElement caption="Nacimiento de la URSS" icon="@ico01.png" path="SECUNDARIO/SOCIALES/urss/urss.jclic.zip" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="/home/usuario/Documentos/JClic/nuevos proyectos/nuevodisco/recursos/icon/secundario.ico" file="/home/usuario/Documentos/JClic/nuevos proyectos/nuevodisco/recursos/icon/secundario.ico" />
+  <media name="recursos/icon/secundario.ico" file="recursos/icon/secundario.ico" />
+ </mediaBag>
+</JClicProject>
+

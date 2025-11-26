@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos - Servidor Escolar</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f9ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background: white;
+      padding: 15px;
+      border-bottom: 4px solid #0077c8;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+    nav {
+      background: #0077c8;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #005fa3;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 15px;
+    }
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+      overflow: hidden;
+      padding: 20px;
+    }
+    .card h2 {
+      color: #0077c8;
+      margin-bottom: 10px;
+    }
+    .card p {
+      color: #444;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    footer a { color: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="projects/recursos/menu3.png" alt="Cabecera Servidor Escolar">
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="fundamentos.html">Fundamentos</a>
+    <a href="funcionamiento.html">Cómo funciona</a>
+  </nav>
+
+  <div class="container">
+    <h1 style="text-align:center; color:#0077c8;">Fundamentos del Servidor Escolar</h1>
+    <p style="text-align:center; max-width:800px; margin:0 auto 30px;">
+      El servidor escolar constituye una herramienta estratégica para integrar tecnología y pedagogía, 
+      promoviendo una educación inclusiva, segura y democrática.
+    </p>
+
+    <div class="cards-container">
+      <div class="card">
+        <img src="projects/recursos/colaboracion.jpg" alt="Colaboración" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Núcleo tecnológico y pedagógico</h2>
+        <p>El servidor escolar centraliza recursos y habilita el trabajo colaborativo incluso sin conexión externa. 
+        Es un mediador pedagógico que transforma el ambiente de aprendizaje al facilitar la circulación fluida 
+        de contenidos, consignas y producciones estudiantiles.</p>
+      </div>
+
+      <div class="card">
+        <img src="projects/recursos/seguridad.jpg" alt="Seguridad" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Pedagogía colaborativa</h2>
+        <p>Favorece una pedagogía viva, flexible, cooperativa e inclusiva. Permite personalizar trayectorias de 
+        aprendizaje mientras fomenta la construcción colectiva de conocimientos a través de la interacción entre pares y docentes.</p>
+      </div>
+
+      <div class="card">
+        <img src="projects/recursos/colaboracion.jpg" alt="Entorno protegido" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Entorno protegido</h2>
+        <p>Dado que Internet no garantiza la seguridad de las infancias, el servidor ofrece un ambiente controlado, 
+        con contenidos validados por docentes, reduciendo riesgos y fortaleciendo la confianza en el uso pedagógico de la tecnología.</p>
+      </div>
+
+      <div class="card">
+        <img src="projects/recursos/seguridad.jpg" alt="Equidad digital" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Equidad digital</h2>
+        <p>Ofrece contenidos empaquetados y accesibles localmente, reduciendo brechas digitales y garantizando continuidad pedagógica 
+        incluso en instituciones con conectividad deficiente o intermitente.</p>
+      </div>
+
+      <div class="card">
+        <img src="projects/recursos/colaboracion.jpg" alt="Gestión de riesgos" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Gestión inteligente de riesgos</h2>
+        <p>Resuelve el dilema entre prohibición y libertad digital descontrolada, enseñando gestión responsable de la tecnología 
+        mientras libera a los docentes de tener que convertirse en especialistas en ciberseguridad.</p>
+      </div>
+
+      <!-- Nueva card de Síntesis estratégica -->
+      <div class="card">
+        <img src="projects/recursos/seguridad.jpg" alt="Síntesis estratégica" style="width:100%;height:180px;object-fit:cover;">
+        <h2>Síntesis estratégica</h2>
+        <p>El servidor escolar representa una <strong>solución integral</strong> que articula tecnología y pedagogía 
+        para impulsar la innovación educativa. Su implementación garantiza una educación más inclusiva, segura y democrática, 
+        preparando a las nuevas generaciones para participar críticamente en la sociedad digital.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
+      <img src="projects/recursos/cc.png" alt="Licencia CC" style="width:88px;height:31px;border:0;">
+    </a><br>
+    Esta obra está licenciada bajo <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">Creative Commons BY-NC-SA 2.5 Argentina</a>.<br>
+    Comparta el conocimiento.
+  </footer>
+</body>
+</html>

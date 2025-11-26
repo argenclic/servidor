@@ -1,0 +1,4538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="fabulas6" version="0.1.3">
+ <settings>
+  <title>Más fábulas</title>
+  <revision description="created" date="8/6/09" />
+  <author name="Celia Belmes" mail="celiabelmes@yahoo.com.ar" />
+  <language>español (es)</language>
+  <descriptors area="Lengua" level="Primaria">fabulas, lectura, comprensión</descriptors>
+ </settings>
+ <sequence>
+  <item id="fabula.pac" name="presenta.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="menu.ass">
+   <jump action="STOP" id="forward" />
+  </item>
+  <item id="pac1.pac" name="fabula11.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="fabula12.txa" />
+  <item name="fabula11.crw" />
+  <item name="fabula11.sop" />
+  <item name="moral1.ass" />
+  <item name="fabula11.txa" />
+  <item name="fabula13.txa" />
+  <item name="fabula14.txa" />
+  <item name="fabula21.ass" />
+  <item name="fabula21.crw" />
+  <item name="fabula21.sop" />
+  <item name="fabula21.txa" />
+  <item name="fabula31.crw" />
+  <item name="fabula31.txa" />
+  <item name="fabula31.puz">
+   <jump tag="menu.pac" id="forward" />
+  </item>
+  <item id="menu.pac" name="menu.ass">
+   <jump action="STOP" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="pac2.pac" name="fabula41.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="fabula41.crw" />
+  <item name="fabula41.sop" />
+  <item name="fabula41.txa" />
+  <item name="fabula42.txa" />
+  <item name="moral2.ass" />
+  <item name="fabula43.txa" />
+  <item name="fabula41.puz">
+   <jump tag="menu.pac" id="forward" />
+  </item>
+  <item id="pac3.pac" name="fabula51.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="fabula51.crw" />
+  <item name="fabula51.sop" />
+  <item name="fabula51.txa" />
+  <item name="moral3.ass" />
+  <item name="fabula52.txa" />
+  <item name="fabula53.txa" />
+  <item name="fabula54.txa" />
+  <item name="fabulas1.crw" />
+  <item name="fabulas1.sop" />
+  <item name="fabulas2.txa">
+   <jump tag="menu.pac" id="forward" />
+  </item>
+  <item id="pac4.pac" name="fabula61.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="fabula61.crw" />
+  <item name="fabula61.sop" />
+  <item name="fabula61.txa" />
+  <item name="moral4.ass" />
+  <item name="fabula62.txa" />
+  <item name="fabula63.txa" />
+  <item name="fabula71.crw" />
+  <item name="fabula71.sop" />
+  <item name="fabula71.txa" />
+  <item name="fabula72.txa" />
+  <item name="fabula61.puz">
+   <jump tag="menu.pac" id="forward" />
+  </item>
+  <item id="pac5.pac" name="fabulam1.ass">
+   <jump action="STOP" id="back" />
+  </item>
+  <item name="fabulam1.crw" />
+  <item name="fabulam1.sop" />
+  <item name="fabulam1.txa" />
+  <item name="moral5.ass" />
+  <item name="fabulam2.txa">
+   <jump tag="menu.pac" id="forward" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.InformationScreen" name="fabula11.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008040" />
+     </style>
+     <p>Leé con atención la siguiente fábula y avanzá a la próxima actividad.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008040" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="700.0" cellHeight="65.0" border="false">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0xFFFFFF" background="0x008040" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell>
+     <p>La rana que reventó y el buey</p>
+    </cell>
+    <cell>
+     <p> Una rana vio en un prado a un buey, y envidiosa de tan grande corpulencia, infló su arrugada piel, y preguntó a sus hijos si estaba ya más grande que el buey. Le contestaron que no. </p>
+    </cell>
+    <cell>
+     <p>Por segunda vez ensanchó su piel con mayor esfuerzo, y nuevamente preguntó quién de los dos era más grande. Los hijos dijeron que el buey. </p>
+    </cell>
+    <cell>
+     <p>Por último, impaciente, mientras luchaba por hincharse más, cayó alli reventada.</p>
+    </cell>
+    <cell>
+     <p>Fedro</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula11.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x800040" />
+     </style>
+     <p>Completá las palabras leyendo las referencias verticales y horizontales.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x800040" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xFFFF80">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="8" columns="8" cellWidth="36.0" cellHeight="36.0" border="true">
+    <style>
+     <font family="Arial" size="16" />
+     <color background="0xFFFFFF" inactive="0x800040" alternative="0x800040" />
+    </style>
+    <text>
+     <row>FEDRO***</row>
+     <row>*REVENTÓ</row>
+     <row>BUEY****</row>
+     <row>*INFLÓ*A</row>
+     <row>RANA***U</row>
+     <row>****EL*T</row>
+     <row>*******O</row>
+     <row>FÁBULA*R</row>
+    </text>
+   </textGrid>
+   <cells rows="8" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Arial" size="14" />
+     <color foreground="0xFFFFFF" background="0x800040" />
+    </style>
+    <cell id="0" item="0">
+     <p>Autor de esta fábula.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Por envidiosa la rana... (sinónimo de explotó)</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Cuadrúpedo con cuernos, personaje de esta fábula.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Acción que realizó la rana para parecer más grande (3º persona del singular en tiempo pasado)</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>A.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Protagonista que por envidia reventó</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>última vocal. </p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Artículo determinado en género masculino y singular</p>
+    </cell>
+    <cell id="5" item="1">
+     <p>T.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Penúltima vocal.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Acción ficticia que se narra para deleitar, (es esdrújula, ponele el acento)</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>R. </p>
+    </cell>
+   </cells>
+   <cells rows="8" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Arial" size="14" />
+     <color foreground="0xFFFFFF" background="0x800040" />
+    </style>
+    <cell id="0" item="0">
+     <p>Letra que va entre la E y la G</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>E</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>D</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>O</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>N</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>1º letra de toro.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Ó</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>Fedro es el... de la fábula.   </p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula11.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x004000" />
+     </style>
+     <p>Buscá en la siguiente sopa de latras 8 palabras relacionadas con la fábula. Pueden estar en forma horizontal, vertical o diagonal.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x004000" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style>
+     <color foreground="0xFFFFFF" background="0x004000" />
+    </style>
+    <text>
+     <row>**********</row>
+     <row>*RANA*****</row>
+     <row>ENVIDIOSAE</row>
+     <row>****PRADOS</row>
+     <row>**HBUEY**F</row>
+     <row>**I**V***U</row>
+     <row>P*J**E***E</row>
+     <row>I*O**N***R</row>
+     <row>E*S**T***Z</row>
+     <row>L****Ó***O</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">RANA</clue>
+    <clue id="1">REVENTÓ</clue>
+    <clue id="2">HIJOS</clue>
+    <clue id="3">PIEL</clue>
+    <clue id="4">ESFUERZO</clue>
+    <clue id="5">ENVIDIOSA</clue>
+    <clue id="6">PRADO</clue>
+    <clue id="7">BUEY</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="fabula11.txa" type="orderParagraphs">
+   <messages>
+    <cell type="previous">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Leé atentamente la fábula y cuando terminés hacé clic en el texto</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Ordená los párrafos arrastrándolos con el ratón donde correspondan.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="700" height="460" />
+    </window>
+   </settings>
+   <checkButton>Cliqueá aquí cuando termines.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x000000" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                          </text>
+      <cell width="390" height="45" border="false">
+       <style shadow="true">
+        <font family="Arial" size="37" bold="true" />
+        <color foreground="0x0080FF" background="0xFFFFFF" shadow="0x8000FF" inactive="0x8000FF" alternative="0x8000FF" />
+       </style>
+       <p>La rana que reventó y el buey</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>         </text>
+      <cell width="140" height="100" border="false" image="sapo.gif">
+       <style shadow="true">
+        <font family="Arial" size="37" bold="true" />
+        <color foreground="0x0080FF" background="0xFFFFFF" shadow="0x8000FF" inactive="0x8000FF" alternative="0x8000FF" />
+       </style>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target> Una rana vio en un prado a un buey, y envidiosa de tan grande corpulencia, infló su arrugada piel, y preguntó a sus hijos si estaba ya más grande que el buey. Le contestaron que no. </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Por segunda vez ensanchó su piel con mayor esfuerzo, y nuevamente preguntó quién de los dos era más grande. Los hijos dijeron que el buey. </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Por último, impaciente, mientras luchaba por hincharse más, cayó alli reventada.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Fedro</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                                                  </text>
+      <cell width="160" height="110" border="false" image="bisonte.gif">
+       <style shadow="true">
+        <font family="Arial" size="37" bold="true" />
+        <color foreground="0x0080FF" background="0xFFFFFF" shadow="0x8000FF" inactive="0x8000FF" alternative="0x8000FF" />
+       </style>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false" />
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.Order" name="fabula12.txa" type="orderParagraphs">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x008040" background="0xFFFFFF" />
+     </style>
+     <p>Ordená los párrafos correctamente arrastrándolos a su lugar y luego presioná el botón de evaluación.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x008040" background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008000">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="540" height="400" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x000000" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <cell width="440" height="100" border="false">
+       <style>
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x008040" background="0xFFFFFF" />
+       </style>
+       <p>La rana que reventó y el buey</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Una rana vio en un prado a un buey, y envidiosa de tan grande corpulencia, infló su arrugada piel, y preguntó a sus hijos si estaba ya más grande que el buey. Le contestaron que no. </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Por segunda vez ensanchó su piel con mayor esfuerzo, y nuevamente preguntó quién de los dos era más grande. Los hijos dijeron que el buey.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Por último, impaciente, mientras luchaba por hincharse más, cayó alli reventada.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Fedro</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fabula13.txa" autoJump="true" forceOkToAdvance="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x008040" background="0xFFFFFF" />
+     </style>
+     <p>Escribí el tiempo de verbo utilizado en las palabras marcadas, borrándolas primero.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x008040" background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente! ¿Te diste cuenta que un texto siempre se escribe en el mismo tiempo verbal?</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008000">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="540" height="330" />
+    </window>
+   </settings>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x000000" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <cell width="440" height="100" border="false">
+       <style>
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x008040" background="0xFFFFFF" />
+       </style>
+       <p>La rana que reventó y el buey</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Una rana </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>pretérito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="3" maxLength="25" show="vio" />
+       <text>vio</text>
+      </target>
+      <text> en un prado a un buey, y envidiosa de tan grande corpulencia, </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>pretérito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="5" maxLength="25" show="infló" />
+       <text>infló</text>
+      </target>
+      <text> su arrugada piel, y </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>pretirito perfecto</answer>
+       <answer>preterito perfecto simple</answer>
+       <response fill="_" length="8" maxLength="25" show="preguntó" />
+       <text>preguntó</text>
+      </target>
+      <text> a sus hijos si </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>pretérito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="6" maxLength="25" show="estaba" />
+       <text>estaba</text>
+      </target>
+      <text> ya más grande que el buey. Le </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="11" maxLength="25" show="contestaron" />
+       <text>contestaron</text>
+      </target>
+      <text> que no. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Por segunda vez </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="8" maxLength="25" show="ensanchó" />
+       <text>ensanchó</text>
+      </target>
+      <text> su piel con mayor esfuerzo, y nuevamente preguntó quién de los dos </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="3" maxLength="25" show="era" />
+       <text>era</text>
+      </target>
+      <text> más grande. Los hijos </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="7" maxLength="25" show="dijeron" />
+       <text>dijeron</text>
+      </target>
+      <text> que el buey.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Por último, impaciente, mientras </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="7" maxLength="25" show="luchaba" />
+       <text>luchaba</text>
+      </target>
+      <text> por hincharse más, </text>
+      <target>
+       <answer>pasado</answer>
+       <answer>préterito perfecto</answer>
+       <answer>pretérito perfecto simple</answer>
+       <response fill="_" length="4" maxLength="25" show="cayó" />
+       <text>cayó</text>
+      </target>
+      <text> alli reventada.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Fedro</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Identify" name="fabula14.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>Marcá en el texto todas las palabras que tengan diptongo, triptongo o hiato.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x008080" />
+     </style>
+     <p>¡Excelente! </p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x004040">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="550" height="400" />
+    </window>
+   </settings>
+   <checkButton>Cuando termines, hacé clic aquí</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x008080" tabWidth="16" foreground="0xFFFFFF" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <cell width="440" height="100" border="false">
+       <style>
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0xFFFFFF" background="0x008080" />
+       </style>
+       <p>La rana que reventó y el buey</p>
+      </cell>
+     </p>
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false" />
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text>Una rana </text>
+      <target>vio</target>
+      <text> en un prado a un </text>
+      <target>buey</target>
+      <text>, y </text>
+      <target>envidiosa</target>
+      <text> de tan grande </text>
+      <target>corpulencia</target>
+      <text>, infló su arrugada </text>
+      <target>piel</target>
+      <text>, y preguntó a sus hijos si estaba ya más grande que el </text>
+      <target>buey</target>
+      <text>. Le contestaron que no. </text>
+     </p>
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text>Por segunda vez ensanchó su </text>
+      <target>piel</target>
+      <text> con mayor </text>
+      <target>esfuerzo</target>
+      <text>, y </text>
+      <target>nuevamente</target>
+      <text> preguntó </text>
+      <target>quién</target>
+      <text> de los dos era más grande. Los hijos dijeron que el </text>
+      <target>buey</target>
+      <text>.</text>
+     </p>
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text>Por último, </text>
+      <target>impaciente</target>
+      <text>, </text>
+      <target>mientras</target>
+      <text> luchaba por hincharse más, cayó alli reventada.</text>
+     </p>
+     <p background="0x008080" name="default" size="17" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text>Fedro</text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="fabula21.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0xFF0000" background="0x00FF00" inactive="0x0000FF" alternative="0x0000FF" />
+     </style>
+     <p>Uní en cada caso el inicio de la frase con su terminación correcta.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0xFF0000" background="0x00FF00" inactive="0x0000FF" alternative="0x0000FF" />
+     </style>
+     <p>¡¡Bravo!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="600.0" cellHeight="140.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0xFF0000" background="0x00FF00" inactive="0x0000FF" alternative="0x0000FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell id="0">
+     <p>Una rana vio</p>
+    </cell>
+    <cell id="1">
+     <p>La rana infló</p>
+    </cell>
+    <cell id="6">
+     <p>Preguntó a sus hijos</p>
+    </cell>
+    <cell id="3">
+     <p>Ensanchó su piel con</p>
+    </cell>
+   </cells>
+   <cells rows="8" cols="1" cellWidth="700.0" cellHeight="140.0" border="true" id="secondary">
+    <style>
+     <font family="Arial" size="18" />
+     <color foreground="0xFF0000" background="0x00FF00" inactive="0x0000FF" alternative="0x0000FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="8" />
+    <cell>
+     <p>en un prado a un buey.</p>
+    </cell>
+    <cell>
+     <p>su arrugada piel.</p>
+    </cell>
+    <cell>
+     <p>si ya estaba tan grande como el buey.</p>
+    </cell>
+    <cell>
+     <p>mayor esfuerzo.</p>
+    </cell>
+    <cell>
+     <p>su suave piel.</p>
+    </cell>
+    <cell>
+     <p>a un simpático buey.</p>
+    </cell>
+    <cell>
+     <p>si estaba más grande que el buey.</p>
+    </cell>
+    <cell>
+     <p>poca fuerza.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula21.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0080FF" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Escribí las palabras que corresponden a las referencias.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0080FF" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>¡Bravo! ¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0080FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0x00FF00" border="true" />
+   </settings>
+   <textGrid rows="10" columns="5" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style>
+     <font family="Arial" size="17" bold="true" />
+     <color foreground="0x0000FF" background="0x00FF00" inactive="0x0080FF" alternative="0x0080FF" />
+    </style>
+    <text>
+     <row>**ESFUERZO</row>
+     <row>**BUEY****</row>
+     <row>ENVIDIOSA*</row>
+     <row>****RANA**</row>
+     <row>*HIJOS****</row>
+    </text>
+   </textGrid>
+   <cells rows="5" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Empleo enérgico de las fuerzas físicas (Hice mucho...). Sinónimo de trabajo</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Animal con cuernos de la fábula.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Femenino de envidioso.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Animal parecido al sapo que varía en color y tamaño.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Descendencia del padre y de la madre (plural).</p>
+    </cell>
+   </cells>
+   <cells rows="10" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Segunda vocal.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>N.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>2º vocal.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Letra entre la R y la T.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Autor de la fábula.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Última vocal.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Letra entre la D y la F.  </p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Letra número 18 en el abecedario.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Letra entre la H y la J.</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>Décima letra en el abecedario.</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula21.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <color foreground="0xFF0000" background="0x00FF00" inactive="0x00FF00" alternative="0x00FF00" />
+     </style>
+     <p>Buscá 8 palabras referidas a la fábula. Pueden estar en vertical, horizontal o diagonal.  </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <color foreground="0xFF0000" background="0x00FF00" inactive="0x00FF00" alternative="0x00FF00" />
+     </style>
+     <p>¡Bravo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="9" columns="9" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style>
+     <font family="Arial" size="30" />
+     <color background="0x00FF00" inactive="0xFF0000" alternative="0xFF0000" />
+    </style>
+    <text>
+     <row>**PRADO**</row>
+     <row>R**A*****</row>
+     <row>E**N*BUEY</row>
+     <row>V**A*****</row>
+     <row>ENVIDIOSA</row>
+     <row>N***V****</row>
+     <row>T****I***</row>
+     <row>ÓINFLÓO**</row>
+     <row>*ENSANCHÓ</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">RANA</clue>
+    <clue id="1">BUEY</clue>
+    <clue id="2">REVENTÓ</clue>
+    <clue id="3">ENVIDIOSA</clue>
+    <clue id="4">INFLÓ</clue>
+    <clue id="5">VIO</clue>
+    <clue id="6">ENSANCHÓ</clue>
+    <clue id="7">PRADO</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Identify" name="fabula21.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x004040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+     </style>
+     <p>Buscá todos los adjetivos de la fábula y marcalos con un clic.Son 14. ¡No te olvidés de los numerales! </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x004040" background="0xFFFFFF" inactive="0xFF0000" alternative="0xFF0000" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="600" height="420" />
+    </window>
+   </settings>
+   <checkButton>Cuando terminés todo, hacé clic acá.</checkButton>
+   <document>
+    <style name="target" base="default" background="0xFFFF00" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x0000FF" tabWidth="16" foreground="0xFFFFFF" size="19" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0x00FFFF" />
+    <section>
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text>           </text>
+      <cell width="390" height="60" border="false">
+       <style>
+        <font family="Comic Sans MS" size="25" />
+        <color foreground="0x0000FF" background="0xFFFFFF" inactive="0x400040" alternative="0x400040" />
+       </style>
+       <p>La rana que reventó y el buey</p>
+      </cell>
+     </p>
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false" />
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text> </text>
+      <target>Una</target>
+      <text> rana vio en un prado a </text>
+      <target>un</target>
+      <text> buey, y </text>
+      <target>envidiosa</target>
+      <text> de tan </text>
+      <target>grande</target>
+      <text> corpulencia, infló </text>
+      <target>su</target>
+      <text> </text>
+      <target>arrugada</target>
+      <text> piel y, preguntó a </text>
+      <target>sus</target>
+      <text> hijos, si estaba ya más </text>
+      <target>grande</target>
+      <text> que el buey. Le contestaron que no. </text>
+     </p>
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text> Por </text>
+      <target>segunda</target>
+      <text> vez ensanchó </text>
+      <target>su</target>
+      <text> piel con </text>
+      <target>mayor</target>
+      <text> esfuerzo, y nuevamente, preguntó quién de los dos era más </text>
+      <target>grande</target>
+      <text>. Los hijos dijeron que el buey.</text>
+     </p>
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text> Por último, </text>
+      <target>impaciente</target>
+      <text>, mientras luchaba por hincharse más, cayó allí </text>
+      <target>reventada</target>
+      <text>.</text>
+     </p>
+     <p background="0x0000FF" name="default" size="19" foreground="0xFFFFFF" family="Arial" bold="false" italic="false">
+      <text> Fedro   </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula31.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Completá el crucigrama con las referencias que aparecen.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>¡Espectacular!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="11" columns="9" cellWidth="30.0" cellHeight="30.0" border="true">
+    <style>
+     <font family="Arial" size="19" />
+     <color foreground="0x008000" background="0xFFFFFF" inactive="0x00FF00" alternative="0x00FF00" />
+    </style>
+    <text>
+     <row>E*******H**</row>
+     <row>N******PIEL</row>
+     <row>V*******J**</row>
+     <row>I***FEDRO**</row>
+     <row>D***Á***S**</row>
+     <row>I***BUEY***</row>
+     <row>A***U******</row>
+     <row>*INFLÓ*****</row>
+     <row>***RANA****</row>
+    </text>
+   </textGrid>
+   <cells rows="9" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>2º vocal</p>
+    </cell>
+    <cell id="0" item="1">
+     <p>H</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>N</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>Capa externa que cubre el cuerpo de la rana.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>V</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>I</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>Nombre del autor</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>D</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>1º vocal acentuada</p>
+    </cell>
+    <cell id="4" item="2">
+     <p>Consonante que está en el medio de OSO.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>3º vocal</p>
+    </cell>
+    <cell id="5" item="1">
+     <p>El animal más grande de la fábula.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>A</p>
+    </cell>
+    <cell id="6" item="1">
+     <p>Última vocal.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Hinchó soplando...</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Animal envidioso de la fábula.</p>
+    </cell>
+   </cells>
+   <cells rows="11" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Sentimiento que aparece cuando a otro lo quieren más.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>3º vocal.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Consonante que se repite en la palabra NENE.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>F</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Relato del que se saca alguna enseñanza.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>2º vocal.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>4º letra del abecedario.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>P</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Descendientes de mamá y papá.</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>E</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>L</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="fabula31.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="20" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Reconstruí al personaje de esta fábula</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="20" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>¡Hermoso!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="sapo.gif">
+    <style>
+     <font family="Arial" size="20" />
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@text.Identify" name="fabula31.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="16" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Marcá los sustantivos de la fábula. Son 14. Algunos están repetidos.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="16" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Excelente!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="370" />
+    </window>
+   </settings>
+   <checkButton>Hacé clic aquí cuando termines de marcar todo.</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="32" foreground="0x000080" size="20" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text> </text>
+      <cell width="500" height="50" border="false">
+       <style shadow="true">
+        <font family="Arial" size="24" bold="true" />
+        <color background="0xFFFFFF" shadow="0xFF0080" inactive="0xFF0080" alternative="0xFF0080" />
+       </style>
+       <p>LA RANA QUE REVENTÓ Y EL BUEY</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>Una </text>
+      <target>rana</target>
+      <text> vio en un </text>
+      <target>prado</target>
+      <text> a un </text>
+      <target>buey</target>
+      <text>, y envidiosa de tan grande </text>
+      <target>corpulencia</target>
+      <text>, infló su arrugada </text>
+      <target>piel</target>
+      <text> y, preguntó a sus </text>
+      <target>hijos</target>
+      <text> si estaba ya más grande  que el </text>
+      <target>buey</target>
+      <text>. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>Le contestaron que no. Por segunda </text>
+      <target>vez</target>
+      <text> ensanchó  su </text>
+      <target>piel</target>
+      <text> con mayor </text>
+      <target>esfuerzo</target>
+      <text>, y nuevamente, preguntó quién de los </text>
+      <target>dos</target>
+      <text> era más grande. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>Los </text>
+      <target>hijos</target>
+      <text> dijeron  que el </text>
+      <target>buey</target>
+      <text>.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>Por último, impaciente, mientras luchaba por hincharse más, cayó allí reventada.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>                           </text>
+      <target>Fedro</target>
+      <text>. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@panels.InformationScreen" name="fabula41.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+     <p>Leé con atención esta fábula y cuando termines pasá a la próxima pantalla.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x000080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="700.0" cellHeight="140.0" border="false">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x000080" background="0x00FFFF" inactive="0x0000FF" alternative="0x0000FF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Dicho de Sócrates</p>
+    </cell>
+    <cell>
+     <p>Sócrates, construyó para él una casa pequeña; alguien del pueblo, como suele suceder, le dijo:</p>
+    </cell>
+    <cell>
+     <p>-¿Es posible que un hombre como vos fabrique una casa tan estrecha?</p>
+    </cell>
+    <cell>
+     <p>-Ojalá, respondió Sócrates, que siquiera ésa la pueda llenar de verdaderos amigos.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula41.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="21" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Completá este crucigrama con las palabras de la fábula.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="21" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bueno tu trabajo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="18" columns="8" cellWidth="28.0" cellHeight="28.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFF0080" background="0xFFFFFF" inactive="0xFF80FF" alternative="0xFF80FF" />
+    </style>
+    <text>
+     <row>*****CASA*********</row>
+     <row>******CONSTRUCCIÓN</row>
+     <row>*****DICHO********</row>
+     <row>*SUCEDER**********</row>
+     <row>*******AMIGOS*****</row>
+     <row>*****ESTRECHA*****</row>
+     <row>**HOMBRE**********</row>
+     <row>*****RESPONDIÓ****</row>
+    </text>
+   </textGrid>
+   <cells rows="8" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Arial" size="30" />
+     <color foreground="0x80FFFF" background="0x0000FF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Sinónimo de vivienda.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Susantivo que representa la acción de construir (Con acento).</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Frase o sentencia.Ocurrencia.Refrán. 1º vocablo de esta fábula</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Infinitivo de sucedió.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Personas que establecen amistad.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Adjetivo femenino: de poca anchura.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Antónimo de mujer.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Sinónimo de contestó. (3º persona del singular, tiempo pasado).</p>
+    </cell>
+   </cells>
+   <cells rows="18" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Arial" size="30" />
+     <color foreground="0x80FFFF" background="0x0000FF" />
+    </style>
+    <cell id="0" item="0">
+     <p>*</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>S</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Última vocal.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>C</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>2º vocal.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>C</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>1º vocal.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Nombre que aparece en el título de la fábula.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>A</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>S</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>T</p>
+    </cell>
+    <cell id="11" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="12" item="0">
+     <p>U</p>
+    </cell>
+    <cell id="13" item="0">
+     <p>C</p>
+    </cell>
+    <cell id="14" item="0">
+     <p>C</p>
+    </cell>
+    <cell id="15" item="0">
+     <p>I</p>
+    </cell>
+    <cell id="16" item="0">
+     <p>Ó</p>
+    </cell>
+    <cell id="17" item="0">
+     <p>Consonante entre M y Ñ.</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="fabula41.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Armá el rompecabezas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>¡Precioso!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x00FF40">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="2" cols="3" border="true" image="casas.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula41.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0xFFFFFF" background="0xFF00FF" />
+     </style>
+     <p>Encontrá en esta sopa de letras 5 verbos que están en la fábula.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0xFFFFFF" background="0xFF00FF" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0xFF80C0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFF00FF" border="true" />
+   </settings>
+   <textGrid rows="12" columns="6" cellWidth="70.0" cellHeight="70.0" border="true">
+    <style>
+     <font family="Arial" size="19" />
+     <color foreground="0xFFFFFF" background="0xFF00FF" inactive="0xFF80FF" alternative="0xFF80FF" />
+    </style>
+    <text>
+     <row>**CONSTRUYÓL</row>
+     <row>D**********L</row>
+     <row>I**SUCEDER*E</row>
+     <row>J**********N</row>
+     <row>O**********A</row>
+     <row>*ÓIDNOPSER*R</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CONSTRUYÓ</clue>
+    <clue id="1">SUCEDER</clue>
+    <clue id="2">LLENAR</clue>
+    <clue id="3">DIJO</clue>
+    <clue id="4">RESPONDIÓ</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="fabula41.txa" type="orderParagraphs">
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Leé atentamente y al finalizar hacé clic en el texto.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Arrastrá los párrafos al lugar que corresponda.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>¡Felicitaciones por tu dedicación!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0080FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Hacé clic al terminar.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0x80FFFF" target="true" foreground="0x0000A0" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x400040" size="15" family="Century Gothic" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false">
+      <cell width="580" height="100" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x0080FF" background="0xFFFFFF" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+       <p>Dicho de Sócrates</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false">
+      <target>Sócrates, construyó para él una casa pequeña; alguien del pueblo, como suele suceder, le dijo:</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false">
+      <target>-¿Es posible que un hombre como vos fabrique una casa tan estrecha?</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false">
+      <target>-Ojalá, respondió Sócrates, que siquiera ésa la pueda llenar de verdaderos amigos.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="15" foreground="0x400040" family="Century Gothic" bold="false" italic="false">
+      <text>   </text>
+      <cell width="432" height="130" border="false" image="casas.gif">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x0080FF" background="0xFFFFFF" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+      </cell>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" checkAccents="false" checkPunctuation="false" checkDoubleSpaces="true" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fabula42.txa" autoJump="true" forceOkToAdvance="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>En el texto están destacados todos los verbos, -salvo los que figuran en infinitivo- conjugados o no. Borralos de a uno y reemplazalos en tiempo futuro.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="550" height="350" />
+    </window>
+   </settings>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFF80" tabWidth="16" foreground="0x000080" size="21" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFF80" name="default" size="21" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>       </text>
+      <cell width="400" height="70" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x004080" background="0xFFFFFF" shadow="0x0080FF" inactive="0x0080FF" alternative="0x0080FF" />
+       </style>
+       <p>Dicho de Sócrates</p>
+      </cell>
+     </p>
+     <p background="0xFFFF80" name="default" size="21" foreground="0x000080" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFF80" name="default" size="21" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>Sócrates, </text>
+      <target>
+       <answer>construirá</answer>
+       <response fill="_" length="9" maxLength="10" show="construyó" />
+       <text>construyó</text>
+      </target>
+      <text> para él una casa pequeña, alguien del pueblo, como </text>
+      <target>
+       <answer>solerá</answer>
+       <response fill="_" length="5" maxLength="6" show="suele" />
+       <text>suele</text>
+      </target>
+      <text> suceder , le </text>
+      <target>
+       <answer>dirá</answer>
+       <response fill="_" length="4" maxLength="4" show="dijo" />
+       <text>dijo</text>
+      </target>
+      <text>:</text>
+     </p>
+     <p background="0xFFFF80" name="default" size="21" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>-¿Es posible que un hombre como vos </text>
+      <target>
+       <answer>fabricará</answer>
+       <response fill="_" length="8" maxLength="9" show="fabrique" />
+       <text>fabrique</text>
+      </target>
+      <text> una casa tan estrecha?</text>
+     </p>
+     <p background="0xFFFF80" name="default" size="21" foreground="0x000080" family="Arial" bold="false" italic="false">
+      <text>-Ojalá, </text>
+      <target>
+       <answer>responderá</answer>
+       <response fill="_" length="9" maxLength="10" show="respondió" />
+       <text>respondió</text>
+      </target>
+      <text> Sócrates, que siquiera ésa la </text>
+      <target>
+       <answer>podrá</answer>
+       <response fill="_" length="5" maxLength="5" show="pueda" />
+       <text>pueda</text>
+      </target>
+      <text> llenar de verdaderos amigos.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.Complete" name="fabula43.txa">
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Leé atentamente y al finalizar hacé clic en el texto.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Desaparecieron los signos de puntuación,¿me ayudarías a  completarlos? Ayudita: son 11 </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>¡Felicitaciones por tu dedicación!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Hacé clic al terminar.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0x80FFFF" target="true" foreground="0x0000A0" />
+    <style name="default" background="0xFF80C0" tabWidth="16" foreground="0xFFFFFF" size="33" family="Comic Sans MS" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false">
+      <cell width="480" height="84" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0xFFFFFF" background="0xFF80C0" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+       <p>Dicho de Sócrates</p>
+      </cell>
+     </p>
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false">
+      <text>Sócrates, construyó para él una casa pequeña</text>
+      <target>;</target>
+      <text> alguien del pueblo</text>
+      <target>,</target>
+      <text> como suele suceder</text>
+      <target>,</target>
+      <text> le dijo</text>
+      <target>:</target>
+     </p>
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false">
+      <target>-¿</target>
+      <text>Es posible que un hombre como vos fabrique una casa tan estrecha</text>
+      <target>?</target>
+     </p>
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false">
+      <target>-</target>
+      <text>Ojalá</text>
+      <target>,</target>
+      <text> respondió Sócrates</text>
+      <target>,</target>
+      <text> que siquiera ésa la pueda llenar de verdaderos amigos</text>
+      <target>.</target>
+     </p>
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0xFF80C0" name="default" size="33" foreground="0xFFFFFF" family="Comic Sans MS" bold="false" italic="false">
+      <text>   </text>
+      <cell width="432" height="130" border="false" image="casas.gif">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0xFFFFFF" background="0xFF80C0" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+      </cell>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" checkDoubleSpaces="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="fabula51.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="14" />
+      <color foreground="0xFFFFFF" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Leé  con atención el texto que aparece en la pantalla. </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="14" />
+      <color foreground="0xFFFFFF" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="12" cols="1" cellWidth="700.0" cellHeight="45.0" border="false">
+    <style>
+     <font family="Arial" size="12" />
+     <color foreground="0xFFFFFF" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="12" />
+    <cell>
+     <p>El Sol y el Pampero</p>
+    </cell>
+    <cell>
+     <p>Un día de otoño, iba caminando un viajero, bien envuelto en un poncho pesado. El Pampero lo vio, y le dijo:</p>
+    </cell>
+    <cell>
+     <p>-¿A que le quito el poncho?</p>
+    </cell>
+    <cell>
+     <p>-¿A que se lo quito yo antes que usted? -contestó el Sol.</p>
+    </cell>
+    <cell>
+     <p>-¿Apostamos?</p>
+    </cell>
+    <cell>
+     <p>-Sí, bueno. Empiece usted.</p>
+    </cell>
+    <cell>
+     <p>Y empezó el Pampero a soplar con toda su fuerza, arrancando árboles añosos, todo esto para quitarle la capa a un viajero.</p>
+    </cell>
+    <cell>
+     <p>Perdió el tiempo: no pudo hacer nada. </p>
+    </cell>
+    <cell>
+     <p>El paisano iba apretando cada vez más el poncho con los brazos, y se cansó el Pampero sin haber conseguido lo que quería.</p>
+    </cell>
+    <cell>
+     <p>Le tocó al Sol hacer la prueba. </p>
+    </cell>
+    <cell>
+     <p>Se limpió la cara de las nubes amontonadas por el viento, y tan bien bañó al viajero con sus rayos que, en pocos minutos, había logrado que se sacase el poncho.</p>
+    </cell>
+    <cell>
+     <p>                                                Godofredo Daireaux. </p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula51.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x00FFFF" background="0x0000FF" />
+     </style>
+     <p>Descubrí las palabras del acróstico. Te doy las referencias horizontales y verticales.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x00FFFF" background="0x0000FF" />
+     </style>
+     <p>¡Excelente! Si te fijás, la palabra central es...</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0x0000FF" border="false" />
+   </settings>
+   <textGrid rows="13" columns="7" cellWidth="40.0" cellHeight="40.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="25" />
+     <color foreground="0x008040" background="0x00FF40" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <text>
+     <row>*****PERDIÓ**</row>
+     <row>*SOPLAR******</row>
+     <row>****AMONTONAR</row>
+     <row>*****PAISANO*</row>
+     <row>**NUBES******</row>
+     <row>****PRUEBA***</row>
+     <row>PONCHO*******</row>
+    </text>
+   </textGrid>
+   <cells rows="7" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Comic Sans MS" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Verbo perder en pretérito perfecto simple, en tercera persona del singular.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Infinitivo de soplaré.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Sinónimo de juntar, apilar, poner un montón.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Hombre que nació en el mismo lugar o país que otro.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Masa de vapor acuoso en suspensión en la atmósfera (en plural).</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Razón o argumento con que se demuestra una cosa. Test.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Prenda de lana sin mangas con abertura en el centro para pasar la cabeza.</p>
+    </cell>
+   </cells>
+   <cells rows="13" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Comic Sans MS" size="18" />
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Consonante que está entre la O y Q.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>S</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>4º vocal.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>P</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Artículo femenino.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Personaje principal, enemigo del sol.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>E:R</p>
+    </cell>
+    <cell id="6" item="1">
+     <p>O</p>
+    </cell>
+    <cell id="6" item="2">
+     <p>A</p>
+    </cell>
+    <cell id="6" item="3">
+     <p>S</p>
+    </cell>
+    <cell id="6" item="4">
+     <p>U</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>ROSA empieza con...</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>N</p>
+    </cell>
+    <cell id="7" item="2">
+     <p>I</p>
+    </cell>
+    <cell id="7" item="3">
+     <p>E</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Cuarta letra del abecedario</p>
+    </cell>
+    <cell id="8" item="1">
+     <p>T</p>
+    </cell>
+    <cell id="8" item="2">
+     <p>S</p>
+    </cell>
+    <cell id="8" item="3">
+     <p>B</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>Indio empieza con ...</p>
+    </cell>
+    <cell id="9" item="1">
+     <p>O</p>
+    </cell>
+    <cell id="9" item="2">
+     <p>A</p>
+    </cell>
+    <cell id="9" item="3">
+     <p>A</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>PERDIÖ termina con...</p>
+    </cell>
+    <cell id="10" item="1">
+     <p>N</p>
+    </cell>
+    <cell id="10" item="2">
+     <p>N</p>
+    </cell>
+    <cell id="11" item="0">
+     <p>Primera letra del abecedario</p>
+    </cell>
+    <cell id="11" item="1">
+     <p>4º vocal</p>
+    </cell>
+    <cell id="12" item="0">
+     <p>R</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula51.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="23" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>Buscá en la sopa de letras 9 palabras de la fábula; pueden estar en forma vertical u horizontal.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="23" />
+      <color foreground="0x0000FF" background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="10" columns="8" cellWidth="70.0" cellHeight="70.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFFFFFF" background="0x0000FF" inactive="0x80FF00" alternative="0x80FF00" />
+    </style>
+    <text>
+     <row>Q****OTOÑO</row>
+     <row>U*PÁRBOLES</row>
+     <row>I*A***LES*</row>
+     <row>T*MVIAJERO</row>
+     <row>A*PONCHO**</row>
+     <row>R*EDÍA****</row>
+     <row>L*R**P****</row>
+     <row>ESOL*A****</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">QUITARLE</clue>
+    <clue id="1">PAMPERO</clue>
+    <clue id="2">SOL</clue>
+    <clue id="3">ÁRBOLES</clue>
+    <clue id="4">VIAJERO</clue>
+    <clue id="5">PONCHO</clue>
+    <clue id="6">OTOÑO</clue>
+    <clue id="7">CAPA</clue>
+    <clue id="8">DÍA</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="fabula51.txa" type="orderParagraphs">
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FFFF" />
+     </style>
+     <p>Leé atentamente el texto y al finalizar hacé clic en la lectura. </p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FFFF" />
+     </style>
+     <p>Ordená los párrafos arrastrándolos con el mouse hasta el lugar que corresponde.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FFFF" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Hacé clic aquí cuando termines.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0x0080FF" target="true" foreground="0x400040" />
+    <style name="default" background="0x00FFFF" tabWidth="16" foreground="0x000000" size="19" family="Comic Sans MS" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <cell width="380" height="30" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="27" />
+        <color foreground="0x8000FF" background="0x80FFFF" shadow="0x004080" inactive="0x004080" alternative="0x004080" />
+       </style>
+       <p>El Sol y el Pampero</p>
+      </cell>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Un día de otoño, iba caminando un viajero, bien envuelto en un poncho pesado. El Pampero lo vio, y le dijo:</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>-¿A que le quito el poncho?</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>-¿A que se lo quito yo antes que usted? -contestó el Sol.</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>-¿Apostamos?</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>-Sí, bueno. Empiece usted.</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Y empezó el Pampero a soplar con toda su fuerza, arrancando árboles añosos, todo esto para quitarle la capa a un viajero.</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Perdió el tiempo: no pudo hacer nada. </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>El paisano iba apretando cada vez más el poncho con los brazos, y se cansó el Pampero sin haber conseguido lo que quería</target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Le tocó al Sol hacer la prueba. </target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Se limpió la cara de las nubes amontonadas por el viento, y tan bien bañó al viajero con sus rayos que, en pocos minutos, había logrado que se sacase el poncho.                 </target>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Godofredo Daireaux.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="19" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text> </text>
+      <cell width="180" height="180" border="true" image="viento.gif">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="27" />
+        <color foreground="0x8000FF" background="0x80FFFF" shadow="0x004080" inactive="0x004080" alternative="0x004080" />
+       </style>
+      </cell>
+      <text>        </text>
+      <cell width="140" height="100" border="false" image="sol.gif">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="27" />
+        <color foreground="0x8000FF" background="0x80FFFF" shadow="0x004080" inactive="0x004080" alternative="0x004080" />
+       </style>
+      </cell>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" checkAccents="false" checkPunctuation="false" checkDoubleSpaces="true" />
+  </activity>
+  <activity class="@text.Identify" name="fabula52.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="15" />
+      <color foreground="0x0000A0" background="0x00FF80" />
+     </style>
+     <p>Identificá 17 verbos conjugados -sin contar los que están en infinitivo o con el auxiliar- que hay en el texto. Sólo tenés que hacer clic cuando lo encuentres.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="15" />
+      <color foreground="0x0000A0" background="0x00FF80" />
+     </style>
+     <p>¡Excelente sos un genio!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="660" height="500" />
+    </window>
+   </settings>
+   <checkButton>Cuando termines de marcar todo, hacé clic acá. </checkButton>
+   <document>
+    <style name="target" base="default" background="0x80FFFF" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x00FF80" tabWidth="16" foreground="0x000040" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>              </text>
+      <cell width="360" height="60" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="20" />
+        <color foreground="0xFFFFFF" background="0x0000A0" shadow="0x0000FF" inactive="0x0000FF" alternative="0x0000FF" />
+       </style>
+       <p>El Sol y el Pampero</p>
+      </cell>
+      <text> </text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>Un día de otoño, iba caminando un viajero, bien envuelto en un poncho pesado. El Pampero lo </text>
+      <target>vio</target>
+      <text>, y le </text>
+      <target>dijo</target>
+      <text>:</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>- ¿A que le </text>
+      <target>quito</target>
+      <text> el poncho?</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>- ¿A que se lo </text>
+      <target>quito</target>
+      <text> yo antes que usted? - </text>
+      <target>contestó</target>
+      <text> el Sol.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>- </text>
+      <target>¿Apostamos?</target>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>-Sí, bueno. </text>
+      <target>Empiece</target>
+      <text> usted.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>Y </text>
+      <target>empezó</target>
+      <text> el Pampero a soplar con toda su fuerza, </text>
+      <target>arrancando</target>
+      <text> árboles añosos, todo esto para </text>
+      <target>quitarle</target>
+      <text> la capa a un viajero.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <target>Perdió</target>
+      <text> el tiempo: no pudo hacer nada. </text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>El paisano iba apretando cada vez más el poncho con los brazos, y se </text>
+      <target>cansó</target>
+      <text> el Pampero sin haber conseguido lo que </text>
+      <target>quería</target>
+      <text>.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>Le </text>
+      <target>tocó</target>
+      <text> al Sol hacer la prueba. </text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>Se </text>
+      <target>limpió</target>
+      <text> la cara de las nubes amontonadas por el viento, y tan bien </text>
+      <target>bañó</target>
+      <text> al viajero con sus rayos que, en pocos minutos, había logrado que se </text>
+      <target>sacase</target>
+      <text> el poncho.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="17" foreground="0x000040" family="Arial" bold="false" italic="false">
+      <text>                                                Godofredo Daireaux. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Identify" name="fabula53.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x0000A0" background="0x00FF80" />
+     </style>
+     <p>Buscá los verbos en infinitivo, luego hacé clic en el botón de evaluación.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x0000A0" background="0x00FF80" />
+     </style>
+     <p>¡Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="target" base="default" background="0xFFFF00" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x80FF80" tabWidth="16" foreground="0x000000" size="17" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                     </text>
+      <cell width="270" height="55" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="30" />
+        <color background="0xFFFF00" shadow="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+       </style>
+       <p>El sol y el Pampero</p>
+      </cell>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Un día de otoño, iba caminando un viajero, bien envuelto en un poncho pesado. El Pampero lo vio, y le dijo:</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-¿A que le quito el poncho?</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-¿A que se lo quito yo antes que usted? -contestó el Sol.</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-¿Apostamos?</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-Sí, bueno. Empiece usted.</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Y empezó el Pampero a </text>
+      <target>soplar</target>
+      <text> con toda su fuerza, arrancando árboles añosos, todo esto para quitarle la capa a un viajero.</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Perdió el tiempo: no pudo </text>
+      <target>hacer</target>
+      <text> nada. </text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>El paisano iba apretando cada vez más el poncho con los brazos, y se cansó el Pampero sin </text>
+      <target>haber</target>
+      <text> conseguido lo que quería.</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Le tocó al Sol </text>
+      <target>hacer</target>
+      <text> la prueba. </text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Se limpió la cara de las nubes amontonadas por el viento, y tan bien bañó al viajero con sus rayos que, en pocos minutos, había logrado que se sacase el poncho.</text>
+     </p>
+     <p background="0x80FF80" name="default" size="17" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                                                Godofredo Daireaux. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Identify" name="fabula54.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0xFFFFFF" background="0x000000" />
+     </style>
+     <p>Buscá todos los sustantivos propios del texto (hacé clic en cada uno que encuentres).</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0xFFFFFF" background="0x000000" />
+     </style>
+     <p>¡Muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Hacé clic aquí cuando termines</checkButton>
+   <document>
+    <style name="target" base="default" background="0x00FFFF" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x000080" tabWidth="16" foreground="0x00FFFF" size="18" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>                             </text>
+      <cell width="250" height="55" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0x0000FF" background="0xFFFFFF" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+       <p>El sol y el Pampero</p>
+      </cell>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>Un día de otoño, iba caminando un viajero, bien envuelto en un poncho pesado. El </text>
+      <target>Pampero</target>
+      <text> lo vio, y le dijo:</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>-¿A que le quito el poncho?</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>-¿A que se lo quito yo antes que usted? -contestó el </text>
+      <target>Sol</target>
+      <text>.</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>-¿Apostamos?</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>-Sí, bueno. Empiece usted.</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>Y empezó el </text>
+      <target>Pampero</target>
+      <text> a soplar con toda su fuerza, arrancando árboles añosos, todo esto para quitarle la capa a un viajero.</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>Perdió el tiempo: no pudo hacer nada. </text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>El paisano iba apretando cada vez más el poncho con los brazos, y se cansó el </text>
+      <target>Pampero</target>
+      <text> sin haber conseguido lo que quería.</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>Le tocó al </text>
+      <target>Sol</target>
+      <text> hacer la prueba. </text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>Se limpió la cara de las nubes amontonadas por el viento, y tan bien bañó al viajero con sus rayos que, en pocos minutos, había logrado que se sacase el poncho.</text>
+     </p>
+     <p background="0x000080" name="default" size="18" foreground="0x00FFFF" family="Arial" bold="false" italic="false">
+      <text>                                                  </text>
+      <target>Godofredo</target>
+      <text> </text>
+      <target>Daireaux</target>
+      <text>. </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@panels.InformationScreen" name="fabula61.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0xFF0000" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Leé esta fábula, para que puedas realizar las actividades.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color foreground="0xFF0000" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="11" cols="1" cellWidth="700.0" cellHeight="45.0" border="false">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0xFF0000" background="0xFFFFFF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="11" />
+    <cell>
+     <p>La rana y la gallina</p>
+    </cell>
+    <cell>
+     <p>   Desde su charco una charlatana rana oyó cacarear una gallina.</p>
+    </cell>
+    <cell>
+     <p>"Vaya", le dijo, "no creyera, hermana, que fueras tan incómoda vecina.</p>
+    </cell>
+    <cell>
+     <p>Y con toda bulla ¿qué hay de nuevo?" </p>
+    </cell>
+    <cell>
+     <p>"Nada, si no anunciar que pongo un huevo".</p>
+    </cell>
+    <cell>
+     <p>"¿Un huevo solo? ¡Y alborotas tanto!"</p>
+    </cell>
+    <cell>
+     <p>"Un huevo solo; si, señora mía.</p>
+    </cell>
+    <cell>
+     <p>¿Te espantas de eso, cuando no me espanto de oirte cómo graznas noche y día?</p>
+    </cell>
+    <cell>
+     <p>Yo, porque sirvo de algo, lo publico;</p>
+    </cell>
+    <cell>
+     <p>Tú, que de nada sirves, calla el pico.</p>
+    </cell>
+    <cell>
+     <p>Tomás de Iriarte, en Fábulas.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula61.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FF80" inactive="0x000000" alternative="0x000000" />
+     </style>
+     <p>Completá el crucigrama con las palabras del texto, guiándote por las referencias y la palabra central.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FF80" inactive="0x000000" alternative="0x000000" />
+     </style>
+     <p>¡Qué inteligente! Sin tu ayuda no lo podríamos haber hecho.</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="11" columns="7" cellWidth="45.0" cellHeight="45.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="36" />
+     <color foreground="0x00FFFF" background="0x0000A0" inactive="0x00FF80" alternative="0x00FF80" />
+    </style>
+    <text>
+     <row>****GRAZNAR</row>
+     <row>***CACAREAR</row>
+     <row>*BULLA*****</row>
+     <row>CHARLATANA*</row>
+     <row>*VECINA****</row>
+     <row>***INCÓMODA</row>
+     <row>HERMANA****</row>
+    </text>
+   </textGrid>
+   <cells rows="7" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Comic Sans MS" size="17" />
+     <color background="0x00FF80" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <cell id="0" item="0">
+     <p>Acción que realizaba la rana, molestando a la gallina.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Infinitivo  de cacareó.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Algarabía de voces, gritos y risas.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Adjetivo que califica a la rana (parlanchina).</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Persona que vive cerca de otra.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Adjetivo contrario de cómoda.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Mujer que tiene los mismos padres que otra.</p>
+    </cell>
+   </cells>
+   <cells rows="11" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Comic Sans MS" size="17" />
+     <color background="0x00FF80" inactive="0x000000" alternative="0x000000" />
+    </style>
+    <cell id="0" item="0">
+     <p>Segunda consonante.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Primer consonante.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Última vocal.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>C.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Hembra del gallo.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>R.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Primera vocal.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Última consonante.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Letra siguiente a la M.</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>A.</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>Letra anterior a la S.</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.ExchangePuzzle" name="fabula61.puz">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Armá el rompecabezas</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>¡Sos un genio!</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0x00FF00">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="2" cols="2" border="true" image="galli.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <scramble times="31" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula61.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Buscá en la sopa de letras, las 7 palabras que forman parte del texto que leíste recién. Pueden aparecer en forma vertical, horizontal o en diagonal.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>¡¡Muy bien!! ¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="10" columns="10" cellWidth="60.0" cellHeight="60.0" border="true">
+    <style>
+     <font family="Comic Sans MS" size="23" />
+     <color background="0xFF80C0" />
+    </style>
+    <text>
+     <row>***PUBLICO</row>
+     <row>E**H*****A</row>
+     <row>S***U****L</row>
+     <row>PS***E***B</row>
+     <row>AER***V**O</row>
+     <row>NÑA****O*R</row>
+     <row>TON******O</row>
+     <row>ARA******T</row>
+     <row>SA*******A</row>
+     <row>CHARCO***S</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">PUBLICO</clue>
+    <clue id="1">ESPANTAS</clue>
+    <clue id="2">SEÑORA</clue>
+    <clue id="3">RANA</clue>
+    <clue id="4">CHARCO</clue>
+    <clue id="5">HUEVO</clue>
+    <clue id="6">ALBOROTAS</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="fabula61.txa" type="orderParagraphs">
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Comic Sans MS" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Leé atentamente la  fábula y cuando termines hacé clic en el texto.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Se enloqueció la fábula. Te desafío a que soluciones este problema, arrastrando los párrafos al lugar que les corresponde.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="17" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Excelente. Ahora sí se puede leer!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="650" height="450" />
+    </window>
+   </settings>
+   <checkButton>Cuando termines hacé clic aquí para evaluar.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0x00FFFF" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x000000" size="18" family="Comic Sans MS" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>                </text>
+      <cell width="300" height="70" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="31" />
+        <color foreground="0xFFFFFF" background="0x0000FF" shadow="0x0000A0" inactive="0x0000A0" alternative="0x0000A0" />
+       </style>
+       <p>La rana y la gallina</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Desde su charco una charlatana rana oyó cacarear una gallina.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Vaya", le dijo, "no creyera, hermana, que fueras tan incómoda vecina.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Y con toda bulla ¿qué hay de nuevo?" </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>"Nada, si no anunciar que pongo un huevo".</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"¿Un huevo solo? ¡Y alborotas tanto!"</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>"Un huevo solo; si, señora mía.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>¿Te espantas de eso, cuando no me espanto de oirte cómo graznas noche y día?</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Yo, porque sirvo de algo, lo publico;</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <target>Tú, que de nada sirves, calla el pico.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="18" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>                 Tomás de Iriarte, en Fábulas.                                                         </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fabula62.txa">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="22" />
+      <color background="0x00FF80" />
+     </style>
+     <p>Completá los huecos con las palabras que aparecerán al hacer clic en la flechita.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="22" />
+      <color background="0x00FF80" />
+     </style>
+     <p>¡¡Muy bien lo lograste!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x00FF80" tabWidth="16" foreground="0x000000" size="21" family="Comic Sans MS" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>La rana y la gallina</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>   Desde su charco una charlatana rana </text>
+      <target>
+       <answer>oyó</answer>
+       <optionList>
+        <option>escuchó</option>
+        <option>miró</option>
+        <option>huyó</option>
+        <option>oyó</option>
+       </optionList>
+       <text>oyó</text>
+      </target>
+      <text> cacarear una gallina.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Vaya", le </text>
+      <target>
+       <answer>dijo</answer>
+       <optionList>
+        <option>habló</option>
+        <option>dejó</option>
+        <option>dijo</option>
+        <option>escuchó</option>
+       </optionList>
+       <text>dijo</text>
+      </target>
+      <text>, "no creyera, hermana, que fueras tan incómoda vecina.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Y con toda bulla ¿qué </text>
+      <target>
+       <answer>hay</answer>
+       <optionList>
+        <option>hay</option>
+        <option>hubo</option>
+        <option>hiciste</option>
+        <option>hizo</option>
+       </optionList>
+       <text>hay</text>
+      </target>
+      <text> de nuevo?" </text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Nada, si no </text>
+      <target>
+       <answer>anunciar</answer>
+       <optionList>
+        <option>avisar</option>
+        <option>decir</option>
+        <option>botonear</option>
+        <option>anunciar</option>
+       </optionList>
+       <text>anunciar</text>
+      </target>
+      <text> que pongo un huevo".</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"¿Un huevo solo? ¡Y </text>
+      <target>
+       <answer>alborotas</answer>
+       <optionList>
+        <option>gritas</option>
+        <option>alborotas</option>
+        <option>festejas</option>
+        <option>hablas</option>
+       </optionList>
+       <text>alborotas</text>
+      </target>
+      <text> tanto!"</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Un huevo solo; si, señora mía.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>¿Te </text>
+      <target>
+       <answer>espantas</answer>
+       <optionList>
+        <option>asustas</option>
+        <option>alegras</option>
+        <option>espantas</option>
+        <option>alegras</option>
+       </optionList>
+       <text>espantas</text>
+      </target>
+      <text> de eso, cuando no me espanto de oirte cómo graznas noche y día?</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Yo, porque sirvo de algo, lo </text>
+      <target>
+       <answer>publico</answer>
+       <optionList>
+        <option>anuncio</option>
+        <option>digo</option>
+        <option>aviso</option>
+        <option>publico</option>
+       </optionList>
+       <text>publico</text>
+      </target>
+      <text>;</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Tú, que de nada sirves, </text>
+      <target>
+       <answer>calla</answer>
+       <optionList>
+        <option>calla</option>
+        <option>cierra</option>
+        <option>no abras</option>
+        <option>cerrado</option>
+       </optionList>
+       <text>calla</text>
+      </target>
+      <text> el pico.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Tomás de Iriarte, en Fábulas.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fabula63.txa" autoJump="true" forceOkToAdvance="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FF80" />
+     </style>
+     <p>Reemplazá cada palabra destacada, con un sinónimo, borrándola primera.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="20" />
+      <color background="0x00FF80" />
+     </style>
+     <p>¡¡Muy bien lo lograste!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x00FF80" tabWidth="16" foreground="0x000000" size="21" family="Comic Sans MS" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>          </text>
+      <cell width="370" height="70" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="36" />
+        <color foreground="0xFF0000" background="0x00FF80" />
+       </style>
+       <p>La rana y la gallina</p>
+      </cell>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false" />
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>   Desde su charco una </text>
+      <target>
+       <answer>parlanchina</answer>
+       <answer>conversadora</answer>
+       <answer>habladora</answer>
+       <answer>discutidora</answer>
+       <response fill="_" length="10" maxLength="12" show="charlatana" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>conversadora, parlanchina</p>
+        </cell>
+       </info>
+       <text>charlatana</text>
+      </target>
+      <text> rana oyó cacarear una gallina.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Vaya", le dijo, "no creyera, hermana, que fueras tan </text>
+      <target>
+       <answer>molesta</answer>
+       <answer>disgustada</answer>
+       <answer>enojada</answer>
+       <answer>alterada</answer>
+       <response fill="_" length="8" maxLength="11" show="incómoda" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>disgustada, molesta, enojada, alterada</p>
+        </cell>
+       </info>
+       <text>incómoda</text>
+      </target>
+      <text> vecina.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Y con toda bulla ¿qué hay de nuevo?" </text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Nada, si no </text>
+      <target>
+       <answer>avisar</answer>
+       <answer>publicar</answer>
+       <answer>decir</answer>
+       <answer>pregonar</answer>
+       <response fill="_" length="8" maxLength="8" show="anunciar" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>pregonar, publicar, decir, avisar</p>
+        </cell>
+       </info>
+       <text>anunciar</text>
+      </target>
+      <text> que pongo un huevo".</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"¿Un huevo solo? ¡Y </text>
+      <target>
+       <answer>molestas</answer>
+       <answer>haces ruido</answer>
+       <answer>haces bataola</answer>
+       <answer>desordenas</answer>
+       <response fill="_" length="9" maxLength="13" show="alborotas" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>desordenas, molestas, haces ruido</p>
+        </cell>
+       </info>
+       <text>alborotas</text>
+      </target>
+      <text> tanto!"</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>"Un huevo solo; si, señora mía.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>¿Te </text>
+      <target>
+       <answer>atemorizas</answer>
+       <answer>horrorizas</answer>
+       <answer>temes</answer>
+       <answer>asustas</answer>
+       <response fill="_" length="8" maxLength="10" show="espantas" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>asustas, atemorizas, horrorizas, temes</p>
+        </cell>
+       </info>
+       <text>espantas</text>
+      </target>
+      <text> de eso, cuando no me espanto de oirte cómo graznas noche y día?</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Yo, porque sirvo de algo, lo publico;</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>Tú, que de nada sirves, </text>
+      <target>
+       <answer>cierra</answer>
+       <answer>silencia</answer>
+       <answer>guarda</answer>
+       <response fill="_" length="5" maxLength="7" show="calla" />
+       <info mode="onDemand">
+        <cell txtAlign="left,middle" imgAlign="left,middle" width="140" height="100">
+         <style>
+          <color background="0xFFFFFF" />
+         </style>
+         <p>cierra, silencia, guarda</p>
+        </cell>
+       </info>
+       <text>calla</text>
+      </target>
+      <text> el pico.</text>
+     </p>
+     <p background="0x00FF80" name="default" size="21" foreground="0x000000" family="Comic Sans MS" bold="false" italic="false">
+      <text>        Tomás de Iriarte, en Fábulas.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabula71.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>Completá el crucigrama y aparecerá en la palabra central el animal protagonista de la fábula.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x008000" background="0xFFFFFF" />
+     </style>
+     <p>¡Excelente! ¡Lo resolviste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0x008000" border="true" />
+   </settings>
+   <textGrid rows="13" columns="9" cellWidth="35.0" cellHeight="35.0" border="true">
+    <style>
+     <color foreground="0xFFFFFF" background="0x00FF00" inactive="0x008080" alternative="0x008080" />
+    </style>
+    <text>
+     <row>*GRAZNAR*****</row>
+     <row>C*****GALLINA</row>
+     <row>A**ESPANTO***</row>
+     <row>C**BULLA*****</row>
+     <row>A****ALBOROTO</row>
+     <row>R****PICO****</row>
+     <row>E***RANA*****</row>
+     <row>O*****A******</row>
+     <row>*SEÑORA******</row>
+    </text>
+   </textGrid>
+   <cells rows="9" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Grito ronco de algunas aves en infinitivo.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>2º consonante</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>Hembra del gallo.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>1ª vocal</p>
+    </cell>
+    <cell id="2" item="1">
+     <p>Terror, pánico, susto.</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>3ª letra del abecedario</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>Griterío, ruido.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>A</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>Vocerío, sobresalto</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="5" item="1">
+     <p>Le sobresale a la gallina</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>2º vocal</p>
+    </cell>
+    <cell id="6" item="1">
+     <p>Personaje del cuento muy saltarina</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>4º vocal</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>A</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Dama (femenino de señor) </p>
+    </cell>
+   </cells>
+   <cells rows="13" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <cell id="0" item="0">
+     <p>Grito que hace la gallina cuando se le saca un huevo.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>La palabra GATO empieza con...</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>S</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="2" item="1">
+     <p>E</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>1º vocal</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>E</p>
+    </cell>
+    <cell id="3" item="2">
+     <p>B</p>
+    </cell>
+    <cell id="3" item="3">
+     <p>Ñ</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Última letra del abecedario</p>
+    </cell>
+    <cell id="4" item="1">
+     <p>S</p>
+    </cell>
+    <cell id="4" item="2">
+     <p>U</p>
+    </cell>
+    <cell id="4" item="3">
+     <p>R</p>
+    </cell>
+    <cell id="4" item="4">
+     <p>O</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Letra del abecedario entre M y Ñ</p>
+    </cell>
+    <cell id="5" item="1">
+     <p>P</p>
+    </cell>
+    <cell id="5" item="2">
+     <p>L</p>
+    </cell>
+    <cell id="5" item="3">
+     <p>A</p>
+    </cell>
+    <cell id="5" item="4">
+     <p>P,A</p>
+    </cell>
+    <cell id="5" item="5">
+     <p>R.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>a</p>
+    </cell>
+    <cell id="6" item="1">
+     <p>Personaje de la leyenda, con plumas</p>
+    </cell>
+    <cell id="6" item="2">
+     <p>A.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>El otro personaje del cuento,B</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>C</p>
+    </cell>
+    <cell id="7" item="2">
+     <p>A.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>T</p>
+    </cell>
+    <cell id="8" item="1">
+     <p>O</p>
+    </cell>
+    <cell id="8" item="2">
+     <p>O</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>Artículo neutro</p>
+    </cell>
+    <cell id="9" item="1">
+     <p>R.</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>3º vocal</p>
+    </cell>
+    <cell id="10" item="1">
+     <p>O.</p>
+    </cell>
+    <cell id="11" item="0">
+     <p>N</p>
+    </cell>
+    <cell id="11" item="1">
+     <p>T</p>
+    </cell>
+    <cell id="12" item="0">
+     <p>1º letra del abecedario</p>
+    </cell>
+    <cell id="12" item="1">
+     <p>O</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabula71.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+     <p>Buscá en la sopa de letras 10 palabras relacionadas con la fábula; pueden estar en forma vertical, horizontal, diagonal, al derecho o al revés.  </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+     <p>¡Muy bien!!! ¡Lo lograste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="11" columns="10" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*SEÑORA****</row>
+     <row>***VECINACG</row>
+     <row>****OVEUH*A</row>
+     <row>G******A*EL</row>
+     <row>R*RANAR**SL</row>
+     <row>A****C***PI</row>
+     <row>Z***OBULLAN</row>
+     <row>N***HERMANA</row>
+     <row>A********T*</row>
+     <row>RCACAREARO*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">BULLA</clue>
+    <clue id="1">HUEVO</clue>
+    <clue id="2">GALLINA</clue>
+    <clue id="3">CACAREAR</clue>
+    <clue id="4">CHARCO</clue>
+    <clue id="5">RANA</clue>
+    <clue id="6">PICO</clue>
+    <clue id="7">HERMANA</clue>
+    <clue id="8">ESPANTO</clue>
+    <clue id="9">SEÑORA</clue>
+    <clue id="10">ALBOROTO</clue>
+    <clue id="11">GRAZNAR</clue>
+    <clue id="12">VECINA</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Identify" name="fabula71.txa" type="identifyWords">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+     <p>Buscá los 15 verbos presentes en el texto, salvo los que están en infinitivo. Identificalos haciendo clic.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" />
+     </style>
+     <p>¡Espectacular!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="31" foreground="0x0000A0" size="20" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>              </text>
+      <cell width="380" height="60" border="false">
+       <style>
+        <font family="Comic Sans MS" size="21" />
+        <color foreground="0xFFFFFF" background="0x000080" />
+       </style>
+       <p>La rana y la gallina</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>   Desde su charco una charlatana rana </text>
+      <target>oyó</target>
+      <text> cacarear una gallina. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>"Vaya", le </text>
+      <target>dijo</target>
+      <text>,"no </text>
+      <target>creyera</target>
+      <text>, hermana, que </text>
+      <target>fueras</target>
+      <text> tan incómoda vecina. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>Y con toda bulla ¿qué </text>
+      <target>hay</target>
+      <text> de nuevo?"</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>"Nada, sino anunciar que </text>
+      <target>pongo</target>
+      <text> un huevo".</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>"¿Un huevo solo?¡Y </text>
+      <target>alborotas</target>
+      <text> tanto!"</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>"Un huevo solo; sí, señora mía.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>¿Te </text>
+      <target>espantas</target>
+      <text> de eso, cuando no me </text>
+      <target>espanto</target>
+      <text> de </text>
+      <target>oírte</target>
+      <text> cómo </text>
+      <target>graznas</target>
+      <text> noche y día?</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>Yo, porque </text>
+      <target>sirvo</target>
+      <text> de algo, lo </text>
+      <target>publico</target>
+      <text>;</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>Tú de nada </text>
+      <target>sirves</target>
+      <text>,</text>
+      <target>calla</target>
+      <text> el pico".</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x0000A0" family="Arial" bold="false" italic="false">
+      <text>      </text>
+     </p>
+    </section>
+   </document>
+  </activity>
+  <activity class="@text.Order" name="fabula72.txa" type="orderWords" amongParagraphs="true">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color background="0x008040" />
+     </style>
+     <p>Ordená todos los sustantivos que aparecen en el texto, arrastrándolos hasta el lugar correcto. </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color background="0x008040" />
+     </style>
+     <p>¡Excelente! ¡Sos un genio!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x008000">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="false">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="31" foreground="0x000000" size="22" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>           </text>
+      <cell width="350" height="50" border="false">
+       <style shadow="true">
+        <font family="Arial" size="22" bold="true" />
+        <color foreground="0x008080" background="0xFFFFFF" shadow="0x00FF80" inactive="0x00FF80" alternative="0x00FF80" />
+       </style>
+       <p>La rana y la gallina</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>   Desde su </text>
+      <target>charco</target>
+      <text> una charlatana </text>
+      <target>rana</target>
+      <text> oyó cacarear una </text>
+      <target>gallina</target>
+      <text>. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>"Vaya", le dijo,"no creyera, </text>
+      <target>hermana</target>
+      <text>, que fueras tan incómoda </text>
+      <target>vecina</target>
+      <text>. </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Y con toda bulla ¿qué hay de nuevo?"</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>"Nada, sino anunciar que pongo un </text>
+      <target>huevo</target>
+      <text>".</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>"¿Un </text>
+      <target>huevo</target>
+      <text> solo?¡Y alborotas tanto!"</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>"Un </text>
+      <target>huevo</target>
+      <text> solo; sí, </text>
+      <target>señora</target>
+      <text> mía.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>¿Te espantas de eso, cuando no me espanto de oírte cómo graznas </text>
+      <target>noche</target>
+      <text> y </text>
+      <target>día?</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Yo, porque sirvo de algo, lo publico;</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Tú de nada sirves,calla el </text>
+      <target>pico</target>
+      <text>".</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="22" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>      </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="fabulam1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0xFFFFFF" background="0x008000" />
+     </style>
+     <p>         Leé atentamente el texto antes de pasar a la próxima actividad.                                                               </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0xFFFFFF" background="0x008000" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x80FF00">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="680.0" cellHeight="120.0" border="false">
+    <style>
+     <font family="Arial" size="30" />
+     <color foreground="0x00FF00" background="0x008000" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>El asno y los caminantes</p>
+    </cell>
+    <cell>
+     <p>Andaban dos hombres por un lugar extraviado y se encontraron por casualidad un asno. </p>
+    </cell>
+    <cell>
+     <p>Ambos querían quedárselo, y empezaron a discutir sobre cuál de ellos se quedaba con él; pero, mientras tanto, el asno se escapó dejándolos a los dos sin nada.</p>
+    </cell>
+    <cell>
+     <p>Esopo.</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabulam1.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" inactive="0x008000" alternative="0x008000" />
+     </style>
+     <p>Completá el crucigrama con las referencias horizontales y verticales.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x008000" background="0xFFFFFF" inactive="0x008000" alternative="0x008000" />
+     </style>
+     <p>Excelente!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="13" columns="9" cellWidth="30.0" cellHeight="30.0" border="true">
+    <style>
+     <font family="Arial" size="20" />
+     <color foreground="0x008000" background="0x00FF00" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <text>
+     <row>****ESOPO****</row>
+     <row>**ASNO*******</row>
+     <row>**DISCUTIR***</row>
+     <row>****ENCONTRAR</row>
+     <row>****Ñ********</row>
+     <row>***CAMINANTE*</row>
+     <row>***ANDABAN***</row>
+     <row>EMPEZARON****</row>
+     <row>*LUGAR*******</row>
+    </text>
+   </textGrid>
+   <cells rows="9" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <font family="Arial" size="19" />
+     <color foreground="0xFFFFFF" background="0x008000" />
+    </style>
+    <cell id="0" item="0">
+     <p>Autor del cuento</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Animal de carga</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>Contender y alegar razones contra el  parecer de otro</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Sinónimo de hallar</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Décima quinta letra del abecedario</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Persona que camina</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Iban de un lado a otro, caminaban.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Dieron comienzo a algo.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Sinónimo de zona</p>
+    </cell>
+   </cells>
+   <cells rows="13" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <font family="Arial" size="19" />
+     <color foreground="0xFFFFFF" background="0x008000" />
+    </style>
+    <cell id="0" item="0">
+     <p>E</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>M</p>
+    </cell>
+    <cell id="1" item="1">
+     <p>L</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>A</p>
+    </cell>
+    <cell id="2" item="1">
+     <p>D</p>
+    </cell>
+    <cell id="2" item="2">
+     <p>P</p>
+    </cell>
+    <cell id="2" item="3">
+     <p>U</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>Afirmación</p>
+    </cell>
+    <cell id="3" item="1">
+     <p>C</p>
+    </cell>
+    <cell id="3" item="2">
+     <p>A</p>
+    </cell>
+    <cell id="3" item="3">
+     <p>E</p>
+    </cell>
+    <cell id="3" item="4">
+     <p>G</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>Moraleja, aprendizaje que deja la fábula.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>S</p>
+    </cell>
+    <cell id="5" item="1">
+     <p>O</p>
+    </cell>
+    <cell id="5" item="2">
+     <p>C</p>
+    </cell>
+    <cell id="5" item="3">
+     <p>N</p>
+    </cell>
+    <cell id="5" item="4">
+     <p>M</p>
+    </cell>
+    <cell id="5" item="5">
+     <p>Entregar.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>O</p>
+    </cell>
+    <cell id="6" item="1">
+     <p>U</p>
+    </cell>
+    <cell id="6" item="2">
+     <p>C</p>
+    </cell>
+    <cell id="6" item="3">
+     <p>I</p>
+    </cell>
+    <cell id="6" item="4">
+     <p>A</p>
+    </cell>
+    <cell id="6" item="5">
+     <p>R</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>P</p>
+    </cell>
+    <cell id="7" item="1">
+     <p>T</p>
+    </cell>
+    <cell id="7" item="2">
+     <p>O</p>
+    </cell>
+    <cell id="7" item="3">
+     <p>N</p>
+    </cell>
+    <cell id="7" item="4">
+     <p>B</p>
+    </cell>
+    <cell id="7" item="5">
+     <p>O</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>O</p>
+    </cell>
+    <cell id="8" item="1">
+     <p>I</p>
+    </cell>
+    <cell id="8" item="2">
+     <p>N</p>
+    </cell>
+    <cell id="8" item="3">
+     <p>A</p>
+    </cell>
+    <cell id="8" item="4">
+     <p>A</p>
+    </cell>
+    <cell id="8" item="5">
+     <p>N</p>
+    </cell>
+    <cell id="9" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="9" item="1">
+     <p>T</p>
+    </cell>
+    <cell id="9" item="2">
+     <p>N</p>
+    </cell>
+    <cell id="9" item="3">
+     <p>N</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>R</p>
+    </cell>
+    <cell id="10" item="1">
+     <p>T</p>
+    </cell>
+    <cell id="11" item="0">
+     <p>A</p>
+    </cell>
+    <cell id="11" item="1">
+     <p>E</p>
+    </cell>
+    <cell id="12" item="0">
+     <p>R</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabulam1.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Buscá las 7 palabras relacionadas con la fábula; pueden estar en  forma  vertical, horizontal y al revés.    </p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>¡Te felicito por tu esfuerzo!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="8" columns="9" cellWidth="80.0" cellHeight="80.0" border="true">
+    <style>
+     <font family="Arial" size="20" />
+     <color foreground="0xFFFFFF" background="0x000080" inactive="0x00FF40" alternative="0x00FF40" />
+    </style>
+    <text>
+     <row>*C****HD</row>
+     <row>AAESOPOI</row>
+     <row>SM****MS</row>
+     <row>NI****BC</row>
+     <row>ON****RU</row>
+     <row>RAGUL*ET</row>
+     <row>*N****SI</row>
+     <row>*T*****R</row>
+     <row>*ESCAPÓ*</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">ASNO</clue>
+    <clue id="1">CAMINANTE</clue>
+    <clue id="2">ESCAPÓ</clue>
+    <clue id="3">DISCUTIR</clue>
+    <clue id="4">HOMBRES</clue>
+    <clue id="5">LUGAR</clue>
+    <clue id="6">ESOPO</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Order" name="fabulam1.txa" type="orderParagraphs">
+   <messages>
+    <cell type="previous">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Leé atentamente la fábula y hace clic en el texto.</p>
+    </cell>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Ordená los párrafos arastrándolos con el mouse hasta su ubicación correcta.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>¡Está muy bien!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="650" height="459" />
+    </window>
+   </settings>
+   <checkButton>Cuando termines hace clic aquí para evaluar.</checkButton>
+   <prevScreen maxTime="30" />
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0xFFFFFF" tabWidth="16" foreground="0x000000" size="20" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                 </text>
+      <cell width="340" height="60" border="false">
+       <style>
+        <font family="Comic Sans MS" size="22" />
+        <color foreground="0xFFFFFF" background="0x0000FF" />
+       </style>
+       <p>El asno y los caminantes</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Andaban dos hombres por un lugar extraviado y se encontraron por casualidad un asno. </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <target>Ambos querían quedárselo, y empezaron a discutir sobre cuál de ellos se quedaba con él; pero, mientras tanto, el asno se escapó dejándolos a los dos sin nada.</target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                                              Esopo.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                       </text>
+      <cell width="140" height="100" border="false" image="asno.gif">
+       <style>
+        <font family="Comic Sans MS" size="22" />
+        <color foreground="0xFFFFFF" background="0x0000FF" />
+       </style>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="20" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>                                     </text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@BasicEvaluator" />
+  </activity>
+  <activity class="@text.FillInBlanks" name="fabulam2.txa">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x000080" background="0xFFFFFF" inactive="0x400040" alternative="0x400040" />
+     </style>
+     <p>Completá con el signo de puntuación que corresponde en cada caso.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x000080" background="0xFFFFFF" inactive="0x400040" alternative="0x400040" />
+     </style>
+     <p>¡Felicitaciones!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <document>
+    <style name="target" base="default" background="0xFFFFFF" target="true" foreground="0x400040" />
+    <style name="default" background="0xFFFFFF" tabWidth="13" foreground="0x400040" size="30" family="Bookman Old Style" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFFFFFF" foreground="0x400040" />
+    <section>
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false">
+      <text>        </text>
+      <cell txtAlign="left,middle" imgAlign="left,middle" width="380" height="70" border="false">
+       <style>
+        <font family="Comic Sans MS" size="30" />
+        <color foreground="0xFFFFFF" background="0x004000" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+       </style>
+       <p>El asno y los caminantes</p>
+      </cell>
+     </p>
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false" />
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false">
+      <text>Andaban dos hombres por un lugar extraviado y se encontraron por casualidad un asno</text>
+      <target>
+       <answer>.</answer>
+       <response fill="_" length="1" maxLength="1" />
+       <text>.</text>
+      </target>
+      <text> </text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false">
+      <text>Ambos querían quedárselo</text>
+      <target>
+       <answer>,</answer>
+       <response fill="_" length="1" maxLength="1" />
+       <text>,</text>
+      </target>
+      <text> y empezaron a discutir sobre cuál de ellos se quedaba con él</text>
+      <target>
+       <answer>;</answer>
+       <optionList>
+        <option>,</option>
+        <option>;</option>
+        <option>:</option>
+        <option>.</option>
+       </optionList>
+       <text>;</text>
+      </target>
+      <text> pero</text>
+      <target>
+       <answer>,</answer>
+       <response fill="_" length="1" maxLength="1" />
+       <text>,</text>
+      </target>
+      <text> mientras tanto</text>
+      <target>
+       <answer>,</answer>
+       <response fill="_" length="1" maxLength="1" />
+       <text>,</text>
+      </target>
+      <text> el asno se escapó dejándolos a los dos sin nada</text>
+      <target>
+       <answer>.</answer>
+       <optionList>
+        <option>-</option>
+        <option>.</option>
+        <option>,</option>
+        <option>;</option>
+       </optionList>
+       <text>.</text>
+      </target>
+     </p>
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false">
+      <text>                        Esopo.</text>
+     </p>
+     <p background="0xFFFFFF" name="default" size="30" foreground="0x400040" family="Bookman Old Style" bold="false" italic="false" />
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="fabulas1.crw">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" inactive="0xFFFF00" alternative="0xFFFF00" />
+     </style>
+     <p>Completá el crucigrama según las referencias. No te olvides los acentos.</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="19" />
+      <color foreground="0x0000A0" background="0xFFFFFF" inactive="0xFFFF00" alternative="0xFFFF00" />
+     </style>
+     <p>Excelente!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x8000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <textGrid rows="11" columns="9" cellWidth="40.0" cellHeight="40.0" border="true">
+    <style>
+     <color background="0xFFFFFF" inactive="0x80FFFF" alternative="0x80FFFF" />
+    </style>
+    <text>
+     <row>**VIENTO***</row>
+     <row>****LIMPIÓ*</row>
+     <row>****PONCHO*</row>
+     <row>*CARA******</row>
+     <row>*TIEMPO****</row>
+     <row>****PAISANO</row>
+     <row>VIAJERO****</row>
+     <row>***ÁRBOLES*</row>
+     <row>***SOL*****</row>
+    </text>
+   </textGrid>
+   <cells rows="9" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="acrossClues">
+    <style>
+     <color background="0x00FFFF" inactive="0xFFFF00" alternative="0xFFFF00" />
+    </style>
+    <cell id="0" item="0">
+     <p>Hiperónimo de Pampero.</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Pretérito perfecto simple, tercera persona del sing. de limpiar</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>El sol logró que el viajero se sacase el...</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>El sol se limpió las nubes de la...</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>El pampero perdió el...</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>Personaje del texto que utilizaba un poncho.</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Adjetivo que califica  a quien viaja.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>Seres vivos que arrancó el pampero.</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Astro luminoso centro del sistema solar en que vivimos, y alrededor del cual giran los planetas.</p>
+    </cell>
+   </cells>
+   <cells rows="11" cols="1" cellWidth="200.0" cellHeight="75.0" border="false" id="downClues">
+    <style>
+     <color background="0x00FFFF" inactive="0xFFFF00" alternative="0xFFFF00" />
+    </style>
+    <cell id="0" item="0">
+     <p>Vaca empieza con...</p>
+    </cell>
+    <cell id="1" item="0">
+     <p>Tercer letra del abecedario.</p>
+    </cell>
+    <cell id="2" item="0">
+     <p>V</p>
+    </cell>
+    <cell id="3" item="0">
+     <p>3º vocal.</p>
+    </cell>
+    <cell id="4" item="0">
+     <p>El Pampero.</p>
+    </cell>
+    <cell id="5" item="0">
+     <p>N</p>
+    </cell>
+    <cell id="6" item="0">
+     <p>Letra entre la s y la u.</p>
+    </cell>
+    <cell id="7" item="0">
+     <p>O</p>
+    </cell>
+    <cell id="8" item="0">
+     <p>Letra entre la h y la j.  </p>
+    </cell>
+    <cell id="9" item="0">
+     <p>4º vocal acentuada.</p>
+    </cell>
+    <cell id="10" item="0">
+     <p>O</p>
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="fabulas1.sop">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFF00" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Encontrá en esta sopa 5 palabras relacionadas con el texto. Pueden estar en vertical, horizontal o de derecha a izquierda. ¡Suerte!</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFF00" background="0x0000FF" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>¡Te felicito, las encontraste!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow showSolution="true" />
+    <container bgColor="0x8000FF">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="10" columns="8" cellWidth="50.0" cellHeight="50.0" border="true">
+    <style>
+     <font family="Arial" size="18" bold="true" />
+     <color foreground="0x0000FF" background="0xFFFF00" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+    </style>
+    <text>
+     <row>******S***</row>
+     <row>PAMPERO***</row>
+     <row>******L**P</row>
+     <row>GODOFREDOO</row>
+     <row>*********N</row>
+     <row>*********C</row>
+     <row>**SOYAR**H</row>
+     <row>*********O</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">SOL</clue>
+    <clue id="1">GODOFREDO</clue>
+    <clue id="2">PAMPERO</clue>
+    <clue id="3">RAYOS</clue>
+    <clue id="4">PONCHO</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Identify" name="fabulas2.txa" type="identifyChars">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="22" />
+      <color foreground="0x408080" background="0x00FF00" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Marcá con un clic todas las sílabas que contengan un diptongo</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="22" />
+      <color foreground="0x408080" background="0x00FF00" inactive="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Excelente!!!</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true">
+     <size width="700" height="500" />
+    </window>
+   </settings>
+   <checkButton>Cuando temines hacé clic aquí para evaluar.</checkButton>
+   <document>
+    <style name="target" base="default" background="0xC0C0C0" target="true" foreground="0x0000FF" />
+    <style name="default" background="0x00FFFF" tabWidth="16" foreground="0x000000" size="18" family="Arial" bold="false" italic="false" />
+    <style name="targetError" base="target" background="0xFF0000" foreground="0xFFFFFF" />
+    <section>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>             </text>
+      <cell width="380" height="58" border="false">
+       <style shadow="true">
+        <font family="Comic Sans MS" size="21" />
+        <color foreground="0xFFFFFF" background="0x0000A0" shadow="0x000040" inactive="0x000040" alternative="0x000040" />
+       </style>
+       <p>El sol y el Pampero</p>
+      </cell>
+      <text> </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Un día de otoño, iba caminando un </text>
+      <target>via</target>
+      <text>jero, </text>
+      <target>bien</target>
+      <text> en</text>
+      <target>vuel</target>
+      <text>to en poncho pesado. </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>El Pampero lo </text>
+      <target>vio</target>
+      <text>, y le dijo al Sol: -¿A que le quito el poncho?</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-¿A que se lo quito yo antes que usted? -contestó el Sol.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-¿Apostamos?</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>-Sí, </text>
+      <target>bue</target>
+      <text>no. Em</text>
+      <target>pie</target>
+      <text>ce usted.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Y empezó el Pampero a soplar con toda su </text>
+      <target>fuer</target>
+      <text>za, arrancando árboles añosos, todo esto para quitarle la capa a un </text>
+      <target>via</target>
+      <text>jero.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Per</text>
+      <target>dió</target>
+      <text> el </text>
+      <target>tiem</target>
+      <text>po: no pudo hacer nada. </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>El </text>
+      <target>pai</target>
+      <text>sano iba apretando cada vez más el poncho con los brazos, y se cansó el Pampero sin haber conseguido lo que quería.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Le tocó al Sol hacer la prueba. </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Se lim</text>
+      <target>pió</target>
+      <text> la cara de las nubes amontonadas por el </text>
+      <target>vien</target>
+      <text>to, y tan </text>
+      <target>bien</target>
+      <text> bañó al </text>
+      <target>via</target>
+      <text>jero con sus rayos que, en pocos minutos, había logrado que se sacase el poncho.</text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false">
+      <text>Godofredo Daireaux  </text>
+     </p>
+     <p background="0x00FFFF" name="default" size="18" foreground="0x000000" family="Arial" bold="false" italic="false" />
+    </section>
+   </document>
+  </activity>
+  <activity class="@panels.InformationScreen" name="menu.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Elegí una fábula para comenzar</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="18" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x0000FF">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="2" cols="3" cellWidth="200.0" cellHeight="140.0" border="true">
+    <style>
+     <font family="Arial" size="19" />
+     <color foreground="0xFFFFFF" background="0x004080" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="2" />
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="pac1.pac" />
+     <p>La rana que reventó y el buey</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="pac2.pac" />
+     <p>Dicho de Sócrates</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="pac3.pac" />
+     <p>El Sol y el Pampero</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="pac4.pac" />
+     <p>La rana y la gallina</p>
+    </cell>
+    <cell>
+     <media type="RUN_CLIC_PACKAGE" level="1" file="pac5.pac" />
+     <p>El asno y los caminantes</p>
+    </cell>
+    <cell>
+     <media type="EXIT" level="1" />
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.Identify" name="moral1.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+     <p>¿Qué enseñanza nos deja esta fábula?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="500.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0x8080FF" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell id="0">
+     <p>La rana quería verse grande y se puso cuernos como el buey.</p>
+    </cell>
+    <cell id="1">
+     <p>Hay que aceptarse como uno es. No siempre se gana al vivir compitiendo.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="moral2.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+     <p>¿Cuál es la verdadera enseñanza que nos deja esta fábula?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="500.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0x8080FF" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell id="0">
+     <p>Lo que sobran son los amigos.</p>
+    </cell>
+    <cell id="1">
+     <p>Sobran los dedos de la mano para contar a los verdaderos amigos.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="moral3.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+     <p>¿Cuál es el mensaje de esta fábula?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="500.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0x8080FF" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="1">
+     <p>Más vale maña que fuerza.</p>
+    </cell>
+    <cell id="0">
+     <p>El viento puede menos que el sol.</p>
+    </cell>
+    <cell id="0">
+     <p>El sol puede más que el viento.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="moral4.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+     <p>¿Qué significado tiene esta fábula?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="500.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0x8080FF" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell id="0">
+     <p>La importancia de lo que hacemos está en relación directa con la cantidad que se ve que hacemos.</p>
+    </cell>
+    <cell id="1">
+     <p>Aunque sea poco lo que se vea que producimos, si es bueno o útil, es importante.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.Identify" name="moral5.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+     <p>¿Qué enseñanza te deja esta fábula?</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <color foreground="0xFFFFFF" background="0x0000A0" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0x0000A0">
+     <counters time="false" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFFFFF" border="false" />
+   </settings>
+   <cells rows="2" cols="1" cellWidth="500.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Arial" size="18" />
+     <color background="0x8080FF" inactive="0x0000A0" alternative="0x0000A0" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="2" />
+    <cell id="1">
+     <p>No perder tiempo en tonterías.</p>
+    </cell>
+    <cell id="0">
+     <p>Al que madruga, Dios lo ayuda.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="presenta.ass">
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Comic Sans MS" size="22" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+     <p>Avanzá a la próxima pantalla</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Comic Sans MS" size="22" />
+      <color foreground="0x000080" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x004080">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xFFFFFF" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="fondo2.gif">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="1" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="asno.gif" file="asno.gif" />
+  <media name="bisonte.gif" file="bisonte.gif" />
+  <media name="casas.gif" file="casas.gif" />
+  <media name="fondo2.gif" file="fondo2.gif" />
+  <media name="galli.gif" file="galli.gif" />
+  <media name="sapo.gif" file="sapo.gif" />
+  <media name="sol.gif" file="sol.gif" />
+  <media name="viento.gif" file="viento.gif" />
+ </mediaBag>
+</JClicProject>
+

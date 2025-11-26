@@ -1,0 +1,43 @@
+{
+  "title": "Más fábulas",
+  "author": "Celia Belmes",
+  "date": "6/8/09",
+  "langCodes": [
+    "es"
+  ],
+  "languages": {
+    "es": "español"
+  },
+  "areas": {
+    "es": "Lengua"
+  },
+  "levels": {
+    "es": "Primaria"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "fabulas6.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "files": [
+    "asno.gif",
+    "bisonte.gif",
+    "casas.gif",
+    "fabulas6.jclic",
+    "fabulas6.jclic.js",
+    "favicon.ico",
+    "fondo2.gif",
+    "galli.gif",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "sapo.gif",
+    "sol.gif",
+    "viento.gif"
+  ]
+}
