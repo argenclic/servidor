@@ -1,4 +1,0 @@
-Los números naturales no llevan signo.
-1  2  3  4 ... son números naturales.
-
-Para continuar cierra esta ventana.
