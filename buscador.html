@@ -60,34 +60,86 @@
             color: #667eea;
         }
 
+        .filters-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .filter-group {
+            margin-bottom: 20px;
+        }
+
+        .filter-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-title {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-icon {
+            width: 20px;
+            height: 20px;
+        }
+
         .filters {
             display: flex;
-            gap: 15px;
+            gap: 10px;
             flex-wrap: wrap;
-            margin-bottom: 30px;
-            justify-content: center;
         }
 
         .filter-btn {
             padding: 10px 20px;
-            border: 2px solid white;
-            background: transparent;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.1);
             color: white;
             border-radius: 25px;
             cursor: pointer;
             transition: all 0.3s;
             font-size: 14px;
             font-weight: 600;
+            backdrop-filter: blur(5px);
         }
 
         .filter-btn:hover {
             background: white;
             color: #667eea;
+            border-color: white;
         }
 
         .filter-btn.active {
             background: white;
             color: #667eea;
+            border-color: white;
+        }
+
+        .clear-filters {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .clear-filters button {
+            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s;
+        }
+
+        .clear-filters button:hover {
+            background: rgba(255, 255, 255, 0.3);
         }
 
         .results-info {
@@ -95,6 +147,33 @@
             text-align: center;
             margin-bottom: 20px;
             font-size: 18px;
+            font-weight: 500;
+        }
+
+        .active-filters {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .active-filter-tag {
+            background: rgba(255, 255, 255, 0.9);
+            color: #667eea;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .active-filter-tag .remove {
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 1;
         }
 
         .projects-grid {
@@ -118,15 +197,30 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
-        .project-category {
+        .project-badges {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .project-category,
+        .project-ciclo {
             display: inline-block;
             padding: 5px 12px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
             border-radius: 15px;
             font-size: 12px;
             font-weight: 600;
-            margin-bottom: 15px;
+        }
+
+        .project-category {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .project-ciclo {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
         }
 
         .project-title {
@@ -198,6 +292,10 @@
             .projects-grid {
                 grid-template-columns: 1fr;
             }
+
+            .filters-section {
+                padding: 20px 15px;
+            }
         }
     </style>
 </head>
@@ -220,7 +318,33 @@
             >
         </div>
 
-        <div class="filters" id="filtersContainer"></div>
+        <div class="filters-section">
+            <div class="filter-group">
+                <div class="filter-title">
+                    <svg class="filter-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                    Nivel Educativo
+                </div>
+                <div class="filters" id="filtrosCiclo"></div>
+            </div>
+
+            <div class="filter-group">
+                <div class="filter-title">
+                    <svg class="filter-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
+                    </svg>
+                    Área Temática
+                </div>
+                <div class="filters" id="filtrosCategoria"></div>
+            </div>
+
+            <div class="clear-filters">
+                <button onclick="limpiarFiltros()">✕ Limpiar filtros</button>
+            </div>
+        </div>
+
+        <div class="active-filters" id="activeFliters"></div>
 
         <div class="results-info" id="resultsInfo"></div>
 
@@ -234,6 +358,7 @@
 
     <script>
         let proyectosData = [];
+        let filtroCiclo = 'TODOS';
         let filtroCategoria = 'TODOS';
 
         // Cargar datos desde el archivo JSON
@@ -255,18 +380,45 @@
             }
         }
 
-        // Crear botones de filtro por categoría
+        // Crear botones de filtro
         function crearFiltros() {
-            const categorias = ['TODOS', ...new Set(proyectosData.map(p => p.categoria))];
-            const container = document.getElementById('filtersContainer');
+            // Filtros de ciclo
+            const ciclos = ['TODOS', ...new Set(proyectosData.map(p => p.ciclo).filter(c => c))];
+            const containerCiclo = document.getElementById('filtrosCiclo');
+            
+            ciclos.forEach(ciclo => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn' + (ciclo === 'TODOS' ? ' active' : '');
+                btn.textContent = ciclo;
+                btn.onclick = () => filtrarPorCiclo(ciclo, btn);
+                containerCiclo.appendChild(btn);
+            });
+
+            // Filtros de categoría
+            const categorias = ['TODOS', ...new Set(proyectosData.map(p => p.categoria).filter(c => c))];
+            const containerCategoria = document.getElementById('filtrosCategoria');
             
             categorias.forEach(cat => {
                 const btn = document.createElement('button');
                 btn.className = 'filter-btn' + (cat === 'TODOS' ? ' active' : '');
                 btn.textContent = cat;
                 btn.onclick = () => filtrarPorCategoria(cat, btn);
-                container.appendChild(btn);
+                containerCategoria.appendChild(btn);
             });
+        }
+
+        // Filtrar por ciclo
+        function filtrarPorCiclo(ciclo, btnElement) {
+            filtroCiclo = ciclo;
+            
+            // Actualizar botones activos
+            document.querySelectorAll('#filtrosCiclo .filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            btnElement.classList.add('active');
+            
+            actualizarFiltrosActivos();
+            buscarProyectos();
         }
 
         // Filtrar por categoría
@@ -274,13 +426,69 @@
             filtroCategoria = categoria;
             
             // Actualizar botones activos
-            document.querySelectorAll('.filter-btn').forEach(btn => {
+            document.querySelectorAll('#filtrosCategoria .filter-btn').forEach(btn => {
                 btn.classList.remove('active');
             });
             btnElement.classList.add('active');
             
-            // Aplicar búsqueda actual
+            actualizarFiltrosActivos();
             buscarProyectos();
+        }
+
+        // Limpiar todos los filtros
+        function limpiarFiltros() {
+            filtroCiclo = 'TODOS';
+            filtroCategoria = 'TODOS';
+            
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent === 'TODOS') {
+                    btn.classList.add('active');
+                }
+            });
+            
+            document.getElementById('searchInput').value = '';
+            actualizarFiltrosActivos();
+            buscarProyectos();
+        }
+
+        // Actualizar visualización de filtros activos
+        function actualizarFiltrosActivos() {
+            const container = document.getElementById('activeFliters');
+            container.innerHTML = '';
+            
+            if (filtroCiclo !== 'TODOS') {
+                const tag = document.createElement('div');
+                tag.className = 'active-filter-tag';
+                tag.innerHTML = `
+                    📚 ${filtroCiclo}
+                    <span class="remove" onclick="removerFiltroCiclo()">×</span>
+                `;
+                container.appendChild(tag);
+            }
+            
+            if (filtroCategoria !== 'TODOS') {
+                const tag = document.createElement('div');
+                tag.className = 'active-filter-tag';
+                tag.innerHTML = `
+                    🏷️ ${filtroCategoria}
+                    <span class="remove" onclick="removerFiltroCategoria()">×</span>
+                `;
+                container.appendChild(tag);
+            }
+        }
+
+        // Remover filtros individuales
+        function removerFiltroCiclo() {
+            const btnTodos = Array.from(document.querySelectorAll('#filtrosCiclo .filter-btn'))
+                .find(btn => btn.textContent === 'TODOS');
+            filtrarPorCiclo('TODOS', btnTodos);
+        }
+
+        function removerFiltroCategoria() {
+            const btnTodos = Array.from(document.querySelectorAll('#filtrosCategoria .filter-btn'))
+                .find(btn => btn.textContent === 'TODOS');
+            filtrarPorCategoria('TODOS', btnTodos);
         }
 
         // Función de búsqueda
@@ -288,6 +496,11 @@
             const query = document.getElementById('searchInput').value.toLowerCase().trim();
             
             let resultados = proyectosData;
+            
+            // Filtrar por ciclo
+            if (filtroCiclo !== 'TODOS') {
+                resultados = resultados.filter(p => p.ciclo === filtroCiclo);
+            }
             
             // Filtrar por categoría
             if (filtroCategoria !== 'TODOS') {
@@ -340,7 +553,10 @@
                 }
                 
                 card.innerHTML = `
-                    <span class="project-category">${proyecto.categoria}</span>
+                    <div class="project-badges">
+                        ${proyecto.categoria ? `<span class="project-category">${proyecto.categoria}</span>` : ''}
+                        ${proyecto.ciclo ? `<span class="project-ciclo">${proyecto.ciclo}</span>` : ''}
+                    </div>
                     <h3 class="project-title">${proyecto.titulo}</h3>
                     ${proyecto.descripcion ? `<p class="project-description">${proyecto.descripcion}</p>` : ''}
                     ${keywordsHTML}
