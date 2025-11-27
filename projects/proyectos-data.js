@@ -3,7 +3,7 @@ const proyectosData = [
   {
     "titulo": "Biblioteca Aulas Libres - Proyecto ArgenClic",
     "descripcion": "",
-    "url": "projects/index.html",
+    "url": "index.html",
     "categoria": "",
     "carpeta": "",
     "keywords": []
@@ -11,7 +11,7 @@ const proyectosData = [
   {
     "titulo": "Los determinantes",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/determin/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/determin/index.html",
     "categoria": "LENGUA",
     "carpeta": "determin",
     "keywords": []
@@ -19,7 +19,7 @@ const proyectosData = [
   {
     "titulo": "Lenguaje 4º, sílabas y acentos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/silabac/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/silabac/index.html",
     "categoria": "LENGUA",
     "carpeta": "silabac",
     "keywords": []
@@ -27,7 +27,7 @@ const proyectosData = [
   {
     "titulo": "Lengua 4º EP",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/lengua4/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/lengua4/index.html",
     "categoria": "LENGUA",
     "carpeta": "lengua4",
     "keywords": []
@@ -35,7 +35,7 @@ const proyectosData = [
   {
     "titulo": "Clases de adjetivos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/adjetiv2/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/adjetiv2/index.html",
     "categoria": "LENGUA",
     "carpeta": "adjetiv2",
     "keywords": []
@@ -43,7 +43,7 @@ const proyectosData = [
   {
     "titulo": "Clases de sustantivos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/sustanti/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/sustanti/index.html",
     "categoria": "LENGUA",
     "carpeta": "sustanti",
     "keywords": []
@@ -51,7 +51,7 @@ const proyectosData = [
   {
     "titulo": "Ortografía para 4º EP",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/ortogra2/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/ortogra2/index.html",
     "categoria": "LENGUA",
     "carpeta": "ortogra2",
     "keywords": []
@@ -59,7 +59,7 @@ const proyectosData = [
   {
     "titulo": "Taller del cuento \"El príncipe feliz\"",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/principe/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/principe/index.html",
     "categoria": "LENGUA",
     "carpeta": "principe",
     "keywords": []
@@ -67,7 +67,7 @@ const proyectosData = [
   {
     "titulo": "Lengua castellana - 6º de primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/lensexto/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/lensexto/index.html",
     "categoria": "LENGUA",
     "carpeta": "lensexto",
     "keywords": []
@@ -75,7 +75,7 @@ const proyectosData = [
   {
     "titulo": "Gramática",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/grama5-1/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/grama5-1/index.html",
     "categoria": "LENGUA",
     "carpeta": "grama5-1",
     "keywords": []
@@ -83,7 +83,7 @@ const proyectosData = [
   {
     "titulo": "Partes invariables de la oración",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/pinvaria/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/pinvaria/index.html",
     "categoria": "LENGUA",
     "carpeta": "pinvaria",
     "keywords": []
@@ -91,7 +91,7 @@ const proyectosData = [
   {
     "titulo": "Análisis sintáctico",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/sintaxis/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/sintaxis/index.html",
     "categoria": "LENGUA",
     "carpeta": "sintaxis",
     "keywords": []
@@ -99,7 +99,7 @@ const proyectosData = [
   {
     "titulo": "Lengua castellana - 5º primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/lequinto/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/lequinto/index.html",
     "categoria": "LENGUA",
     "carpeta": "lequinto",
     "keywords": []
@@ -107,7 +107,7 @@ const proyectosData = [
   {
     "titulo": "Los verbos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/verbos3/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/verbos3/index.html",
     "categoria": "LENGUA",
     "carpeta": "verbos3",
     "keywords": []
@@ -115,7 +115,7 @@ const proyectosData = [
   {
     "titulo": "Las palabras",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/palabras/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/palabras/index.html",
     "categoria": "LENGUA",
     "carpeta": "palabras",
     "keywords": []
@@ -123,7 +123,7 @@ const proyectosData = [
   {
     "titulo": "Miguel de Cervantes Saavedra",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/cervant2/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/cervant2/index.html",
     "categoria": "LENGUA",
     "carpeta": "cervant2",
     "keywords": []
@@ -131,7 +131,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de Gramática",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/gramat/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/gramat/index.html",
     "categoria": "LENGUA",
     "carpeta": "gramat",
     "keywords": []
@@ -139,7 +139,7 @@ const proyectosData = [
   {
     "titulo": "Hermanos Grimm",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/grimm/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/grimm/index.html",
     "categoria": "LENGUA",
     "carpeta": "grimm",
     "keywords": []
@@ -147,7 +147,7 @@ const proyectosData = [
   {
     "titulo": "Poesía para educación primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/LENGUA/poesiap1/index.html",
+    "url": "SEGUNDOCICLO/LENGUA/poesiap1/index.html",
     "categoria": "LENGUA",
     "carpeta": "poesiap1",
     "keywords": []
@@ -155,7 +155,7 @@ const proyectosData = [
   {
     "titulo": "Compete",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/OTRAS/compete/index.html",
+    "url": "SEGUNDOCICLO/OTRAS/compete/index.html",
     "categoria": "OTRAS",
     "carpeta": "compete",
     "keywords": []
@@ -163,7 +163,7 @@ const proyectosData = [
   {
     "titulo": "Actividades variadas",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/OTRAS/actvaria/index.html",
+    "url": "SEGUNDOCICLO/OTRAS/actvaria/index.html",
     "categoria": "OTRAS",
     "carpeta": "actvaria",
     "keywords": []
@@ -171,15 +171,15 @@ const proyectosData = [
   {
     "titulo": "ajedrez",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/OTRAS/AJEDREZ/index.html",
+    "url": "SEGUNDOCICLO/OTRAS/AJEDREZ/index.html",
     "categoria": "OTRAS",
     "carpeta": "AJEDREZ",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Mutualismo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/mutual/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/mutual/index.html",
     "categoria": "SOCIALES",
     "carpeta": "mutual",
     "keywords": []
@@ -187,7 +187,7 @@ const proyectosData = [
   {
     "titulo": "La Argentina",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/argentin/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/argentin/index.html",
     "categoria": "SOCIALES",
     "carpeta": "argentin",
     "keywords": []
@@ -195,23 +195,23 @@ const proyectosData = [
   {
     "titulo": "Derechos del menor",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/derechos/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/derechos/index.html",
     "categoria": "SOCIALES",
     "carpeta": "derechos",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Atlas de Argentina",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/atlas/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/atlas/index.html",
     "categoria": "SOCIALES",
     "carpeta": "atlas",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Manuel Belgrano",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/belgr/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/belgr/index.html",
     "categoria": "SOCIALES",
     "carpeta": "belgr",
     "keywords": []
@@ -219,7 +219,7 @@ const proyectosData = [
   {
     "titulo": "Cristóbal Colón y el descubrimiento",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/colon/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/colon/index.html",
     "categoria": "SOCIALES",
     "carpeta": "colon",
     "keywords": []
@@ -227,7 +227,7 @@ const proyectosData = [
   {
     "titulo": "Proyecto: Conozcamos nuestros país",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/clarisa/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/clarisa/index.html",
     "categoria": "SOCIALES",
     "carpeta": "clarisa",
     "keywords": []
@@ -235,7 +235,7 @@ const proyectosData = [
   {
     "titulo": "Geografía, los departamentos de Perú",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/geoperu/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/geoperu/index.html",
     "categoria": "SOCIALES",
     "carpeta": "geoperu",
     "keywords": []
@@ -243,7 +243,7 @@ const proyectosData = [
   {
     "titulo": "La Bandera Argentina",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/bandera/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/bandera/index.html",
     "categoria": "SOCIALES",
     "carpeta": "bandera",
     "keywords": []
@@ -251,7 +251,7 @@ const proyectosData = [
   {
     "titulo": "Mercosur",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/mercosur/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/mercosur/index.html",
     "categoria": "SOCIALES",
     "carpeta": "mercosur",
     "keywords": []
@@ -259,7 +259,7 @@ const proyectosData = [
   {
     "titulo": "La igualdad de género",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/igualdad/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/igualdad/index.html",
     "categoria": "SOCIALES",
     "carpeta": "igualdad",
     "keywords": []
@@ -267,7 +267,7 @@ const proyectosData = [
   {
     "titulo": "Los inventos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/jclic/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/jclic/index.html",
     "categoria": "SOCIALES",
     "carpeta": "jclic",
     "keywords": []
@@ -275,7 +275,7 @@ const proyectosData = [
   {
     "titulo": "Conozcamos San Luis",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/sanluis/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/sanluis/index.html",
     "categoria": "SOCIALES",
     "carpeta": "sanluis",
     "keywords": []
@@ -283,7 +283,7 @@ const proyectosData = [
   {
     "titulo": "República mexicana",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/mimexico/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/mimexico/index.html",
     "categoria": "SOCIALES",
     "carpeta": "mimexico",
     "keywords": []
@@ -291,7 +291,7 @@ const proyectosData = [
   {
     "titulo": "Medios de transporte y educación vial",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/evial/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/evial/index.html",
     "categoria": "SOCIALES",
     "carpeta": "evial",
     "keywords": []
@@ -299,15 +299,15 @@ const proyectosData = [
   {
     "titulo": "Proyección de Peters",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/peters/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/peters/index.html",
     "categoria": "SOCIALES",
     "carpeta": "peters",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Derechos Humanos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/dh/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/dh/index.html",
     "categoria": "SOCIALES",
     "carpeta": "dh",
     "keywords": []
@@ -315,7 +315,7 @@ const proyectosData = [
   {
     "titulo": "Paisaje y territorio",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/SOCIALES/payte/index.html",
+    "url": "SEGUNDOCICLO/SOCIALES/payte/index.html",
     "categoria": "SOCIALES",
     "carpeta": "payte",
     "keywords": []
@@ -323,7 +323,7 @@ const proyectosData = [
   {
     "titulo": "TETRAVEX: Rompecabezas numéricos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/tetrav/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/tetrav/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "tetrav",
     "keywords": []
@@ -331,7 +331,7 @@ const proyectosData = [
   {
     "titulo": "Bingo matemático",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/binmates/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/binmates/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "binmates",
     "keywords": []
@@ -339,7 +339,7 @@ const proyectosData = [
   {
     "titulo": "Matemáticas - 6º primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/matsexto/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/matsexto/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "matsexto",
     "keywords": []
@@ -347,7 +347,7 @@ const proyectosData = [
   {
     "titulo": "Fracciones y operaciones con fracciones",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/fracci/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/fracci/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fracci",
     "keywords": []
@@ -355,7 +355,7 @@ const proyectosData = [
   {
     "titulo": "Prisma cálculo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/prisma/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/prisma/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "prisma",
     "keywords": []
@@ -363,7 +363,7 @@ const proyectosData = [
   {
     "titulo": "Numeración romana",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/romanos/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/romanos/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "romanos",
     "keywords": []
@@ -371,7 +371,7 @@ const proyectosData = [
   {
     "titulo": "Los números racionales: las fracciones",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/fraccion/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/fraccion/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fraccion",
     "keywords": []
@@ -379,7 +379,7 @@ const proyectosData = [
   {
     "titulo": "Medir el tiempo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/meditemp/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/meditemp/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "meditemp",
     "keywords": []
@@ -387,7 +387,7 @@ const proyectosData = [
   {
     "titulo": "Geometría plana",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/poligoes/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/poligoes/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "poligoes",
     "keywords": []
@@ -395,7 +395,7 @@ const proyectosData = [
   {
     "titulo": "Nivelación restitutiva",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/nivelmat/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/nivelmat/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "nivelmat",
     "keywords": []
@@ -403,7 +403,7 @@ const proyectosData = [
   {
     "titulo": "Iniciación a problemas - 2º ciclo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/problems/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/problems/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "problems",
     "keywords": []
@@ -411,7 +411,7 @@ const proyectosData = [
   {
     "titulo": "Fracciones - 2",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/fraccio2/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/fraccio2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fraccio2",
     "keywords": []
@@ -419,7 +419,7 @@ const proyectosData = [
   {
     "titulo": "Crucigramas de cálculo mental",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/encrenum/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/encrenum/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "encrenum",
     "keywords": []
@@ -427,7 +427,7 @@ const proyectosData = [
   {
     "titulo": "Problemas variados (ciclo superior)",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/probcast/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/probcast/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "probcast",
     "keywords": []
@@ -435,7 +435,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de geometría para primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/geo2prim/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/geo2prim/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "geo2prim",
     "keywords": []
@@ -443,7 +443,7 @@ const proyectosData = [
   {
     "titulo": "Matemáticas para el 2º Ciclo de Primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/mates2c/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/mates2c/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "mates2c",
     "keywords": []
@@ -451,7 +451,7 @@ const proyectosData = [
   {
     "titulo": "Introducción a las fracciones",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/intrfrac/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/intrfrac/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "intrfrac",
     "keywords": []
@@ -459,7 +459,7 @@ const proyectosData = [
   {
     "titulo": "Ángulos",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/angulos/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/angulos/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "angulos",
     "keywords": []
@@ -467,7 +467,7 @@ const proyectosData = [
   {
     "titulo": "Potencia",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/potencia/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/potencia/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "potencia",
     "keywords": []
@@ -475,7 +475,7 @@ const proyectosData = [
   {
     "titulo": "Fracciones - 1",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/fraccio1/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/fraccio1/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fraccio1",
     "keywords": []
@@ -483,7 +483,7 @@ const proyectosData = [
   {
     "titulo": "Fracciones",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/MATEMATICAS/fracc/index.html",
+    "url": "SEGUNDOCICLO/MATEMATICAS/fracc/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fracc",
     "keywords": []
@@ -491,7 +491,7 @@ const proyectosData = [
   {
     "titulo": "La orientación",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/orienta/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/orienta/index.html",
     "categoria": "NATURALES",
     "carpeta": "orienta",
     "keywords": []
@@ -499,7 +499,7 @@ const proyectosData = [
   {
     "titulo": "Conocimiento del Medio 4 primaria",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/medio4/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/medio4/index.html",
     "categoria": "NATURALES",
     "carpeta": "medio4",
     "keywords": []
@@ -507,7 +507,7 @@ const proyectosData = [
   {
     "titulo": "La comunidad de las abejas, una familia muy especial",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/abejas/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/abejas/index.html",
     "categoria": "NATURALES",
     "carpeta": "abejas",
     "keywords": []
@@ -515,7 +515,7 @@ const proyectosData = [
   {
     "titulo": "Vistas de la tierra",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/vistas/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/vistas/index.html",
     "categoria": "NATURALES",
     "carpeta": "vistas",
     "keywords": []
@@ -523,7 +523,7 @@ const proyectosData = [
   {
     "titulo": "Cuerpo humano - aparato digestivo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/cienciax/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/cienciax/index.html",
     "categoria": "NATURALES",
     "carpeta": "cienciax",
     "keywords": []
@@ -531,7 +531,7 @@ const proyectosData = [
   {
     "titulo": "El cuerpo humano - 1",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/humano/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/humano/index.html",
     "categoria": "NATURALES",
     "carpeta": "humano",
     "keywords": []
@@ -539,7 +539,7 @@ const proyectosData = [
   {
     "titulo": "La tierra",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/tierra/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/tierra/index.html",
     "categoria": "NATURALES",
     "carpeta": "tierra",
     "keywords": []
@@ -547,7 +547,7 @@ const proyectosData = [
   {
     "titulo": "Nuestro cuerpo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/cuerpo/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/cuerpo/index.html",
     "categoria": "NATURALES",
     "carpeta": "cuerpo",
     "keywords": []
@@ -555,15 +555,15 @@ const proyectosData = [
   {
     "titulo": "Conocimiento del medio 4º",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/cmedio4/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/cmedio4/index.html",
     "categoria": "NATURALES",
     "carpeta": "cmedio4",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "El nacimiento humano",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/nacer/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/nacer/index.html",
     "categoria": "NATURALES",
     "carpeta": "nacer",
     "keywords": []
@@ -571,7 +571,7 @@ const proyectosData = [
   {
     "titulo": "El sistema digestivo",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/digrespi/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/digrespi/index.html",
     "categoria": "NATURALES",
     "carpeta": "digrespi",
     "keywords": []
@@ -579,7 +579,7 @@ const proyectosData = [
   {
     "titulo": "La función de nutrición",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/funutri/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/funutri/index.html",
     "categoria": "NATURALES",
     "carpeta": "funutri",
     "keywords": []
@@ -587,7 +587,7 @@ const proyectosData = [
   {
     "titulo": "Dengue",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/dengue/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/dengue/index.html",
     "categoria": "NATURALES",
     "carpeta": "dengue",
     "keywords": []
@@ -595,7 +595,7 @@ const proyectosData = [
   {
     "titulo": "Higiene dental",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/higiesp/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/higiesp/index.html",
     "categoria": "NATURALES",
     "carpeta": "higiesp",
     "keywords": []
@@ -603,7 +603,7 @@ const proyectosData = [
   {
     "titulo": "Los animales - 2",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/animalp/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/animalp/index.html",
     "categoria": "NATURALES",
     "carpeta": "animalp",
     "keywords": []
@@ -611,7 +611,7 @@ const proyectosData = [
   {
     "titulo": "Física 5",
     "descripcion": "",
-    "url": "projects/SEGUNDOCICLO/NATURALES/fisica5/index.html",
+    "url": "SEGUNDOCICLO/NATURALES/fisica5/index.html",
     "categoria": "NATURALES",
     "carpeta": "fisica5",
     "keywords": []
@@ -619,7 +619,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de lectoescritura",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/lectura/index.html",
+    "url": "INICIAL/LENGUA/lectura/index.html",
     "categoria": "LENGUA",
     "carpeta": "lectura",
     "keywords": []
@@ -627,7 +627,7 @@ const proyectosData = [
   {
     "titulo": "Ven a leer 1, 2 y 3",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/venylee1/index.html",
+    "url": "INICIAL/LENGUA/venylee1/index.html",
     "categoria": "LENGUA",
     "carpeta": "venylee1",
     "keywords": []
@@ -635,7 +635,7 @@ const proyectosData = [
   {
     "titulo": "Érase una vez... 1",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/erase1/index.html",
+    "url": "INICIAL/LENGUA/erase1/index.html",
     "categoria": "LENGUA",
     "carpeta": "erase1",
     "keywords": []
@@ -643,7 +643,7 @@ const proyectosData = [
   {
     "titulo": "Animaletras",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/anylet/index.html",
+    "url": "INICIAL/LENGUA/anylet/index.html",
     "categoria": "LENGUA",
     "carpeta": "anylet",
     "keywords": []
@@ -651,7 +651,7 @@ const proyectosData = [
   {
     "titulo": "Las letras que suenan",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/lls/index.html",
+    "url": "INICIAL/LENGUA/lls/index.html",
     "categoria": "LENGUA",
     "carpeta": "lls",
     "keywords": []
@@ -659,7 +659,7 @@ const proyectosData = [
   {
     "titulo": "Aprender a leer",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/aprender/index.html",
+    "url": "INICIAL/LENGUA/aprender/index.html",
     "categoria": "LENGUA",
     "carpeta": "aprender",
     "keywords": []
@@ -667,7 +667,7 @@ const proyectosData = [
   {
     "titulo": "Estimulación visual",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/ev/index.html",
+    "url": "INICIAL/LENGUA/ev/index.html",
     "categoria": "LENGUA",
     "carpeta": "ev",
     "keywords": []
@@ -675,7 +675,7 @@ const proyectosData = [
   {
     "titulo": "Vamos a leer",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/leer3/index.html",
+    "url": "INICIAL/LENGUA/leer3/index.html",
     "categoria": "LENGUA",
     "carpeta": "leer3",
     "keywords": []
@@ -683,7 +683,7 @@ const proyectosData = [
   {
     "titulo": "Cuentos",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/cuentos2/index.html",
+    "url": "INICIAL/LENGUA/cuentos2/index.html",
     "categoria": "LENGUA",
     "carpeta": "cuentos2",
     "keywords": []
@@ -691,7 +691,7 @@ const proyectosData = [
   {
     "titulo": "Discriminación acústica de las vocales",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/discvoc2/index.html",
+    "url": "INICIAL/LENGUA/discvoc2/index.html",
     "categoria": "LENGUA",
     "carpeta": "discvoc2",
     "keywords": []
@@ -699,7 +699,7 @@ const proyectosData = [
   {
     "titulo": "Sílabas",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/silabes/index.html",
+    "url": "INICIAL/LENGUA/silabes/index.html",
     "categoria": "LENGUA",
     "carpeta": "silabes",
     "keywords": []
@@ -707,7 +707,7 @@ const proyectosData = [
   {
     "titulo": "Aniclic: método de lectura",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/aniclic/index.html",
+    "url": "INICIAL/LENGUA/aniclic/index.html",
     "categoria": "LENGUA",
     "carpeta": "aniclic",
     "keywords": []
@@ -715,7 +715,7 @@ const proyectosData = [
   {
     "titulo": "Las vocales",
     "descripcion": "",
-    "url": "projects/INICIAL/LENGUA/vocales/index.html",
+    "url": "INICIAL/LENGUA/vocales/index.html",
     "categoria": "LENGUA",
     "carpeta": "vocales",
     "keywords": []
@@ -723,7 +723,7 @@ const proyectosData = [
   {
     "titulo": "Taller de cocina",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/tcocina/index.html",
+    "url": "INICIAL/OTRAS/tcocina/index.html",
     "categoria": "OTRAS",
     "carpeta": "tcocina",
     "keywords": []
@@ -731,7 +731,7 @@ const proyectosData = [
   {
     "titulo": "Me divierto aprendiendo",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/kinder/index.html",
+    "url": "INICIAL/OTRAS/kinder/index.html",
     "categoria": "OTRAS",
     "carpeta": "kinder",
     "keywords": []
@@ -739,7 +739,7 @@ const proyectosData = [
   {
     "titulo": "El ratón",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/raton/index.html",
+    "url": "INICIAL/OTRAS/raton/index.html",
     "categoria": "OTRAS",
     "carpeta": "raton",
     "keywords": []
@@ -747,7 +747,7 @@ const proyectosData = [
   {
     "titulo": "Puzzles de animales",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/animcast/index.html",
+    "url": "INICIAL/OTRAS/animcast/index.html",
     "categoria": "OTRAS",
     "carpeta": "animcast",
     "keywords": []
@@ -755,7 +755,7 @@ const proyectosData = [
   {
     "titulo": "Colores",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/colores/index.html",
+    "url": "INICIAL/OTRAS/colores/index.html",
     "categoria": "OTRAS",
     "carpeta": "colores",
     "keywords": []
@@ -763,7 +763,7 @@ const proyectosData = [
   {
     "titulo": "Los tamaños",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/ta_cdvmo/index.html",
+    "url": "INICIAL/OTRAS/ta_cdvmo/index.html",
     "categoria": "OTRAS",
     "carpeta": "ta_cdvmo",
     "keywords": []
@@ -771,15 +771,15 @@ const proyectosData = [
   {
     "titulo": "Estimulación visual",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/ev/index.html",
+    "url": "INICIAL/OTRAS/ev/index.html",
     "categoria": "OTRAS",
     "carpeta": "ev",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Informática básica",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/inforinf/index.html",
+    "url": "INICIAL/OTRAS/inforinf/index.html",
     "categoria": "OTRAS",
     "carpeta": "inforinf",
     "keywords": []
@@ -787,7 +787,7 @@ const proyectosData = [
   {
     "titulo": "¿Cuál es cuál?",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/cuales/index.html",
+    "url": "INICIAL/OTRAS/cuales/index.html",
     "categoria": "OTRAS",
     "carpeta": "cuales",
     "keywords": []
@@ -795,7 +795,7 @@ const proyectosData = [
   {
     "titulo": "Los colores",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/col_dvmo/index.html",
+    "url": "INICIAL/OTRAS/col_dvmo/index.html",
     "categoria": "OTRAS",
     "carpeta": "col_dvmo",
     "keywords": []
@@ -803,7 +803,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de educación infantil",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/infaez5i/index.html",
+    "url": "INICIAL/OTRAS/infaez5i/index.html",
     "categoria": "OTRAS",
     "carpeta": "infaez5i",
     "keywords": []
@@ -811,7 +811,7 @@ const proyectosData = [
   {
     "titulo": "TEQ - Conceptes bàsics",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/teqes/index.html",
+    "url": "INICIAL/OTRAS/teqes/index.html",
     "categoria": "OTRAS",
     "carpeta": "teqes",
     "keywords": []
@@ -819,7 +819,7 @@ const proyectosData = [
   {
     "titulo": "Adentro, afuera",
     "descripcion": "",
-    "url": "projects/INICIAL/OTRAS/adfue/index.html",
+    "url": "INICIAL/OTRAS/adfue/index.html",
     "categoria": "OTRAS",
     "carpeta": "adfue",
     "keywords": []
@@ -827,7 +827,7 @@ const proyectosData = [
   {
     "titulo": "Colonia",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/colonia/index.html",
+    "url": "INICIAL/SOCIALES/colonia/index.html",
     "categoria": "SOCIALES",
     "carpeta": "colonia",
     "keywords": []
@@ -835,7 +835,7 @@ const proyectosData = [
   {
     "titulo": "Las Herramientas",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/herram/index.html",
+    "url": "INICIAL/SOCIALES/herram/index.html",
     "categoria": "SOCIALES",
     "carpeta": "herram",
     "keywords": []
@@ -843,7 +843,7 @@ const proyectosData = [
   {
     "titulo": "Los Oficios",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/oficios/index.html",
+    "url": "INICIAL/SOCIALES/oficios/index.html",
     "categoria": "SOCIALES",
     "carpeta": "oficios",
     "keywords": []
@@ -851,7 +851,7 @@ const proyectosData = [
   {
     "titulo": "Dinosaurios",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/dinosaur/index.html",
+    "url": "INICIAL/SOCIALES/dinosaur/index.html",
     "categoria": "SOCIALES",
     "carpeta": "dinosaur",
     "keywords": []
@@ -859,7 +859,7 @@ const proyectosData = [
   {
     "titulo": "Transportes",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/transpo2/index.html",
+    "url": "INICIAL/SOCIALES/transpo2/index.html",
     "categoria": "SOCIALES",
     "carpeta": "transpo2",
     "keywords": []
@@ -867,7 +867,7 @@ const proyectosData = [
   {
     "titulo": "Educación Vial para pequeños",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/eduvial/index.html",
+    "url": "INICIAL/SOCIALES/eduvial/index.html",
     "categoria": "SOCIALES",
     "carpeta": "eduvial",
     "keywords": []
@@ -875,7 +875,7 @@ const proyectosData = [
   {
     "titulo": "EmocionaTEA",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/emocion/index.html",
+    "url": "INICIAL/SOCIALES/emocion/index.html",
     "categoria": "SOCIALES",
     "carpeta": "emocion",
     "keywords": []
@@ -883,7 +883,7 @@ const proyectosData = [
   {
     "titulo": "Cuento para la tolerancia",
     "descripcion": "",
-    "url": "projects/INICIAL/SOCIALES/cuentole/index.html",
+    "url": "INICIAL/SOCIALES/cuentole/index.html",
     "categoria": "SOCIALES",
     "carpeta": "cuentole",
     "keywords": []
@@ -891,7 +891,7 @@ const proyectosData = [
   {
     "titulo": "Formas",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/formas2/index.html",
+    "url": "INICIAL/MATEMATICAS/formas2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "formas2",
     "keywords": []
@@ -899,7 +899,7 @@ const proyectosData = [
   {
     "titulo": "En serie",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/enserie/index.html",
+    "url": "INICIAL/MATEMATICAS/enserie/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "enserie",
     "keywords": []
@@ -907,7 +907,7 @@ const proyectosData = [
   {
     "titulo": "Figuras",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/figuras/index.html",
+    "url": "INICIAL/MATEMATICAS/figuras/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "figuras",
     "keywords": []
@@ -915,7 +915,7 @@ const proyectosData = [
   {
     "titulo": "Secuencias",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/sekuenci/index.html",
+    "url": "INICIAL/MATEMATICAS/sekuenci/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sekuenci",
     "keywords": []
@@ -923,7 +923,7 @@ const proyectosData = [
   {
     "titulo": "Los primeros números por vía visual directa (Discapacidad visual baja visión)",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/2num1/index.html",
+    "url": "INICIAL/MATEMATICAS/2num1/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "2num1",
     "keywords": []
@@ -931,7 +931,7 @@ const proyectosData = [
   {
     "titulo": "Jugando con los números",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/numeros2/index.html",
+    "url": "INICIAL/MATEMATICAS/numeros2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "numeros2",
     "keywords": []
@@ -939,7 +939,7 @@ const proyectosData = [
   {
     "titulo": "Blocs lògics",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/blocs/index.html",
+    "url": "INICIAL/MATEMATICAS/blocs/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "blocs",
     "keywords": []
@@ -947,7 +947,7 @@ const proyectosData = [
   {
     "titulo": "Uno, dos y ninguno",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/undostre/index.html",
+    "url": "INICIAL/MATEMATICAS/undostre/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "undostre",
     "keywords": []
@@ -955,7 +955,7 @@ const proyectosData = [
   {
     "titulo": "Ordena",
     "descripcion": "",
-    "url": "projects/INICIAL/MATEMATICAS/ordena/index.html",
+    "url": "INICIAL/MATEMATICAS/ordena/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "ordena",
     "keywords": []
@@ -963,7 +963,7 @@ const proyectosData = [
   {
     "titulo": "La granja",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/lagranja/index.html",
+    "url": "INICIAL/NATURALES/lagranja/index.html",
     "categoria": "NATURALES",
     "carpeta": "lagranja",
     "keywords": []
@@ -971,7 +971,7 @@ const proyectosData = [
   {
     "titulo": "Sense nom",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/frutas/index.html",
+    "url": "INICIAL/NATURALES/frutas/index.html",
     "categoria": "NATURALES",
     "carpeta": "frutas",
     "keywords": []
@@ -979,7 +979,7 @@ const proyectosData = [
   {
     "titulo": "De viaje por el sistema solar",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/viajesol/index.html",
+    "url": "INICIAL/NATURALES/viajesol/index.html",
     "categoria": "NATURALES",
     "carpeta": "viajesol",
     "keywords": []
@@ -987,7 +987,7 @@ const proyectosData = [
   {
     "titulo": "Los alimentos",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/aliment/index.html",
+    "url": "INICIAL/NATURALES/aliment/index.html",
     "categoria": "NATURALES",
     "carpeta": "aliment",
     "keywords": []
@@ -995,7 +995,7 @@ const proyectosData = [
   {
     "titulo": "Los sentidos",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/sentido2/index.html",
+    "url": "INICIAL/NATURALES/sentido2/index.html",
     "categoria": "NATURALES",
     "carpeta": "sentido2",
     "keywords": []
@@ -1003,7 +1003,7 @@ const proyectosData = [
   {
     "titulo": "Mimo - las partes del cuerpo",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/mimo/index.html",
+    "url": "INICIAL/NATURALES/mimo/index.html",
     "categoria": "NATURALES",
     "carpeta": "mimo",
     "keywords": []
@@ -1011,7 +1011,7 @@ const proyectosData = [
   {
     "titulo": "Aprendiendo a reciclar",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/recicla3/index.html",
+    "url": "INICIAL/NATURALES/recicla3/index.html",
     "categoria": "NATURALES",
     "carpeta": "recicla3",
     "keywords": []
@@ -1019,7 +1019,7 @@ const proyectosData = [
   {
     "titulo": "Reconocimiento de sonidos",
     "descripcion": "",
-    "url": "projects/INICIAL/NATURALES/sonidos/index.html",
+    "url": "INICIAL/NATURALES/sonidos/index.html",
     "categoria": "NATURALES",
     "carpeta": "sonidos",
     "keywords": []
@@ -1027,7 +1027,7 @@ const proyectosData = [
   {
     "titulo": "Ls1 y Ls2, ejercicios de práctica y evaluación",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/ls1/index.html",
+    "url": "SECUNDARIO/LENGUA/ls1/index.html",
     "categoria": "LENGUA",
     "carpeta": "ls1",
     "keywords": []
@@ -1035,7 +1035,7 @@ const proyectosData = [
   {
     "titulo": "Pablo Neruda y Gabriela Mistral",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/poetas/index.html",
+    "url": "SECUNDARIO/LENGUA/poetas/index.html",
     "categoria": "LENGUA",
     "carpeta": "poetas",
     "keywords": []
@@ -1043,7 +1043,7 @@ const proyectosData = [
   {
     "titulo": "Comp-Juega",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/compjueg/index.html",
+    "url": "SECUNDARIO/LENGUA/compjueg/index.html",
     "categoria": "LENGUA",
     "carpeta": "compjueg",
     "keywords": []
@@ -1051,7 +1051,7 @@ const proyectosData = [
   {
     "titulo": "Razonamiento verbal",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/rverbal/index.html",
+    "url": "SECUNDARIO/LENGUA/rverbal/index.html",
     "categoria": "LENGUA",
     "carpeta": "rverbal",
     "keywords": []
@@ -1059,7 +1059,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de literatura castellana",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/litecast/index.html",
+    "url": "SECUNDARIO/LENGUA/litecast/index.html",
     "categoria": "LENGUA",
     "carpeta": "litecast",
     "keywords": []
@@ -1067,7 +1067,7 @@ const proyectosData = [
   {
     "titulo": "Marco de la comunicación",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/lexico/index.html",
+    "url": "SECUNDARIO/LENGUA/lexico/index.html",
     "categoria": "LENGUA",
     "carpeta": "lexico",
     "keywords": []
@@ -1075,7 +1075,7 @@ const proyectosData = [
   {
     "titulo": "La oración compuesta",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/oracom/index.html",
+    "url": "SECUNDARIO/LENGUA/oracom/index.html",
     "categoria": "LENGUA",
     "carpeta": "oracom",
     "keywords": []
@@ -1083,7 +1083,7 @@ const proyectosData = [
   {
     "titulo": "Harry Potter y La Piedra Filosofal",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/hpotter/index.html",
+    "url": "SECUNDARIO/LENGUA/hpotter/index.html",
     "categoria": "LENGUA",
     "carpeta": "hpotter",
     "keywords": []
@@ -1091,7 +1091,7 @@ const proyectosData = [
   {
     "titulo": "Conjuga",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/conjuga/index.html",
+    "url": "SECUNDARIO/LENGUA/conjuga/index.html",
     "categoria": "LENGUA",
     "carpeta": "conjuga",
     "keywords": []
@@ -1099,7 +1099,7 @@ const proyectosData = [
   {
     "titulo": "Lengua para 3r ciclo de primaria",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/lenguac3/index.html",
+    "url": "SECUNDARIO/LENGUA/lenguac3/index.html",
     "categoria": "LENGUA",
     "carpeta": "lenguac3",
     "keywords": []
@@ -1107,7 +1107,7 @@ const proyectosData = [
   {
     "titulo": "Comunicación",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/comunica/index.html",
+    "url": "SECUNDARIO/LENGUA/comunica/index.html",
     "categoria": "LENGUA",
     "carpeta": "comunica",
     "keywords": []
@@ -1115,7 +1115,7 @@ const proyectosData = [
   {
     "titulo": "Lengua castellana y literatura para secundaria",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/LENGUA/lengueso/index.html",
+    "url": "SECUNDARIO/LENGUA/lengueso/index.html",
     "categoria": "LENGUA",
     "carpeta": "lengueso",
     "keywords": []
@@ -1123,7 +1123,7 @@ const proyectosData = [
   {
     "titulo": "Homenaje a Mozart",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/mozart/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/mozart/index.html",
     "categoria": "MUSICA",
     "carpeta": "mozart",
     "keywords": []
@@ -1131,7 +1131,7 @@ const proyectosData = [
   {
     "titulo": "El folklore musical de Chile",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/folkch/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/folkch/index.html",
     "categoria": "MUSICA",
     "carpeta": "folkch",
     "keywords": []
@@ -1139,7 +1139,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de música para educación infantil",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/musinfes/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/musinfes/index.html",
     "categoria": "MUSICA",
     "carpeta": "musinfes",
     "keywords": []
@@ -1147,7 +1147,7 @@ const proyectosData = [
   {
     "titulo": "La flauta Màgica",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/flautaes/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/flautaes/index.html",
     "categoria": "MUSICA",
     "carpeta": "flautaes",
     "keywords": []
@@ -1155,7 +1155,7 @@ const proyectosData = [
   {
     "titulo": "El rock (Ejercicios)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/rock3/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/rock3/index.html",
     "categoria": "MUSICA",
     "carpeta": "rock3",
     "keywords": []
@@ -1163,7 +1163,7 @@ const proyectosData = [
   {
     "titulo": "Los instrumentos musicales",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/instrmus/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/instrmus/index.html",
     "categoria": "MUSICA",
     "carpeta": "instrmus",
     "keywords": []
@@ -1171,7 +1171,7 @@ const proyectosData = [
   {
     "titulo": "Telegrama de la Historia de la Música",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/histmues/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/histmues/index.html",
     "categoria": "MUSICA",
     "carpeta": "histmues",
     "keywords": []
@@ -1179,7 +1179,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de música para primaria y ESO",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/musicaes/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/musicaes/index.html",
     "categoria": "MUSICA",
     "carpeta": "musicaes",
     "keywords": []
@@ -1187,7 +1187,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de ritmo",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/ritmo/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/ritmo/index.html",
     "categoria": "MUSICA",
     "carpeta": "ritmo",
     "keywords": []
@@ -1195,7 +1195,7 @@ const proyectosData = [
   {
     "titulo": "El rock (Repaso auditivo)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/rock4/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/rock4/index.html",
     "categoria": "MUSICA",
     "carpeta": "rock4",
     "keywords": []
@@ -1203,7 +1203,7 @@ const proyectosData = [
   {
     "titulo": "El rock (La historia)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/rock1/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/rock1/index.html",
     "categoria": "MUSICA",
     "carpeta": "rock1",
     "keywords": []
@@ -1211,7 +1211,7 @@ const proyectosData = [
   {
     "titulo": "Britten",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/brittesp/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/brittesp/index.html",
     "categoria": "MUSICA",
     "carpeta": "brittesp",
     "keywords": []
@@ -1219,7 +1219,7 @@ const proyectosData = [
   {
     "titulo": "Els músics de Bremen",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/musicos/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/musicos/index.html",
     "categoria": "MUSICA",
     "carpeta": "musicos",
     "keywords": []
@@ -1227,7 +1227,7 @@ const proyectosData = [
   {
     "titulo": "El rock (Audiciones)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/MUSICA/rock2/index.html",
+    "url": "SECUNDARIO/OTRAS/MUSICA/rock2/index.html",
     "categoria": "MUSICA",
     "carpeta": "rock2",
     "keywords": []
@@ -1235,7 +1235,7 @@ const proyectosData = [
   {
     "titulo": "La pintura a finales del siglo XIX y principios del siglo XX",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/pintura/pintura/index.html",
+    "url": "SECUNDARIO/OTRAS/pintura/pintura/index.html",
     "categoria": "pintura",
     "carpeta": "pintura",
     "keywords": []
@@ -1243,7 +1243,7 @@ const proyectosData = [
   {
     "titulo": "Hobbies and interests",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/hobbies/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/hobbies/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "hobbies",
     "keywords": []
@@ -1251,7 +1251,7 @@ const proyectosData = [
   {
     "titulo": "Phonetics",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/phonetic/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/phonetic/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "phonetic",
     "keywords": []
@@ -1259,7 +1259,7 @@ const proyectosData = [
   {
     "titulo": "Comparatives and Superlatives",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/dictatio/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/dictatio/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "dictatio",
     "keywords": []
@@ -1267,7 +1267,7 @@ const proyectosData = [
   {
     "titulo": "Let's have fun possessives!",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/posesive/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/posesive/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "posesive",
     "keywords": []
@@ -1275,7 +1275,7 @@ const proyectosData = [
   {
     "titulo": "Mystery project",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/mystery/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/mystery/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "mystery",
     "keywords": []
@@ -1283,7 +1283,7 @@ const proyectosData = [
   {
     "titulo": "Welcome to London",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/london2/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/london2/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "london2",
     "keywords": []
@@ -1291,7 +1291,7 @@ const proyectosData = [
   {
     "titulo": "London",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/london/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/london/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "london",
     "keywords": []
@@ -1299,7 +1299,7 @@ const proyectosData = [
   {
     "titulo": "30 irregular verbs",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/30verbs/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/30verbs/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "30verbs",
     "keywords": []
@@ -1307,7 +1307,7 @@ const proyectosData = [
   {
     "titulo": "English adjectives",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/adjectiv/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/adjectiv/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "adjectiv",
     "keywords": []
@@ -1315,7 +1315,7 @@ const proyectosData = [
   {
     "titulo": "Kinds of energy and energy sources",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/energy/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/energy/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "energy",
     "keywords": []
@@ -1323,7 +1323,7 @@ const proyectosData = [
   {
     "titulo": "English topics",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/topics/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/topics/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "topics",
     "keywords": []
@@ -1331,7 +1331,7 @@ const proyectosData = [
   {
     "titulo": "Eating Out",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/eating/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/eating/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "eating",
     "keywords": []
@@ -1339,7 +1339,7 @@ const proyectosData = [
   {
     "titulo": "Learning English",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/learnsnd/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/learnsnd/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "learnsnd",
     "keywords": []
@@ -1347,7 +1347,7 @@ const proyectosData = [
   {
     "titulo": "Daily Routines",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/routines/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/SUPERIOR/routines/index.html",
     "categoria": "SUPERIOR",
     "carpeta": "routines",
     "keywords": []
@@ -1355,7 +1355,7 @@ const proyectosData = [
   {
     "titulo": "English 5º",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/english5/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/english5/index.html",
     "categoria": "BASICO",
     "carpeta": "english5",
     "keywords": []
@@ -1363,7 +1363,7 @@ const proyectosData = [
   {
     "titulo": "Bugs",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/bugs/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/bugs/index.html",
     "categoria": "BASICO",
     "carpeta": "bugs",
     "keywords": []
@@ -1371,7 +1371,7 @@ const proyectosData = [
   {
     "titulo": "Phonetics",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/phonetic/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/phonetic/index.html",
     "categoria": "BASICO",
     "carpeta": "phonetic",
     "keywords": []
@@ -1379,7 +1379,7 @@ const proyectosData = [
   {
     "titulo": "Twelve adjectives",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/12adject/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/12adject/index.html",
     "categoria": "BASICO",
     "carpeta": "12adject",
     "keywords": []
@@ -1387,7 +1387,7 @@ const proyectosData = [
   {
     "titulo": "Our pets",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/pets/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/pets/index.html",
     "categoria": "BASICO",
     "carpeta": "pets",
     "keywords": []
@@ -1395,7 +1395,7 @@ const proyectosData = [
   {
     "titulo": "Geography in English",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/geoeng/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/geoeng/index.html",
     "categoria": "BASICO",
     "carpeta": "geoeng",
     "keywords": []
@@ -1403,7 +1403,7 @@ const proyectosData = [
   {
     "titulo": "Family",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/family/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/family/index.html",
     "categoria": "BASICO",
     "carpeta": "family",
     "keywords": []
@@ -1411,7 +1411,7 @@ const proyectosData = [
   {
     "titulo": "The colors",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/colors/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/colors/index.html",
     "categoria": "BASICO",
     "carpeta": "colors",
     "keywords": []
@@ -1419,7 +1419,7 @@ const proyectosData = [
   {
     "titulo": "Just grammatical aspects",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/justgram/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/justgram/index.html",
     "categoria": "BASICO",
     "carpeta": "justgram",
     "keywords": []
@@ -1427,7 +1427,7 @@ const proyectosData = [
   {
     "titulo": "Discovering words",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/bugs1/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/bugs1/index.html",
     "categoria": "BASICO",
     "carpeta": "bugs1",
     "keywords": []
@@ -1435,7 +1435,7 @@ const proyectosData = [
   {
     "titulo": "The animals",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/animals6/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/animals6/index.html",
     "categoria": "BASICO",
     "carpeta": "animals6",
     "keywords": []
@@ -1443,7 +1443,7 @@ const proyectosData = [
   {
     "titulo": "Colours",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/colours/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/colours/index.html",
     "categoria": "BASICO",
     "carpeta": "colours",
     "keywords": []
@@ -1451,7 +1451,7 @@ const proyectosData = [
   {
     "titulo": "School",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/school/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/school/index.html",
     "categoria": "BASICO",
     "carpeta": "school",
     "keywords": []
@@ -1459,7 +1459,7 @@ const proyectosData = [
   {
     "titulo": "Inglés para 3º de primaria",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/ingles/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/ingles/index.html",
     "categoria": "BASICO",
     "carpeta": "ingles",
     "keywords": []
@@ -1467,7 +1467,7 @@ const proyectosData = [
   {
     "titulo": "English activities",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/compsup/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/compsup/index.html",
     "categoria": "BASICO",
     "carpeta": "compsup",
     "keywords": []
@@ -1475,7 +1475,7 @@ const proyectosData = [
   {
     "titulo": "English activities",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/be/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/be/index.html",
     "categoria": "BASICO",
     "carpeta": "be",
     "keywords": []
@@ -1483,7 +1483,7 @@ const proyectosData = [
   {
     "titulo": "Discovering words",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/dwp3/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/dwp3/index.html",
     "categoria": "BASICO",
     "carpeta": "dwp3",
     "keywords": []
@@ -1491,7 +1491,7 @@ const proyectosData = [
   {
     "titulo": "The human body",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/humanbod/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/humanbod/index.html",
     "categoria": "BASICO",
     "carpeta": "humanbod",
     "keywords": []
@@ -1499,7 +1499,7 @@ const proyectosData = [
   {
     "titulo": "Irregular verbs",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/irrverbs/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/irrverbs/index.html",
     "categoria": "BASICO",
     "carpeta": "irrverbs",
     "keywords": []
@@ -1507,7 +1507,7 @@ const proyectosData = [
   {
     "titulo": "English 6º",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/sextoi2/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/sextoi2/index.html",
     "categoria": "BASICO",
     "carpeta": "sextoi2",
     "keywords": []
@@ -1515,7 +1515,7 @@ const proyectosData = [
   {
     "titulo": "Inlgés 4º EP",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/ingl4ep/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/ingl4ep/index.html",
     "categoria": "BASICO",
     "carpeta": "ingl4ep",
     "keywords": []
@@ -1523,7 +1523,7 @@ const proyectosData = [
   {
     "titulo": "English activities",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/havegot/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/havegot/index.html",
     "categoria": "BASICO",
     "carpeta": "havegot",
     "keywords": []
@@ -1531,7 +1531,7 @@ const proyectosData = [
   {
     "titulo": "Animals",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/anieng/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/INGLES/BASICO/anieng/index.html",
     "categoria": "BASICO",
     "carpeta": "anieng",
     "keywords": []
@@ -1539,7 +1539,7 @@ const proyectosData = [
   {
     "titulo": "Aprendamos francés",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/apfran/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/apfran/index.html",
     "categoria": "FRANCES",
     "carpeta": "apfran",
     "keywords": []
@@ -1547,7 +1547,7 @@ const proyectosData = [
   {
     "titulo": "Allons au restaurant",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/restaur/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/restaur/index.html",
     "categoria": "FRANCES",
     "carpeta": "restaur",
     "keywords": []
@@ -1555,7 +1555,7 @@ const proyectosData = [
   {
     "titulo": "La France, activités de Français",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/lafrance/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/lafrance/index.html",
     "categoria": "FRANCES",
     "carpeta": "lafrance",
     "keywords": []
@@ -1563,7 +1563,7 @@ const proyectosData = [
   {
     "titulo": "Les nombres en français",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/frnums/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/frnums/index.html",
     "categoria": "FRANCES",
     "carpeta": "frnums",
     "keywords": []
@@ -1571,7 +1571,7 @@ const proyectosData = [
   {
     "titulo": "Activités de Français",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/frances/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/frances/index.html",
     "categoria": "FRANCES",
     "carpeta": "frances",
     "keywords": []
@@ -1579,7 +1579,7 @@ const proyectosData = [
   {
     "titulo": "Partir",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/partir/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/partir/index.html",
     "categoria": "FRANCES",
     "carpeta": "partir",
     "keywords": []
@@ -1587,7 +1587,7 @@ const proyectosData = [
   {
     "titulo": "Les verbes (1)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/verbes/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/verbes/index.html",
     "categoria": "FRANCES",
     "carpeta": "verbes",
     "keywords": []
@@ -1595,15 +1595,15 @@ const proyectosData = [
   {
     "titulo": "France",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/OTRAS/IDIOMAS/FRANCES/france/index.html",
+    "url": "SECUNDARIO/OTRAS/IDIOMAS/FRANCES/france/index.html",
     "categoria": "FRANCES",
     "carpeta": "france",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Mutualismo",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/mutual/index.html",
+    "url": "SECUNDARIO/SOCIALES/mutual/index.html",
     "categoria": "SOCIALES",
     "carpeta": "mutual",
     "keywords": []
@@ -1611,7 +1611,7 @@ const proyectosData = [
   {
     "titulo": "La Prehistoria",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/laprehis/index.html",
+    "url": "SECUNDARIO/SOCIALES/laprehis/index.html",
     "categoria": "SOCIALES",
     "carpeta": "laprehis",
     "keywords": []
@@ -1619,7 +1619,7 @@ const proyectosData = [
   {
     "titulo": "La Antigua Roma",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/roma2/index.html",
+    "url": "SECUNDARIO/SOCIALES/roma2/index.html",
     "categoria": "SOCIALES",
     "carpeta": "roma2",
     "keywords": []
@@ -1627,7 +1627,7 @@ const proyectosData = [
   {
     "titulo": "Grecia y Roma",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/grecroma/index.html",
+    "url": "SECUNDARIO/SOCIALES/grecroma/index.html",
     "categoria": "SOCIALES",
     "carpeta": "grecroma",
     "keywords": []
@@ -1635,7 +1635,7 @@ const proyectosData = [
   {
     "titulo": "El humanismo",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/humanism/index.html",
+    "url": "SECUNDARIO/SOCIALES/humanism/index.html",
     "categoria": "SOCIALES",
     "carpeta": "humanism",
     "keywords": []
@@ -1643,7 +1643,7 @@ const proyectosData = [
   {
     "titulo": "Las Redes Sociales",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/redes/index.html",
+    "url": "SECUNDARIO/SOCIALES/redes/index.html",
     "categoria": "SOCIALES",
     "carpeta": "redes",
     "keywords": []
@@ -1651,7 +1651,7 @@ const proyectosData = [
   {
     "titulo": "Breve historia del mundo",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/breveh/index.html",
+    "url": "SECUNDARIO/SOCIALES/breveh/index.html",
     "categoria": "SOCIALES",
     "carpeta": "breveh",
     "keywords": []
@@ -1659,7 +1659,7 @@ const proyectosData = [
   {
     "titulo": "Etapas de la historia",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/ehistori/index.html",
+    "url": "SECUNDARIO/SOCIALES/ehistori/index.html",
     "categoria": "SOCIALES",
     "carpeta": "ehistori",
     "keywords": []
@@ -1667,7 +1667,7 @@ const proyectosData = [
   {
     "titulo": "El rincón de los documentos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/docume/index.html",
+    "url": "SECUNDARIO/SOCIALES/docume/index.html",
     "categoria": "SOCIALES",
     "carpeta": "docume",
     "keywords": []
@@ -1675,7 +1675,7 @@ const proyectosData = [
   {
     "titulo": "Civilizaciones antiguas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/civilant/index.html",
+    "url": "SECUNDARIO/SOCIALES/civilant/index.html",
     "categoria": "SOCIALES",
     "carpeta": "civilant",
     "keywords": []
@@ -1683,7 +1683,7 @@ const proyectosData = [
   {
     "titulo": "Pueblos primitivos de Chile",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/chile/index.html",
+    "url": "SECUNDARIO/SOCIALES/chile/index.html",
     "categoria": "SOCIALES",
     "carpeta": "chile",
     "keywords": []
@@ -1691,7 +1691,7 @@ const proyectosData = [
   {
     "titulo": "El nacimiento de la URSS",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/urss/index.html",
+    "url": "SECUNDARIO/SOCIALES/urss/index.html",
     "categoria": "SOCIALES",
     "carpeta": "urss",
     "keywords": []
@@ -1699,7 +1699,7 @@ const proyectosData = [
   {
     "titulo": "Mercosur",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/mercosur/index.html",
+    "url": "SECUNDARIO/SOCIALES/mercosur/index.html",
     "categoria": "SOCIALES",
     "carpeta": "mercosur",
     "keywords": []
@@ -1707,7 +1707,7 @@ const proyectosData = [
   {
     "titulo": "Educación para la solidaridad",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/edusoli1/index.html",
+    "url": "SECUNDARIO/SOCIALES/edusoli1/index.html",
     "categoria": "SOCIALES",
     "carpeta": "edusoli1",
     "keywords": []
@@ -1715,7 +1715,7 @@ const proyectosData = [
   {
     "titulo": "Geomorfología",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/geomorfo/index.html",
+    "url": "SECUNDARIO/SOCIALES/geomorfo/index.html",
     "categoria": "SOCIALES",
     "carpeta": "geomorfo",
     "keywords": []
@@ -1723,7 +1723,7 @@ const proyectosData = [
   {
     "titulo": "La Grecia antigua",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/grecia2/index.html",
+    "url": "SECUNDARIO/SOCIALES/grecia2/index.html",
     "categoria": "SOCIALES",
     "carpeta": "grecia2",
     "keywords": []
@@ -1731,7 +1731,7 @@ const proyectosData = [
   {
     "titulo": "Geografía latinoamericana",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/geolat/index.html",
+    "url": "SECUNDARIO/SOCIALES/geolat/index.html",
     "categoria": "SOCIALES",
     "carpeta": "geolat",
     "keywords": []
@@ -1739,7 +1739,7 @@ const proyectosData = [
   {
     "titulo": "Proyección de Peters",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/peters/index.html",
+    "url": "SECUNDARIO/SOCIALES/peters/index.html",
     "categoria": "SOCIALES",
     "carpeta": "peters",
     "keywords": []
@@ -1747,7 +1747,7 @@ const proyectosData = [
   {
     "titulo": "Guerra civil española",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/gcivil/index.html",
+    "url": "SECUNDARIO/SOCIALES/gcivil/index.html",
     "categoria": "SOCIALES",
     "carpeta": "gcivil",
     "keywords": []
@@ -1755,7 +1755,7 @@ const proyectosData = [
   {
     "titulo": "Derechos Humanos en Argentina",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/dh/index.html",
+    "url": "SECUNDARIO/SOCIALES/dh/index.html",
     "categoria": "SOCIALES",
     "carpeta": "dh",
     "keywords": []
@@ -1763,7 +1763,7 @@ const proyectosData = [
   {
     "titulo": "Grècia i Roma",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/histo3es/index.html",
+    "url": "SECUNDARIO/SOCIALES/histo3es/index.html",
     "categoria": "SOCIALES",
     "carpeta": "histo3es",
     "keywords": []
@@ -1771,7 +1771,7 @@ const proyectosData = [
   {
     "titulo": "Nuestro mundo",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/SOCIALES/geo2-1/index.html",
+    "url": "SECUNDARIO/SOCIALES/geo2-1/index.html",
     "categoria": "SOCIALES",
     "carpeta": "geo2-1",
     "keywords": []
@@ -1779,7 +1779,7 @@ const proyectosData = [
   {
     "titulo": "Proporcionalidad",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/proporci/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/proporci/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "proporci",
     "keywords": []
@@ -1787,7 +1787,7 @@ const proyectosData = [
   {
     "titulo": "Ecuaciones de primer y segundo grado",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/ecuac12b/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/ecuac12b/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "ecuac12b",
     "keywords": []
@@ -1795,7 +1795,7 @@ const proyectosData = [
   {
     "titulo": "Geoclic (español)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/geoclice/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/geoclice/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "geoclice",
     "keywords": []
@@ -1803,7 +1803,7 @@ const proyectosData = [
   {
     "titulo": "Los números enteros",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/enteros/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/enteros/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "enteros",
     "keywords": []
@@ -1811,7 +1811,7 @@ const proyectosData = [
   {
     "titulo": "Matemáticas y realidad",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/matreal/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/matreal/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "matreal",
     "keywords": []
@@ -1819,7 +1819,7 @@ const proyectosData = [
   {
     "titulo": "Raíces cuadradas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/raices/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/raices/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "raices",
     "keywords": []
@@ -1827,7 +1827,7 @@ const proyectosData = [
   {
     "titulo": "Potencias y raíces cuadradas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/poten/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/poten/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "poten",
     "keywords": []
@@ -1835,7 +1835,7 @@ const proyectosData = [
   {
     "titulo": "Monomios y polinomios",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/monomios/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/monomios/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "monomios",
     "keywords": []
@@ -1843,7 +1843,7 @@ const proyectosData = [
   {
     "titulo": "Introducción a la trigonometría",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/trigonom/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/trigonom/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "trigonom",
     "keywords": []
@@ -1851,7 +1851,7 @@ const proyectosData = [
   {
     "titulo": "Trigonometría",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/trigo2/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/trigo2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "trigo2",
     "keywords": []
@@ -1859,7 +1859,7 @@ const proyectosData = [
   {
     "titulo": "Trigonometría",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/cuadrant/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/cuadrant/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "cuadrant",
     "keywords": []
@@ -1867,7 +1867,7 @@ const proyectosData = [
   {
     "titulo": "Sistema binario",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/binario/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/binario/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "binario",
     "keywords": []
@@ -1875,7 +1875,7 @@ const proyectosData = [
   {
     "titulo": "Multiplicación y división de monomios",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/mdm/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/mdm/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "mdm",
     "keywords": []
@@ -1883,7 +1883,7 @@ const proyectosData = [
   {
     "titulo": "Las distintas ecuaciones de las rectas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/recafin/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/recafin/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "recafin",
     "keywords": []
@@ -1891,7 +1891,7 @@ const proyectosData = [
   {
     "titulo": "Estudio global de funciones",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/funcion2/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/funcion2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "funcion2",
     "keywords": []
@@ -1899,7 +1899,7 @@ const proyectosData = [
   {
     "titulo": "Cálculo con radicales",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/raices2/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/raices2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "raices2",
     "keywords": []
@@ -1907,7 +1907,7 @@ const proyectosData = [
   {
     "titulo": "Sistema sexagesimal",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/sexagesi/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/sexagesi/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sexagesi",
     "keywords": []
@@ -1915,7 +1915,7 @@ const proyectosData = [
   {
     "titulo": "Sistemas de numeración egipcio, maya y binario",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/sisnumpq/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/sisnumpq/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sisnumpq",
     "keywords": []
@@ -1923,7 +1923,7 @@ const proyectosData = [
   {
     "titulo": "Funciones",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/funcione/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/funcione/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "funcione",
     "keywords": []
@@ -1931,7 +1931,7 @@ const proyectosData = [
   {
     "titulo": "Puntos, gráficas y funciones",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/MATEMATICAS/pungraes/index.html",
+    "url": "SECUNDARIO/MATEMATICAS/pungraes/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "pungraes",
     "keywords": []
@@ -1939,7 +1939,7 @@ const proyectosData = [
   {
     "titulo": "Introducción a la robótica",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/robots/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/robots/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "robots",
     "keywords": []
@@ -1947,7 +1947,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (02 - Madera, 1º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/madera/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/madera/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "madera",
     "keywords": []
@@ -1955,7 +1955,7 @@ const proyectosData = [
   {
     "titulo": "Dibujo técnico",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/matdibu/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/matdibu/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "matdibu",
     "keywords": []
@@ -1963,7 +1963,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (04 - Máquinas y mecanismos, 2º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/maquimec/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/maquimec/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "maquimec",
     "keywords": []
@@ -1971,7 +1971,7 @@ const proyectosData = [
   {
     "titulo": "Tecnología: electrónica",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/tecno3/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/tecno3/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "tecno3",
     "keywords": []
@@ -1979,7 +1979,7 @@ const proyectosData = [
   {
     "titulo": "Informática básica",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/informat/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/informat/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "informat",
     "keywords": []
@@ -1987,7 +1987,7 @@ const proyectosData = [
   {
     "titulo": "El proceso tecnológico en el aula-taller",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/procesos/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/procesos/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "procesos",
     "keywords": []
@@ -1995,7 +1995,7 @@ const proyectosData = [
   {
     "titulo": "Estructuras",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/estructuras/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/estructuras/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "estructuras",
     "keywords": []
@@ -2003,7 +2003,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (05 - Materiales metálicos, 2º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/matmetal/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/matmetal/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "matmetal",
     "keywords": []
@@ -2011,7 +2011,7 @@ const proyectosData = [
   {
     "titulo": "Fundamentos de computación",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/computad/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/computad/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "computad",
     "keywords": []
@@ -2019,7 +2019,7 @@ const proyectosData = [
   {
     "titulo": "SL",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/sl/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/sl/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "sl",
     "keywords": []
@@ -2027,7 +2027,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (01 - Tecnología, 1º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/latecnol/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/latecnol/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "latecnol",
     "keywords": []
@@ -2035,7 +2035,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (07 - Circuitos eléctricos, 2º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/circelec/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/circelec/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "circelec",
     "keywords": []
@@ -2043,7 +2043,7 @@ const proyectosData = [
   {
     "titulo": "Mecanismos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/mecanis2/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/mecanis2/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "mecanis2",
     "keywords": []
@@ -2051,7 +2051,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de tecnología 1º y 2º de ESO (03 - Materiales para utilizar en Tecnología, 1º ESO)",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/mater2/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/mater2/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "mater2",
     "keywords": []
@@ -2059,7 +2059,7 @@ const proyectosData = [
   {
     "titulo": "Plásticos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/plasticos/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/plasticos/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "plasticos",
     "keywords": []
@@ -2067,7 +2067,7 @@ const proyectosData = [
   {
     "titulo": "Los ordenadores",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/TECNOLOGIA/pc/index.html",
+    "url": "SECUNDARIO/TECNOLOGIA/pc/index.html",
     "categoria": "TECNOLOGIA",
     "carpeta": "pc",
     "keywords": []
@@ -2075,7 +2075,7 @@ const proyectosData = [
   {
     "titulo": "Material y operaciones en un laboratorio químico",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/labquies/index.html",
+    "url": "SECUNDARIO/NATURALES/labquies/index.html",
     "categoria": "NATURALES",
     "carpeta": "labquies",
     "keywords": []
@@ -2083,7 +2083,7 @@ const proyectosData = [
   {
     "titulo": "Fuerzas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/fuerzas/index.html",
+    "url": "SECUNDARIO/NATURALES/fuerzas/index.html",
     "categoria": "NATURALES",
     "carpeta": "fuerzas",
     "keywords": []
@@ -2091,7 +2091,7 @@ const proyectosData = [
   {
     "titulo": "Aparatos del cuerpo humano",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/aparatos/index.html",
+    "url": "SECUNDARIO/NATURALES/aparatos/index.html",
     "categoria": "NATURALES",
     "carpeta": "aparatos",
     "keywords": []
@@ -2099,7 +2099,7 @@ const proyectosData = [
   {
     "titulo": "La materia",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/materia/index.html",
+    "url": "SECUNDARIO/NATURALES/materia/index.html",
     "categoria": "NATURALES",
     "carpeta": "materia",
     "keywords": []
@@ -2107,7 +2107,7 @@ const proyectosData = [
   {
     "titulo": "Prevención de drogodependencias",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/prevesp/index.html",
+    "url": "SECUNDARIO/NATURALES/prevesp/index.html",
     "categoria": "NATURALES",
     "carpeta": "prevesp",
     "keywords": []
@@ -2115,7 +2115,7 @@ const proyectosData = [
   {
     "titulo": "Movimiento y fuerzas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/movfuerz/index.html",
+    "url": "SECUNDARIO/NATURALES/movfuerz/index.html",
     "categoria": "NATURALES",
     "carpeta": "movfuerz",
     "keywords": []
@@ -2123,7 +2123,7 @@ const proyectosData = [
   {
     "titulo": "Microbios",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/microbio/index.html",
+    "url": "SECUNDARIO/NATURALES/microbio/index.html",
     "categoria": "NATURALES",
     "carpeta": "microbio",
     "keywords": []
@@ -2131,7 +2131,7 @@ const proyectosData = [
   {
     "titulo": "El sistema solar - 2",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/ssolar2/index.html",
+    "url": "SECUNDARIO/NATURALES/ssolar2/index.html",
     "categoria": "NATURALES",
     "carpeta": "ssolar2",
     "keywords": []
@@ -2139,7 +2139,7 @@ const proyectosData = [
   {
     "titulo": "Tectónica de placas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/tpes/index.html",
+    "url": "SECUNDARIO/NATURALES/tpes/index.html",
     "categoria": "NATURALES",
     "carpeta": "tpes",
     "keywords": []
@@ -2147,7 +2147,7 @@ const proyectosData = [
   {
     "titulo": "Los cinco sentidos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/5sentido/index.html",
+    "url": "SECUNDARIO/NATURALES/5sentido/index.html",
     "categoria": "NATURALES",
     "carpeta": "5sentido",
     "keywords": []
@@ -2155,7 +2155,7 @@ const proyectosData = [
   {
     "titulo": "El cuerpo humano - 1",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/humano/index.html",
+    "url": "SECUNDARIO/NATURALES/humano/index.html",
     "categoria": "NATURALES",
     "carpeta": "humano",
     "keywords": []
@@ -2163,7 +2163,7 @@ const proyectosData = [
   {
     "titulo": "Ciclo celular en células somáticas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/ciclocel/index.html",
+    "url": "SECUNDARIO/NATURALES/ciclocel/index.html",
     "categoria": "NATURALES",
     "carpeta": "ciclocel",
     "keywords": []
@@ -2171,7 +2171,7 @@ const proyectosData = [
   {
     "titulo": "Ley de OHM",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/OHM/index.html",
+    "url": "SECUNDARIO/NATURALES/OHM/index.html",
     "categoria": "NATURALES",
     "carpeta": "OHM",
     "keywords": []
@@ -2179,15 +2179,15 @@ const proyectosData = [
   {
     "titulo": "El enlace químico",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/enlace/index.html",
+    "url": "SECUNDARIO/NATURALES/enlace/index.html",
     "categoria": "NATURALES",
     "carpeta": "enlace",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "El nacimiento humano",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/nacer/index.html",
+    "url": "SECUNDARIO/NATURALES/nacer/index.html",
     "categoria": "NATURALES",
     "carpeta": "nacer",
     "keywords": []
@@ -2195,7 +2195,7 @@ const proyectosData = [
   {
     "titulo": "Átomos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/atomos/index.html",
+    "url": "SECUNDARIO/NATURALES/atomos/index.html",
     "categoria": "NATURALES",
     "carpeta": "atomos",
     "keywords": []
@@ -2203,7 +2203,7 @@ const proyectosData = [
   {
     "titulo": "La Tierra",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/tierra2/index.html",
+    "url": "SECUNDARIO/NATURALES/tierra2/index.html",
     "categoria": "NATURALES",
     "carpeta": "tierra2",
     "keywords": []
@@ -2211,7 +2211,7 @@ const proyectosData = [
   {
     "titulo": "El mundo de las plantas",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/botanica/index.html",
+    "url": "SECUNDARIO/NATURALES/botanica/index.html",
     "categoria": "NATURALES",
     "carpeta": "botanica",
     "keywords": []
@@ -2219,7 +2219,7 @@ const proyectosData = [
   {
     "titulo": "Sistema periódico de los elementos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/periodic/index.html",
+    "url": "SECUNDARIO/NATURALES/periodic/index.html",
     "categoria": "NATURALES",
     "carpeta": "periodic",
     "keywords": []
@@ -2227,7 +2227,7 @@ const proyectosData = [
   {
     "titulo": "Las valencias",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/valencias/index.html",
+    "url": "SECUNDARIO/NATURALES/valencias/index.html",
     "categoria": "NATURALES",
     "carpeta": "valencias",
     "keywords": []
@@ -2235,7 +2235,7 @@ const proyectosData = [
   {
     "titulo": "Seres vivos y microorganismos",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/naturale/index.html",
+    "url": "SECUNDARIO/NATURALES/naturale/index.html",
     "categoria": "NATURALES",
     "carpeta": "naturale",
     "keywords": []
@@ -2243,7 +2243,7 @@ const proyectosData = [
   {
     "titulo": "El canvi climàtic",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/climaes/index.html",
+    "url": "SECUNDARIO/NATURALES/climaes/index.html",
     "categoria": "NATURALES",
     "carpeta": "climaes",
     "keywords": []
@@ -2251,7 +2251,7 @@ const proyectosData = [
   {
     "titulo": "El sistema solar - 1",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/ssolar/index.html",
+    "url": "SECUNDARIO/NATURALES/ssolar/index.html",
     "categoria": "NATURALES",
     "carpeta": "ssolar",
     "keywords": []
@@ -2259,7 +2259,7 @@ const proyectosData = [
   {
     "titulo": "La diabetes tipo I: Complicaciones agudas, Insulina, Ejercicio Físico",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/ediabet2/index.html",
+    "url": "SECUNDARIO/NATURALES/ediabet2/index.html",
     "categoria": "NATURALES",
     "carpeta": "ediabet2",
     "keywords": []
@@ -2267,7 +2267,7 @@ const proyectosData = [
   {
     "titulo": "Formulación",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/formula/index.html",
+    "url": "SECUNDARIO/NATURALES/formula/index.html",
     "categoria": "NATURALES",
     "carpeta": "formula",
     "keywords": []
@@ -2275,7 +2275,7 @@ const proyectosData = [
   {
     "titulo": "Sistemas materiales",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/sistmat/index.html",
+    "url": "SECUNDARIO/NATURALES/sistmat/index.html",
     "categoria": "NATURALES",
     "carpeta": "sistmat",
     "keywords": []
@@ -2283,7 +2283,7 @@ const proyectosData = [
   {
     "titulo": "Descobrim la diabetes \"Conceptes bàsics\"",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/ediabeti/index.html",
+    "url": "SECUNDARIO/NATURALES/ediabeti/index.html",
     "categoria": "NATURALES",
     "carpeta": "ediabeti",
     "keywords": []
@@ -2291,7 +2291,7 @@ const proyectosData = [
   {
     "titulo": "Trabajar en el laboratorio de química",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/tralabor/index.html",
+    "url": "SECUNDARIO/NATURALES/tralabor/index.html",
     "categoria": "NATURALES",
     "carpeta": "tralabor",
     "keywords": []
@@ -2299,7 +2299,7 @@ const proyectosData = [
   {
     "titulo": "Introducción al concepto de fuerza",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/din/index.html",
+    "url": "SECUNDARIO/NATURALES/din/index.html",
     "categoria": "NATURALES",
     "carpeta": "din",
     "keywords": []
@@ -2307,7 +2307,7 @@ const proyectosData = [
   {
     "titulo": "La Célula",
     "descripcion": "",
-    "url": "projects/SECUNDARIO/NATURALES/celula/index.html",
+    "url": "SECUNDARIO/NATURALES/celula/index.html",
     "categoria": "NATURALES",
     "carpeta": "celula",
     "keywords": []
@@ -2315,7 +2315,7 @@ const proyectosData = [
   {
     "titulo": "Habilidades de lectura y escritura",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/hable/index.html",
+    "url": "PRIMERCICLO/LENGUA/hable/index.html",
     "categoria": "LENGUA",
     "carpeta": "hable",
     "keywords": []
@@ -2323,7 +2323,7 @@ const proyectosData = [
   {
     "titulo": "Ga-go-gu",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/ga-go-gu/index.html",
+    "url": "PRIMERCICLO/LENGUA/ga-go-gu/index.html",
     "categoria": "LENGUA",
     "carpeta": "ga-go-gu",
     "keywords": []
@@ -2331,7 +2331,7 @@ const proyectosData = [
   {
     "titulo": "La acentuación",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/acento2/index.html",
+    "url": "PRIMERCICLO/LENGUA/acento2/index.html",
     "categoria": "LENGUA",
     "carpeta": "acento2",
     "keywords": []
@@ -2339,7 +2339,7 @@ const proyectosData = [
   {
     "titulo": "La isla del tesoro",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/itesoro/index.html",
+    "url": "PRIMERCICLO/LENGUA/itesoro/index.html",
     "categoria": "LENGUA",
     "carpeta": "itesoro",
     "keywords": []
@@ -2347,7 +2347,7 @@ const proyectosData = [
   {
     "titulo": "Agudas, llanas y esdrújulas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/agudas/index.html",
+    "url": "PRIMERCICLO/LENGUA/agudas/index.html",
     "categoria": "LENGUA",
     "carpeta": "agudas",
     "keywords": []
@@ -2355,15 +2355,15 @@ const proyectosData = [
   {
     "titulo": "Lee y diviértete",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/leeydiv/index.html",
+    "url": "PRIMERCICLO/LENGUA/leeydiv/index.html",
     "categoria": "LENGUA",
     "carpeta": "leeydiv",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "4 fábulas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/4fabulas/index.html",
+    "url": "PRIMERCICLO/LENGUA/4fabulas/index.html",
     "categoria": "LENGUA",
     "carpeta": "4fabulas",
     "keywords": []
@@ -2371,7 +2371,7 @@ const proyectosData = [
   {
     "titulo": "Las sílabas inversas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/inversa2/index.html",
+    "url": "PRIMERCICLO/LENGUA/inversa2/index.html",
     "categoria": "LENGUA",
     "carpeta": "inversa2",
     "keywords": []
@@ -2379,7 +2379,7 @@ const proyectosData = [
   {
     "titulo": "Sopas de letras",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/sopacas/index.html",
+    "url": "PRIMERCICLO/LENGUA/sopacas/index.html",
     "categoria": "LENGUA",
     "carpeta": "sopacas",
     "keywords": []
@@ -2387,7 +2387,7 @@ const proyectosData = [
   {
     "titulo": "Prefijos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/prefijos/index.html",
+    "url": "PRIMERCICLO/LENGUA/prefijos/index.html",
     "categoria": "LENGUA",
     "carpeta": "prefijos",
     "keywords": []
@@ -2395,7 +2395,7 @@ const proyectosData = [
   {
     "titulo": "El repasón",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/cultgene/index.html",
+    "url": "PRIMERCICLO/LENGUA/cultgene/index.html",
     "categoria": "LENGUA",
     "carpeta": "cultgene",
     "keywords": []
@@ -2403,7 +2403,7 @@ const proyectosData = [
   {
     "titulo": "Lecturas: El vieto y el sol",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/lecturas/index.html",
+    "url": "PRIMERCICLO/LENGUA/lecturas/index.html",
     "categoria": "LENGUA",
     "carpeta": "lecturas",
     "keywords": []
@@ -2411,7 +2411,7 @@ const proyectosData = [
   {
     "titulo": "Letras",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/letras/index.html",
+    "url": "PRIMERCICLO/LENGUA/letras/index.html",
     "categoria": "LENGUA",
     "carpeta": "letras",
     "keywords": []
@@ -2419,7 +2419,7 @@ const proyectosData = [
   {
     "titulo": "Lengua 2º año EGB",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/lengua2/index.html",
+    "url": "PRIMERCICLO/LENGUA/lengua2/index.html",
     "categoria": "LENGUA",
     "carpeta": "lengua2",
     "keywords": []
@@ -2427,7 +2427,7 @@ const proyectosData = [
   {
     "titulo": "Ortografía: Uso de la H, LL, Y",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/ortograf/index.html",
+    "url": "PRIMERCICLO/LENGUA/ortograf/index.html",
     "categoria": "LENGUA",
     "carpeta": "ortograf",
     "keywords": []
@@ -2435,7 +2435,7 @@ const proyectosData = [
   {
     "titulo": "De la lletra de pal a la lletra lligada",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/pal-llig/index.html",
+    "url": "PRIMERCICLO/LENGUA/pal-llig/index.html",
     "categoria": "LENGUA",
     "carpeta": "pal-llig",
     "keywords": []
@@ -2443,7 +2443,7 @@ const proyectosData = [
   {
     "titulo": "La calesita del bosque",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/calesita/index.html",
+    "url": "PRIMERCICLO/LENGUA/calesita/index.html",
     "categoria": "LENGUA",
     "carpeta": "calesita",
     "keywords": []
@@ -2451,7 +2451,7 @@ const proyectosData = [
   {
     "titulo": "Actividades de lenguaje para educación primaria",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/lengua/index.html",
+    "url": "PRIMERCICLO/LENGUA/lengua/index.html",
     "categoria": "LENGUA",
     "carpeta": "lengua",
     "keywords": []
@@ -2459,7 +2459,7 @@ const proyectosData = [
   {
     "titulo": "Grupo CL",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/grupo_cl/index.html",
+    "url": "PRIMERCICLO/LENGUA/grupo_cl/index.html",
     "categoria": "LENGUA",
     "carpeta": "grupo_cl",
     "keywords": []
@@ -2467,7 +2467,7 @@ const proyectosData = [
   {
     "titulo": "Vamos a leer - 2",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/leo/index.html",
+    "url": "PRIMERCICLO/LENGUA/leo/index.html",
     "categoria": "LENGUA",
     "carpeta": "leo",
     "keywords": []
@@ -2475,7 +2475,7 @@ const proyectosData = [
   {
     "titulo": "JuegoLec",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/juegolec/index.html",
+    "url": "PRIMERCICLO/LENGUA/juegolec/index.html",
     "categoria": "LENGUA",
     "carpeta": "juegolec",
     "keywords": []
@@ -2483,7 +2483,7 @@ const proyectosData = [
   {
     "titulo": "Las sílabas trabadas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/trab1/index.html",
+    "url": "PRIMERCICLO/LENGUA/trab1/index.html",
     "categoria": "LENGUA",
     "carpeta": "trab1",
     "keywords": []
@@ -2491,7 +2491,7 @@ const proyectosData = [
   {
     "titulo": "Abecedario",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/abecedar/index.html",
+    "url": "PRIMERCICLO/LENGUA/abecedar/index.html",
     "categoria": "LENGUA",
     "carpeta": "abecedar",
     "keywords": []
@@ -2499,7 +2499,7 @@ const proyectosData = [
   {
     "titulo": "Sustantivos y adjetivos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/sustadje/index.html",
+    "url": "PRIMERCICLO/LENGUA/sustadje/index.html",
     "categoria": "LENGUA",
     "carpeta": "sustadje",
     "keywords": []
@@ -2507,7 +2507,7 @@ const proyectosData = [
   {
     "titulo": "Ortografía",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/ortogra/index.html",
+    "url": "PRIMERCICLO/LENGUA/ortogra/index.html",
     "categoria": "LENGUA",
     "carpeta": "ortogra",
     "keywords": []
@@ -2515,7 +2515,7 @@ const proyectosData = [
   {
     "titulo": "Lectura compresnsiva",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/pendarip/index.html",
+    "url": "PRIMERCICLO/LENGUA/pendarip/index.html",
     "categoria": "LENGUA",
     "carpeta": "pendarip",
     "keywords": []
@@ -2523,7 +2523,7 @@ const proyectosData = [
   {
     "titulo": "Orden alfabético",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/LENGUA/ordenalf/index.html",
+    "url": "PRIMERCICLO/LENGUA/ordenalf/index.html",
     "categoria": "LENGUA",
     "carpeta": "ordenalf",
     "keywords": []
@@ -2531,7 +2531,7 @@ const proyectosData = [
   {
     "titulo": "Las partes de la computadora",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/OTRAS/compu/index.html",
+    "url": "PRIMERCICLO/OTRAS/compu/index.html",
     "categoria": "OTRAS",
     "carpeta": "compu",
     "keywords": []
@@ -2539,7 +2539,7 @@ const proyectosData = [
   {
     "titulo": "Berni para niños",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/OTRAS/berni/index.html",
+    "url": "PRIMERCICLO/OTRAS/berni/index.html",
     "categoria": "OTRAS",
     "carpeta": "berni",
     "keywords": []
@@ -2547,23 +2547,23 @@ const proyectosData = [
   {
     "titulo": "Los números en mapudungun",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/OTRAS/mapu/index.html",
+    "url": "PRIMERCICLO/OTRAS/mapu/index.html",
     "categoria": "OTRAS",
     "carpeta": "mapu",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Atlas de Argentina",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/atlas/index.html",
+    "url": "PRIMERCICLO/SOCIALES/atlas/index.html",
     "categoria": "SOCIALES",
     "carpeta": "atlas",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Manuel Belgrano",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/belgr/index.html",
+    "url": "PRIMERCICLO/SOCIALES/belgr/index.html",
     "categoria": "SOCIALES",
     "carpeta": "belgr",
     "keywords": []
@@ -2571,7 +2571,7 @@ const proyectosData = [
   {
     "titulo": "Trabajamos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/trabajo/index.html",
+    "url": "PRIMERCICLO/SOCIALES/trabajo/index.html",
     "categoria": "SOCIALES",
     "carpeta": "trabajo",
     "keywords": []
@@ -2579,7 +2579,7 @@ const proyectosData = [
   {
     "titulo": "Colonia",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/colonia/index.html",
+    "url": "PRIMERCICLO/SOCIALES/colonia/index.html",
     "categoria": "SOCIALES",
     "carpeta": "colonia",
     "keywords": []
@@ -2587,7 +2587,7 @@ const proyectosData = [
   {
     "titulo": "El barrio",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/elbarrio/index.html",
+    "url": "PRIMERCICLO/SOCIALES/elbarrio/index.html",
     "categoria": "SOCIALES",
     "carpeta": "elbarrio",
     "keywords": []
@@ -2595,7 +2595,7 @@ const proyectosData = [
   {
     "titulo": "La Revolución de Mayo",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/clicurso/index.html",
+    "url": "PRIMERCICLO/SOCIALES/clicurso/index.html",
     "categoria": "SOCIALES",
     "carpeta": "clicurso",
     "keywords": []
@@ -2603,7 +2603,7 @@ const proyectosData = [
   {
     "titulo": "Los Rincones de clase",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/rincones/index.html",
+    "url": "PRIMERCICLO/SOCIALES/rincones/index.html",
     "categoria": "SOCIALES",
     "carpeta": "rincones",
     "keywords": []
@@ -2611,7 +2611,7 @@ const proyectosData = [
   {
     "titulo": "La Bandera Argentina",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/bandera/index.html",
+    "url": "PRIMERCICLO/SOCIALES/bandera/index.html",
     "categoria": "SOCIALES",
     "carpeta": "bandera",
     "keywords": []
@@ -2619,7 +2619,7 @@ const proyectosData = [
   {
     "titulo": "Los Oficios",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/oficios/index.html",
+    "url": "PRIMERCICLO/SOCIALES/oficios/index.html",
     "categoria": "SOCIALES",
     "carpeta": "oficios",
     "keywords": []
@@ -2627,7 +2627,7 @@ const proyectosData = [
   {
     "titulo": "Comidas típicas argentinas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/tipica/index.html",
+    "url": "PRIMERCICLO/SOCIALES/tipica/index.html",
     "categoria": "SOCIALES",
     "carpeta": "tipica",
     "keywords": []
@@ -2635,7 +2635,7 @@ const proyectosData = [
   {
     "titulo": "José de San Martín",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/sanmart/index.html",
+    "url": "PRIMERCICLO/SOCIALES/sanmart/index.html",
     "categoria": "SOCIALES",
     "carpeta": "sanmart",
     "keywords": []
@@ -2643,15 +2643,15 @@ const proyectosData = [
   {
     "titulo": "Historia de los alimentos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/hisali/index.html",
+    "url": "PRIMERCICLO/SOCIALES/hisali/index.html",
     "categoria": "SOCIALES",
     "carpeta": "hisali",
     "keywords": []
   },
   {
-    "titulo": "Sin nombre",
+    "titulo": "Provincia de Santa Fe",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/SOCIALES/santafe/index.html",
+    "url": "PRIMERCICLO/SOCIALES/santafe/index.html",
     "categoria": "SOCIALES",
     "carpeta": "santafe",
     "keywords": []
@@ -2659,7 +2659,7 @@ const proyectosData = [
   {
     "titulo": "Sumas y restas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/matesci/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/matesci/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "matesci",
     "keywords": []
@@ -2667,7 +2667,7 @@ const proyectosData = [
   {
     "titulo": "Series numéricas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/seriesp/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/seriesp/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "seriesp",
     "keywords": []
@@ -2675,7 +2675,7 @@ const proyectosData = [
   {
     "titulo": "Cálculo Mental del 1 al 100 con resolución de problemas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/mental/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/mental/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "mental",
     "keywords": []
@@ -2683,7 +2683,7 @@ const proyectosData = [
   {
     "titulo": "Pasatiempos matemáticos 1",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/pasmates/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/pasmates/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "pasmates",
     "keywords": []
@@ -2691,7 +2691,7 @@ const proyectosData = [
   {
     "titulo": "A sumar",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/asumar/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/asumar/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "asumar",
     "keywords": []
@@ -2699,7 +2699,7 @@ const proyectosData = [
   {
     "titulo": "Las operaciones",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/opera/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/opera/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "opera",
     "keywords": []
@@ -2707,7 +2707,7 @@ const proyectosData = [
   {
     "titulo": "Sumas llevando",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/sumas_ll/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/sumas_ll/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sumas_ll",
     "keywords": []
@@ -2715,7 +2715,7 @@ const proyectosData = [
   {
     "titulo": "La familia del 100",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/fam100/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/fam100/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "fam100",
     "keywords": []
@@ -2723,7 +2723,7 @@ const proyectosData = [
   {
     "titulo": "Aprengeo",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/aprengeo/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/aprengeo/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "aprengeo",
     "keywords": []
@@ -2731,7 +2731,7 @@ const proyectosData = [
   {
     "titulo": "Numeritos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/numerit/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/numerit/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "numerit",
     "keywords": []
@@ -2739,7 +2739,7 @@ const proyectosData = [
   {
     "titulo": "Sumas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/sumas/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/sumas/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sumas",
     "keywords": []
@@ -2747,7 +2747,7 @@ const proyectosData = [
   {
     "titulo": "Aprendiendo a sumar y restar",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/sumasres/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/sumasres/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "sumasres",
     "keywords": []
@@ -2755,7 +2755,7 @@ const proyectosData = [
   {
     "titulo": "Numeración",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/numerac/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/numerac/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "numerac",
     "keywords": []
@@ -2763,7 +2763,7 @@ const proyectosData = [
   {
     "titulo": "Las tablas de multiplicar - 1",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/tablas/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/tablas/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "tablas",
     "keywords": []
@@ -2771,7 +2771,7 @@ const proyectosData = [
   {
     "titulo": "Las horas del reloj",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/horas/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/horas/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "horas",
     "keywords": []
@@ -2779,7 +2779,7 @@ const proyectosData = [
   {
     "titulo": "Cálculo para 3º de primaria",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/calculo/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/calculo/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "calculo",
     "keywords": []
@@ -2787,7 +2787,7 @@ const proyectosData = [
   {
     "titulo": "Numeración en primaria",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/numerac2/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/numerac2/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "numerac2",
     "keywords": []
@@ -2795,7 +2795,7 @@ const proyectosData = [
   {
     "titulo": "Vueltos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/MATEMATICAS/vueltos/index.html",
+    "url": "PRIMERCICLO/MATEMATICAS/vueltos/index.html",
     "categoria": "MATEMATICAS",
     "carpeta": "vueltos",
     "keywords": []
@@ -2803,7 +2803,7 @@ const proyectosData = [
   {
     "titulo": "Jugamos con los animales",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/aves/index.html",
+    "url": "PRIMERCICLO/NATURALES/aves/index.html",
     "categoria": "NATURALES",
     "carpeta": "aves",
     "keywords": []
@@ -2811,7 +2811,7 @@ const proyectosData = [
   {
     "titulo": "Vertebrados e invertebrados",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/vertinv/index.html",
+    "url": "PRIMERCICLO/NATURALES/vertinv/index.html",
     "categoria": "NATURALES",
     "carpeta": "vertinv",
     "keywords": []
@@ -2819,7 +2819,7 @@ const proyectosData = [
   {
     "titulo": "Los animales y las plantas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/aniplan/index.html",
+    "url": "PRIMERCICLO/NATURALES/aniplan/index.html",
     "categoria": "NATURALES",
     "carpeta": "aniplan",
     "keywords": []
@@ -2827,7 +2827,7 @@ const proyectosData = [
   {
     "titulo": "Personas, animales y plantas",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/payp/index.html",
+    "url": "PRIMERCICLO/NATURALES/payp/index.html",
     "categoria": "NATURALES",
     "carpeta": "payp",
     "keywords": []
@@ -2835,7 +2835,7 @@ const proyectosData = [
   {
     "titulo": "El aire que nos envuelve",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/aire/index.html",
+    "url": "PRIMERCICLO/NATURALES/aire/index.html",
     "categoria": "NATURALES",
     "carpeta": "aire",
     "keywords": []
@@ -2843,7 +2843,7 @@ const proyectosData = [
   {
     "titulo": "De viaje por el sistema solar",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/viajesol/index.html",
+    "url": "PRIMERCICLO/NATURALES/viajesol/index.html",
     "categoria": "NATURALES",
     "carpeta": "viajesol",
     "keywords": []
@@ -2851,7 +2851,7 @@ const proyectosData = [
   {
     "titulo": "Los alimentos",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/losali/index.html",
+    "url": "PRIMERCICLO/NATURALES/losali/index.html",
     "categoria": "NATURALES",
     "carpeta": "losali",
     "keywords": []
@@ -2859,7 +2859,7 @@ const proyectosData = [
   {
     "titulo": "Sonidos de animales",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/animason/index.html",
+    "url": "PRIMERCICLO/NATURALES/animason/index.html",
     "categoria": "NATURALES",
     "carpeta": "animason",
     "keywords": []
@@ -2867,7 +2867,7 @@ const proyectosData = [
   {
     "titulo": "Los alimentos y la nutrición",
     "descripcion": "",
-    "url": "projects/PRIMERCICLO/NATURALES/alimento/index.html",
+    "url": "PRIMERCICLO/NATURALES/alimento/index.html",
     "categoria": "NATURALES",
     "carpeta": "alimento",
     "keywords": []
